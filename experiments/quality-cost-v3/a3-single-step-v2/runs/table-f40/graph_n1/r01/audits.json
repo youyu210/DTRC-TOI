@@ -1,0 +1,1010 @@
+[
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.1280610474488152e-06,
+    "measured_residual": 3.1280610474488152e-06,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 4.776102629993139e-05,
+    "measured_residual": 4.776102629993139e-05,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.9641596924299895e-05,
+    "measured_residual": 3.9641596924299895e-05,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 5.22967491021154e-05,
+    "measured_residual": 5.22967491021154e-05,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 4.69045722602208e-05,
+    "measured_residual": 4.69045722602208e-05,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.0195523119381958e-05,
+    "measured_residual": 2.0195523119381958e-05,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.0276039173506837e-05,
+    "measured_residual": 1.0276039173506837e-05,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.2297674692375787e-05,
+    "measured_residual": 2.2297674692375787e-05,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.4096151602181843e-05,
+    "measured_residual": 1.4096151602181843e-05,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 6.614542193742217e-06,
+    "measured_residual": 6.614542193742217e-06,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 4.658483474135355e-06,
+    "measured_residual": 4.658483474135355e-06,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 5.0348939063316765e-06,
+    "measured_residual": 5.0348939063316765e-06,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.3556263392340423e-06,
+    "measured_residual": 2.3556263392340423e-06,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.7635338521769772e-06,
+    "measured_residual": 2.7635338521769772e-06,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.8187578646215456e-06,
+    "measured_residual": 2.8187578646215456e-06,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.9167659454684105e-06,
+    "measured_residual": 1.9167659454684105e-06,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.0400204533379705e-06,
+    "measured_residual": 3.0400204533379705e-06,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 6.9371098930482295e-06,
+    "measured_residual": 6.9371098930482295e-06,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.1572541782621801e-05,
+    "measured_residual": 1.1572541782621801e-05,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.4662298199643233e-05,
+    "measured_residual": 1.4662298199643233e-05,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 8.26328663123338e-06,
+    "measured_residual": 8.26328663123338e-06,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.0217164104485914e-05,
+    "measured_residual": 1.0217164104485914e-05,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.1308214154215865e-05,
+    "measured_residual": 1.1308214154215865e-05,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 8.157668535214899e-06,
+    "measured_residual": 8.157668535214899e-06,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.9458056595683597e-06,
+    "measured_residual": 2.9458056595683597e-06,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.277287728854196e-06,
+    "measured_residual": 3.277287728854196e-06,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 4.348185943633914e-06,
+    "measured_residual": 4.348185943633914e-06,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 6.109600116940743e-06,
+    "measured_residual": 6.109600116940743e-06,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 6.5035439166613906e-06,
+    "measured_residual": 6.5035439166613906e-06,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 6.871404035453877e-06,
+    "measured_residual": 6.871404035453877e-06,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 4.209319234838841e-06,
+    "measured_residual": 4.209319234838841e-06,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.0186604027058423e-06,
+    "measured_residual": 2.0186604027058423e-06,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.063731972118359e-06,
+    "measured_residual": 1.063731972118359e-06,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 6.662851769775318e-07,
+    "measured_residual": 6.662851769775318e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 4.206867587076055e-07,
+    "measured_residual": 4.206867587076055e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.8758605330602964e-07,
+    "measured_residual": 3.8758605330602964e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.5098294365720584e-07,
+    "measured_residual": 3.5098294365720584e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.200753714528643e-07,
+    "measured_residual": 3.200753714528643e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.204996750855545e-07,
+    "measured_residual": 3.204996750855545e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.989044734969998e-07,
+    "measured_residual": 2.989044734969998e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.9379238739727207e-07,
+    "measured_residual": 2.9379238739727207e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.922616411920264e-07,
+    "measured_residual": 2.922616411920264e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.9255139014429674e-07,
+    "measured_residual": 2.9255139014429674e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.9364590991344755e-07,
+    "measured_residual": 2.9364590991344755e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.9583749588379455e-07,
+    "measured_residual": 2.9583749588379455e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.9974502766247827e-07,
+    "measured_residual": 2.9974502766247827e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.024172759891159e-07,
+    "measured_residual": 3.024172759891159e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.021839534654149e-07,
+    "measured_residual": 3.021839534654149e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.0242084633470007e-07,
+    "measured_residual": 3.0242084633470007e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.01477300352014e-07,
+    "measured_residual": 3.01477300352014e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.9845621487329136e-07,
+    "measured_residual": 2.9845621487329136e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.9451790947396655e-07,
+    "measured_residual": 2.9451790947396655e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.1276457971916e-07,
+    "measured_residual": 3.1276457971916e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.4949154933367195e-07,
+    "measured_residual": 3.4949154933367195e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.702283279367757e-07,
+    "measured_residual": 3.702283279367757e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.660254005179236e-07,
+    "measured_residual": 3.660254005179236e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.347320939911287e-07,
+    "measured_residual": 3.347320939911287e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.834667239900697e-07,
+    "measured_residual": 2.834667239900697e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.283729275564663e-07,
+    "measured_residual": 2.283729275564663e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.7852059936105715e-07,
+    "measured_residual": 1.7852059936105715e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.4345788004326822e-07,
+    "measured_residual": 1.4345788004326822e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.2656100751470348e-07,
+    "measured_residual": 1.2656100751470348e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.1013851822247043e-07,
+    "measured_residual": 1.1013851822247043e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 9.631057945082289e-08,
+    "measured_residual": 9.631057945082289e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 8.312341518651667e-08,
+    "measured_residual": 8.312341518651667e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 7.193559973215724e-08,
+    "measured_residual": 7.193559973215724e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 6.240639308749367e-08,
+    "measured_residual": 6.240639308749367e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 5.398758972544551e-08,
+    "measured_residual": 5.398758972544551e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 4.9368028632490154e-08,
+    "measured_residual": 4.9368028632490154e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 4.7768760541222434e-08,
+    "measured_residual": 4.7768760541222434e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 4.674326102645499e-08,
+    "measured_residual": 4.674326102645499e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 4.371879626156965e-08,
+    "measured_residual": 4.371879626156965e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 4.093788220681563e-08,
+    "measured_residual": 4.093788220681563e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.8279493447505515e-08,
+    "measured_residual": 3.8279493447505515e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.5182957976717617e-08,
+    "measured_residual": 3.5182957976717617e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.265675792153232e-08,
+    "measured_residual": 3.265675792153232e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.982770510692529e-08,
+    "measured_residual": 2.982770510692529e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.7419101900426183e-08,
+    "measured_residual": 2.7419101900426183e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.5426131168040144e-08,
+    "measured_residual": 2.5426131168040144e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.3425622323247406e-08,
+    "measured_residual": 2.3425622323247406e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.161295789281002e-08,
+    "measured_residual": 2.161295789281002e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.997524635295398e-08,
+    "measured_residual": 1.997524635295398e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.8447162173401235e-08,
+    "measured_residual": 1.8447162173401235e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.7088760854061684e-08,
+    "measured_residual": 1.7088760854061684e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.5858310884798753e-08,
+    "measured_residual": 1.5858310884798753e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.4816585475321614e-08,
+    "measured_residual": 1.4816585475321614e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.4125511527591693e-08,
+    "measured_residual": 1.4125511527591693e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.429607264449896e-08,
+    "measured_residual": 1.429607264449896e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.4470683729944247e-08,
+    "measured_residual": 1.4470683729944247e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.4653045049687161e-08,
+    "measured_residual": 1.4653045049687161e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.482200865140026e-08,
+    "measured_residual": 1.482200865140026e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.502726972080982e-08,
+    "measured_residual": 1.502726972080982e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.526868701374727e-08,
+    "measured_residual": 1.526868701374727e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.5530238573593027e-08,
+    "measured_residual": 1.5530238573593027e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.582604251136748e-08,
+    "measured_residual": 1.582604251136748e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.6162030779487402e-08,
+    "measured_residual": 1.6162030779487402e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.6546150881402166e-08,
+    "measured_residual": 1.6546150881402166e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.6978667413723415e-08,
+    "measured_residual": 1.6978667413723415e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.7411230518937974e-08,
+    "measured_residual": 1.7411230518937974e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.8010373249523046e-08,
+    "measured_residual": 1.8010373249523046e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.861212263816429e-08,
+    "measured_residual": 1.861212263816429e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.0443078018849314e-08,
+    "measured_residual": 2.0443078018849314e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.2511259372304632e-08,
+    "measured_residual": 2.2511259372304632e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.4885966659362618e-08,
+    "measured_residual": 2.4885966659362618e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.7586916635095716e-08,
+    "measured_residual": 2.7586916635095716e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.068028833634e-08,
+    "measured_residual": 3.068028833634e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.4245682516770135e-08,
+    "measured_residual": 3.4245682516770135e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.833870024044051e-08,
+    "measured_residual": 3.833870024044051e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 4.3066566031251e-08,
+    "measured_residual": 4.3066566031251e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 4.846602328052307e-08,
+    "measured_residual": 4.846602328052307e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 5.456946172313033e-08,
+    "measured_residual": 5.456946172313033e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 6.136787893007725e-08,
+    "measured_residual": 6.136787893007725e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 6.862432280984879e-08,
+    "measured_residual": 6.862432280984879e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 7.599593580474982e-08,
+    "measured_residual": 7.599593580474982e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 8.266976082615484e-08,
+    "measured_residual": 8.266976082615484e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 8.768962537811862e-08,
+    "measured_residual": 8.768962537811862e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.1173499340794834e-07,
+    "measured_residual": 1.1173499340794834e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.3713352557737904e-07,
+    "measured_residual": 1.3713352557737904e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.7295036203978557e-07,
+    "measured_residual": 1.7295036203978557e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.9950349538782254e-07,
+    "measured_residual": 1.9950349538782254e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.0627952895098115e-07,
+    "measured_residual": 2.0627952895098115e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.8129062977951363e-07,
+    "measured_residual": 1.8129062977951363e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.1988191285311124e-07,
+    "measured_residual": 1.1988191285311124e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 9.207750805473731e-08,
+    "measured_residual": 9.207750805473731e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 7.715677755382846e-08,
+    "measured_residual": 7.715677755382846e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 6.250231371419802e-08,
+    "measured_residual": 6.250231371419802e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 4.908281929351907e-08,
+    "measured_residual": 4.908281929351907e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 4.324100107964287e-08,
+    "measured_residual": 4.324100107964287e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.992355972794149e-08,
+    "measured_residual": 3.992355972794149e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.561981951975612e-08,
+    "measured_residual": 3.561981951975612e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.1181112685821483e-08,
+    "measured_residual": 3.1181112685821483e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.698122275842076e-08,
+    "measured_residual": 2.698122275842076e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.4563361968959335e-08,
+    "measured_residual": 2.4563361968959335e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.2889912841025327e-08,
+    "measured_residual": 2.2889912841025327e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.12022799936798e-08,
+    "measured_residual": 2.12022799936798e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.9630623447146954e-08,
+    "measured_residual": 1.9630623447146954e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.8299183778372827e-08,
+    "measured_residual": 1.8299183778372827e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.6990018657754708e-08,
+    "measured_residual": 1.6990018657754708e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.5774370596857344e-08,
+    "measured_residual": 1.5774370596857344e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.4690827613154038e-08,
+    "measured_residual": 1.4690827613154038e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.3612571688679525e-08,
+    "measured_residual": 1.3612571688679525e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.2743057675636934e-08,
+    "measured_residual": 1.2743057675636934e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.188752571064151e-08,
+    "measured_residual": 1.188752571064151e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.1172803783433972e-08,
+    "measured_residual": 1.1172803783433972e-08,
+    "agrees": true
+  }
+]

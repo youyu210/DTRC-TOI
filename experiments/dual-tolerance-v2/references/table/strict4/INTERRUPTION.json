@@ -1,0 +1,10 @@
+{
+  "reason": "Stopped after more than 300 seconds without a completed frame; repeated lineSearchCount=9 warnings. Not a completed strict reference.",
+  "process_id": 17580,
+  "stalled_seconds": 335.7876309,
+  "completed_frames": 22,
+  "stalled_frame": 23,
+  "stopped_at": "2026-09-29T09:22:22.3889158+08:00",
+  "original_timeout_seconds": 1800,
+  "amendment": "Use a 300-second no-completed-frame budget for remaining strict references; preserve failures and continue independent runs."
+}

@@ -1,0 +1,17 @@
+{
+  "base_commit": "c49982fac7767225c7775683734c89eb74081142",
+  "method": "pcg_dual_graph",
+  "scene_no": 3,
+  "frames": 100,
+  "vertex_count": 4225,
+  "tetrahedron_count": 0,
+  "dt": 0.01,
+  "pcg_tolerance": 0.0001,
+  "newton_tolerance": 0.01,
+  "gpu_index": 0,
+  "gpu_name": "NVIDIA GeForce RTX 3090 Ti",
+  "cuda_runtime": 12060,
+  "cuda_driver": 13010,
+  "audit_frame": 100,
+  "timing": "synchronized wall clock; excludes exports/rendering/legacy reports; includes graph preparation"
+}

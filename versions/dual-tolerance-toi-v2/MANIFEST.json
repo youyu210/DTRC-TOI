@@ -1,0 +1,21 @@
+{
+  "source_commit": "cc1afb9",
+  "tag": "dual-tolerance-toi-v2",
+  "parent_tag": "cloth-four-100-v1-validated",
+  "binary_files": {
+    "cublas64_12.dll": "01d8172b25d8e2d2cb6a276e76e719f5908c6124f484c8c8ca310fbe7b6634f3",
+    "cublasLt64_12.dll": "0d59d264782cec2782b9ac72483e53c9ba485a9d3a1e19b34071a17b8152102e",
+    "freeglut.dll": "ce969fe8554515a4ade246155f7d86507fb933d395d183de5146380a980f0f8d",
+    "gipc.exe": "c9aa98b158887d96cea133d2632ca9cf5f4c4ac6665f4998c82d72f6a932f54b",
+    "glew32.dll": "82533396ae0d3aa25a860028ec10c72c56fab9d3de0d941be488eb4d58d1e708"
+  },
+  "native_rhs_smoke_checks": 334,
+  "native_rhs_all_agree": true,
+  "old_cloth_exe_sha256": "3ae3e1924298f2f15693d7dfdac5ae72741db663666794c92938e885a35b2c10",
+  "plan_sha256": "0e369d3e834dd2571b6a9f92dee958514962de85e03594b3d9892b9e64f6f974",
+  "results_tag": "dual-tolerance-toi-v2-key-scenes",
+  "completed_runs": 67,
+  "completed_frames": 2257,
+  "interrupted_strict_references": 1,
+  "validation_status": "Diagnostic matrix finished; strict reference convergence unverified; no new production default accepted"
+}

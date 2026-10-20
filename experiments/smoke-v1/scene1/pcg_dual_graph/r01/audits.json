@@ -1,0 +1,11 @@
+[
+  {
+    "frame": 1,
+    "actual_iterations": 12,
+    "eager_iterations": 12,
+    "actual_true_relative_residual": 0.0011616287156693082,
+    "eager_true_relative_residual": 0.001161631240735219,
+    "max_abs_direction_diff": 5.959733831656724e-10,
+    "relative_l2_direction_diff": 3.926294887075273e-08
+  }
+]

@@ -1,0 +1,562 @@
+{
+  "profile": {
+    "frames": 35,
+    "newton": 767,
+    "total_step_ms": 158549.5141,
+    "broad_stages": {
+      "gradient_hessian_ms": {
+        "elapsed_ms": 51994.086500000005,
+        "step_share": 0.32793595612791604
+      },
+      "residual_check_ms": {
+        "elapsed_ms": 0.6084999999999999,
+        "step_share": 3.837917785204994e-06
+      },
+      "linear_system_ms": {
+        "elapsed_ms": 70411.549,
+        "step_share": 0.4440981695824699
+      },
+      "ccd_ms": {
+        "elapsed_ms": 11826.2264,
+        "step_share": 0.07459011443290194
+      },
+      "line_search_ms": {
+        "elapsed_ms": 23062.3638,
+        "step_share": 0.1454584325339159
+      },
+      "graph_prepare_ms": {
+        "elapsed_ms": 15.817599999999999,
+        "step_share": 9.976441801028515e-05
+      }
+    },
+    "broad_profiled_ms": 157310.6518,
+    "broad_unattributed_ms": 1238.862300000008,
+    "exclusive_operations": [
+      {
+        "operation": "converter.value_gather",
+        "elapsed_ms": 29449.8046,
+        "step_share": 0.1857451583322134,
+        "ms_per_newton": 38.39609465449804,
+        "calls": 767,
+        "calls_per_newton": 1.0,
+        "ms_per_call": 38.39609465449804,
+        "contact_triplets_per_call_time_pearson": 0.9999249190160083
+      },
+      {
+        "operation": "gradient_hessian.barrier",
+        "elapsed_ms": 16995.484200000003,
+        "step_share": 0.10719354326926948,
+        "ms_per_newton": 22.158388787483705,
+        "calls": 802,
+        "calls_per_newton": 1.045632333767927,
+        "ms_per_call": 21.191376807980053,
+        "contact_triplets_per_call_time_pearson": 0.9979156612418592
+      },
+      {
+        "operation": "linear_system.preconditioner_post_convert",
+        "elapsed_ms": 15444.3152,
+        "step_share": 0.09741004434904162,
+        "ms_per_newton": 20.136004172099085,
+        "calls": 767,
+        "calls_per_newton": 1.0,
+        "ms_per_call": 20.136004172099085,
+        "contact_triplets_per_call_time_pearson": 0.9985568631821145
+      },
+      {
+        "operation": "gradient_hessian.contact_classify",
+        "elapsed_ms": 11907.2394,
+        "step_share": 0.07510107784051544,
+        "ms_per_newton": 15.524432073011734,
+        "calls": 802,
+        "calls_per_newton": 1.045632333767927,
+        "ms_per_call": 14.846931920199502,
+        "contact_triplets_per_call_time_pearson": 0.999977830014138
+      },
+      {
+        "operation": "converter.radix_sort",
+        "elapsed_ms": 11070.8139,
+        "step_share": 0.0698255933664826,
+        "ms_per_newton": 14.433916427640156,
+        "calls": 767,
+        "calls_per_newton": 1.0,
+        "ms_per_call": 14.433916427640156,
+        "contact_triplets_per_call_time_pearson": 0.6848831879101409
+      },
+      {
+        "operation": "linear_system.pcg_solver",
+        "elapsed_ms": 9034.9007,
+        "step_share": 0.05698472651452926,
+        "ms_per_newton": 11.779531551499348,
+        "calls": 767,
+        "calls_per_newton": 1.0,
+        "ms_per_call": 11.779531551499348,
+        "contact_triplets_per_call_time_pearson": 0.5080484365664779
+      },
+      {
+        "operation": "gradient_hessian.contact_index",
+        "elapsed_ms": 6941.9979,
+        "step_share": 0.04378441611383027,
+        "ms_per_newton": 9.050844719687094,
+        "calls": 802,
+        "calls_per_newton": 1.045632333767927,
+        "ms_per_call": 8.655857730673317,
+        "contact_triplets_per_call_time_pearson": 0.9999614484238286
+      },
+      {
+        "operation": "gradient_hessian.friction_hessian",
+        "elapsed_ms": 6401.0812000000005,
+        "step_share": 0.040372758228465616,
+        "ms_per_newton": 8.345607822685789,
+        "calls": 802,
+        "calls_per_newton": 1.045632333767927,
+        "ms_per_call": 7.981398004987532,
+        "contact_triplets_per_call_time_pearson": 0.9992671127606682
+      },
+      {
+        "operation": "gradient_hessian.cloth_bending_fused",
+        "elapsed_ms": 4563.6716,
+        "step_share": 0.028783888906285835,
+        "ms_per_newton": 5.950028161668839,
+        "calls": 802,
+        "calls_per_newton": 1.045632333767927,
+        "ms_per_call": 5.690363591022443,
+        "contact_triplets_per_call_time_pearson": 0.37670056335977903
+      },
+      {
+        "operation": "gradient_hessian.triangle_fem_fused",
+        "elapsed_ms": 4555.2361,
+        "step_share": 0.028730684706652153,
+        "ms_per_newton": 5.939030117340287,
+        "calls": 802,
+        "calls_per_newton": 1.045632333767927,
+        "ms_per_call": 5.679845511221945,
+        "contact_triplets_per_call_time_pearson": -0.1559258340729252
+      },
+      {
+        "operation": "converter.segmental_reduce",
+        "elapsed_ms": 3954.8092,
+        "step_share": 0.024943685399790198,
+        "ms_per_newton": 5.1562049543676665,
+        "calls": 767,
+        "calls_per_newton": 1.0,
+        "ms_per_call": 5.1562049543676665,
+        "contact_triplets_per_call_time_pearson": 0.9992591447496909
+      },
+      {
+        "operation": "converter.hash_index",
+        "elapsed_ms": 557.1691,
+        "step_share": 0.003514164664349482,
+        "ms_per_newton": 0.7264264667535854,
+        "calls": 767,
+        "calls_per_newton": 1.0,
+        "ms_per_call": 0.7264264667535854,
+        "contact_triplets_per_call_time_pearson": 0.993105547029915
+      },
+      {
+        "operation": "gradient_hessian.friction_gradient",
+        "elapsed_ms": 384.2602,
+        "step_share": 0.0024235974621633987,
+        "ms_per_newton": 0.5009911342894394,
+        "calls": 802,
+        "calls_per_newton": 1.045632333767927,
+        "ms_per_call": 0.47912743142144637,
+        "contact_triplets_per_call_time_pearson": 0.9988408044522809
+      },
+      {
+        "operation": "converter.partition_mark",
+        "elapsed_ms": 339.7886,
+        "step_share": 0.002143107167049968,
+        "ms_per_newton": 0.4430099087353324,
+        "calls": 767,
+        "calls_per_newton": 1.0,
+        "ms_per_call": 0.4430099087353324,
+        "contact_triplets_per_call_time_pearson": 0.9911528515457942
+      },
+      {
+        "operation": "converter.partition_scan",
+        "elapsed_ms": 238.5378,
+        "step_share": 0.0015045003534324929,
+        "ms_per_newton": 0.31100104302477183,
+        "calls": 767,
+        "calls_per_newton": 1.0,
+        "ms_per_call": 0.31100104302477183,
+        "contact_triplets_per_call_time_pearson": 0.9950910531135416
+      },
+      {
+        "operation": "converter.row_col_scatter",
+        "elapsed_ms": 179.859,
+        "step_share": 0.0011344027196864175,
+        "ms_per_newton": 0.234496740547588,
+        "calls": 767,
+        "calls_per_newton": 1.0,
+        "ms_per_call": 0.234496740547588,
+        "contact_triplets_per_call_time_pearson": 0.9976125033273391
+      },
+      {
+        "operation": "gradient_hessian.soft_boundary_mass",
+        "elapsed_ms": 169.7006,
+        "step_share": 0.001070331883155232,
+        "ms_per_newton": 0.22125241199478488,
+        "calls": 802,
+        "calls_per_newton": 1.045632333767927,
+        "ms_per_call": 0.21159675810473816,
+        "contact_triplets_per_call_time_pearson": -0.19827461828193346
+      },
+      {
+        "operation": "converter.block_zero",
+        "elapsed_ms": 69.7883,
+        "step_share": 0.0004401672272296166,
+        "ms_per_newton": 0.09098865710560626,
+        "calls": 767,
+        "calls_per_newton": 1.0,
+        "ms_per_call": 0.09098865710560626,
+        "contact_triplets_per_call_time_pearson": 0.9819949209218548
+      },
+      {
+        "operation": "gradient_hessian.ground",
+        "elapsed_ms": 23.310599999999997,
+        "step_share": 0.0001470241024220206,
+        "ms_per_newton": 0.03039191655801825,
+        "calls": 802,
+        "calls_per_newton": 1.045632333767927,
+        "ms_per_call": 0.029065586034912716,
+        "contact_triplets_per_call_time_pearson": 0.5155319263470165
+      },
+      {
+        "operation": "gradient_hessian.kinetic",
+        "elapsed_ms": 23.0319,
+        "step_share": 0.00014526629192615105,
+        "ms_per_newton": 0.030028552803129074,
+        "calls": 802,
+        "calls_per_newton": 1.045632333767927,
+        "ms_per_call": 0.028718079800498755,
+        "contact_triplets_per_call_time_pearson": -0.1292530696976074
+      },
+      {
+        "operation": "linear_system.subsystem_assemble",
+        "elapsed_ms": 21.2792,
+        "step_share": 0.0001342117011256107,
+        "ms_per_newton": 0.02774341590612777,
+        "calls": 767,
+        "calls_per_newton": 1.0,
+        "ms_per_call": 0.02774341590612777,
+        "contact_triplets_per_call_time_pearson": -0.1362456175575142
+      },
+      {
+        "operation": "gradient_hessian.zero",
+        "elapsed_ms": 19.712699999999998,
+        "step_share": 0.00012433150686016513,
+        "ms_per_newton": 0.025701043024771837,
+        "calls": 802,
+        "calls_per_newton": 1.045632333767927,
+        "ms_per_call": 0.02457942643391521,
+        "contact_triplets_per_call_time_pearson": 0.13185129085179664
+      },
+      {
+        "operation": "converter.unique_count_host_read",
+        "elapsed_ms": 18.9541,
+        "step_share": 0.00011954688166401641,
+        "ms_per_newton": 0.02471199478487614,
+        "calls": 767,
+        "calls_per_newton": 1.0,
+        "ms_per_call": 0.02471199478487614,
+        "contact_triplets_per_call_time_pearson": 0.8588225634206917
+      },
+      {
+        "operation": "linear_system.distribute_wait",
+        "elapsed_ms": 16.269099999999998,
+        "step_share": 0.00010261210885666157,
+        "ms_per_newton": 0.02121134289439374,
+        "calls": 767,
+        "calls_per_newton": 1.0,
+        "ms_per_call": 0.02121134289439374,
+        "contact_triplets_per_call_time_pearson": -0.15558344333168705
+      },
+      {
+        "operation": "gradient_hessian.abd",
+        "elapsed_ms": 1.9371999999999998,
+        "step_share": 1.221826513311276e-05,
+        "ms_per_newton": 0.0025256844850065187,
+        "calls": 802,
+        "calls_per_newton": 1.045632333767927,
+        "ms_per_call": 0.0024154613466334162,
+        "contact_triplets_per_call_time_pearson": 0.8867921525384144
+      },
+      {
+        "operation": "linear_system.info_offsets",
+        "elapsed_ms": 1.0047,
+        "step_share": 6.336821690707408e-06,
+        "ms_per_newton": 0.001309908735332464,
+        "calls": 767,
+        "calls_per_newton": 1.0,
+        "ms_per_call": 0.001309908735332464,
+        "contact_triplets_per_call_time_pearson": 0.9331708314294132
+      },
+      {
+        "operation": "linear_system.preconditioner_pre_convert",
+        "elapsed_ms": 0.7606999999999999,
+        "step_share": 4.797870269852816e-06,
+        "ms_per_newton": 0.0009917861799217732,
+        "calls": 767,
+        "calls_per_newton": 1.0,
+        "ms_per_call": 0.0009917861799217732,
+        "contact_triplets_per_call_time_pearson": 0.9114235525678017
+      },
+      {
+        "operation": "linear_system.resize",
+        "elapsed_ms": 0.4442,
+        "step_share": 2.801648447309874e-06,
+        "ms_per_newton": 0.0005791395045632333,
+        "calls": 767,
+        "calls_per_newton": 1.0,
+        "ms_per_call": 0.0005791395045632333,
+        "contact_triplets_per_call_time_pearson": -0.15291429249686916
+      },
+      {
+        "operation": "linear_system.preconditioner_global",
+        "elapsed_ms": 0.3265,
+        "step_share": 2.059293602086164e-06,
+        "ms_per_newton": 0.0004256844850065189,
+        "calls": 767,
+        "calls_per_newton": 1.0,
+        "ms_per_call": 0.0004256844850065189,
+        "contact_triplets_per_call_time_pearson": 0.9012339624045786
+      },
+      {
+        "operation": "gradient_hessian.tet_fem_fused",
+        "elapsed_ms": 0.3149,
+        "step_share": 1.9861303378160275e-06,
+        "ms_per_newton": 0.0004105606258148631,
+        "calls": 802,
+        "calls_per_newton": 1.045632333767927,
+        "ms_per_call": 0.000392643391521197,
+        "contact_triplets_per_call_time_pearson": 0.9563675248027369
+      }
+    ],
+    "top_three": [
+      {
+        "operation": "converter.value_gather",
+        "elapsed_ms": 29449.8046,
+        "step_share": 0.1857451583322134,
+        "ms_per_newton": 38.39609465449804,
+        "calls": 767,
+        "calls_per_newton": 1.0,
+        "ms_per_call": 38.39609465449804,
+        "contact_triplets_per_call_time_pearson": 0.9999249190160083
+      },
+      {
+        "operation": "gradient_hessian.barrier",
+        "elapsed_ms": 16995.484200000003,
+        "step_share": 0.10719354326926948,
+        "ms_per_newton": 22.158388787483705,
+        "calls": 802,
+        "calls_per_newton": 1.045632333767927,
+        "ms_per_call": 21.191376807980053,
+        "contact_triplets_per_call_time_pearson": 0.9979156612418592
+      },
+      {
+        "operation": "linear_system.preconditioner_post_convert",
+        "elapsed_ms": 15444.3152,
+        "step_share": 0.09741004434904162,
+        "ms_per_newton": 20.136004172099085,
+        "calls": 767,
+        "calls_per_newton": 1.0,
+        "ms_per_call": 20.136004172099085,
+        "contact_triplets_per_call_time_pearson": 0.9985568631821145
+      }
+    ],
+    "counts": {
+      "gradient_hessian_calls": 802,
+      "linear_build_calls": 767,
+      "convert_calls": 767,
+      "profiled_sync_calls": 56274,
+      "profiled_d2h_calls": 767,
+      "profiled_d2h_bytes": 3068,
+      "profiled_resize_calls": 1534,
+      "profiled_resize_changes": 2,
+      "profiled_allocation_calls": 2,
+      "profiled_allocation_bytes": 4896480,
+      "contact_triplets": 11015717113,
+      "total_triplets": 25204709133,
+      "convert_input_triplets": 24120772215,
+      "rhs_dofs": 234725010,
+      "unique_blocks": 725352989,
+      "fem_tets": 0,
+      "tri_edges": 1314478000,
+      "triangles": 160400000,
+      "fem_points": 81812020
+    },
+    "scales": {
+      "contact_triplets_per_gradient_call": 13735308.120947631,
+      "total_triplets_per_gradient_call": 31427318.12094763,
+      "convert_input_triplets_per_call": 31448203.670143414,
+      "unique_blocks_per_convert_call": 945701.4198174707,
+      "rhs_dofs_per_linear_build": 306030.0,
+      "tri_edges_per_gradient_call": 1639000.0,
+      "triangles_per_gradient_call": 200000.0,
+      "zero_contact_frames": 12,
+      "contact_triplets_per_gradient_call_min": 0.0,
+      "contact_triplets_per_gradient_call_median": 6882237.909090909,
+      "contact_triplets_per_gradient_call_max": 34785615.53333333
+    }
+  },
+  "unprofiled_timing": {
+    "current_off": {
+      "runs": [
+        {
+          "repeat": 1,
+          "seconds": 151.1820612,
+          "newton": 737,
+          "pcg": 21316,
+          "ms_per_newton": 205.1316976933514
+        },
+        {
+          "repeat": 2,
+          "seconds": 153.5724472,
+          "newton": 751,
+          "pcg": 23022,
+          "ms_per_newton": 204.4906087882823
+        },
+        {
+          "repeat": 3,
+          "seconds": 158.7039122,
+          "newton": 762,
+          "pcg": 23022,
+          "ms_per_newton": 208.27285065616798
+        }
+      ],
+      "median_seconds": 153.5724472,
+      "median_ms_per_newton": 205.1316976933514,
+      "median_newton": 751,
+      "median_pcg": 23022
+    },
+    "frozen_v2": {
+      "runs": [
+        {
+          "repeat": 1,
+          "seconds": 156.4804234,
+          "newton": 758,
+          "pcg": 22973,
+          "ms_per_newton": 206.43855329815304
+        },
+        {
+          "repeat": 2,
+          "seconds": 154.6179352,
+          "newton": 745,
+          "pcg": 22356,
+          "ms_per_newton": 207.54085261744967
+        },
+        {
+          "repeat": 3,
+          "seconds": 154.55217720000002,
+          "newton": 749,
+          "pcg": 22145,
+          "ms_per_newton": 206.3446958611482
+        }
+      ],
+      "median_seconds": 154.6179352,
+      "median_ms_per_newton": 206.43855329815304,
+      "median_newton": 749,
+      "median_pcg": 22356
+    }
+  },
+  "comparison": {
+    "median_wall_speedup": 1.0068077836816551,
+    "median_per_newton_speedup": 1.0063708126023274,
+    "paired_wall_change_vs_frozen": [
+      0.03385958501950228,
+      0.00676175114256736,
+      -0.026862999119238375
+    ]
+  },
+  "numerical": {
+    "final.f64": {
+      "current_self": [
+        {
+          "rms": 7.247811798171849e-06,
+          "max_abs": 5.604997338137796e-05
+        },
+        {
+          "rms": 4.93156550381378e-06,
+          "max_abs": 3.958323669650543e-05
+        },
+        {
+          "rms": 3.150027547739141e-06,
+          "max_abs": 2.3677280665435063e-05
+        }
+      ],
+      "frozen_self": [
+        {
+          "rms": 1.0262772340255755e-05,
+          "max_abs": 0.00011089560253252362
+        },
+        {
+          "rms": 4.035019251794502e-06,
+          "max_abs": 1.9857908802767277e-05
+        },
+        {
+          "rms": 8.654148556184708e-06,
+          "max_abs": 0.00011480660316787183
+        }
+      ],
+      "paired": [
+        {
+          "rms": 8.730635285607778e-06,
+          "max_abs": 0.00043111261430217596
+        },
+        {
+          "rms": 7.4145253807853495e-06,
+          "max_abs": 0.0005504884007375699
+        },
+        {
+          "rms": 7.569168238421669e-06,
+          "max_abs": 0.00043126448510188986
+        }
+      ]
+    },
+    "final_velocities.f64": {
+      "current_self": [
+        {
+          "rms": 3.1124458200791347e-06,
+          "max_abs": 0.000488421051275667
+        },
+        {
+          "rms": 2.7598033857601012e-06,
+          "max_abs": 0.00037334421877921464
+        },
+        {
+          "rms": 1.8369545152197962e-06,
+          "max_abs": 0.0003647914765758653
+        }
+      ],
+      "frozen_self": [
+        {
+          "rms": 1.9332077256043587e-05,
+          "max_abs": 0.006049657576862044
+        },
+        {
+          "rms": 1.7661449613760657e-06,
+          "max_abs": 0.0002747957132287482
+        },
+        {
+          "rms": 1.9318867628415643e-05,
+          "max_abs": 0.006026275331721953
+        }
+      ],
+      "paired": [
+        {
+          "rms": 5.158182399646157e-05,
+          "max_abs": 0.0198245834049815
+        },
+        {
+          "rms": 6.468460024251596e-05,
+          "max_abs": 0.02599363940829491
+        },
+        {
+          "rms": 5.144794430424687e-05,
+          "max_abs": 0.019911804366745667
+        }
+      ]
+    }
+  }
+}

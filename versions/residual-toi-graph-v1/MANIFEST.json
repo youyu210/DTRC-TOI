@@ -1,0 +1,32 @@
+{
+  "sourceCommit": "efba65e937e9c37e81b7848cd8984fdceb85784b",
+  "parentCommit": "145c87e",
+  "assets": "D:/code_2/stiffGIPC/residual-toi-graph-c49982fa/Assets/",
+  "files": [
+    {
+      "name": "cublas64_12.dll",
+      "bytes": 104883712,
+      "sha256": "01D8172B25D8E2D2CB6A276E76E719F5908C6124F484C8C8CA310FBE7B6634F3"
+    },
+    {
+      "name": "cublasLt64_12.dll",
+      "bytes": 531812352,
+      "sha256": "0D59D264782CEC2782B9AC72483E53C9BA485A9D3A1E19B34071A17B8152102E"
+    },
+    {
+      "name": "freeglut.dll",
+      "bytes": 251392,
+      "sha256": "CE969FE8554515A4ADE246155F7D86507FB933D395D183DE5146380A980F0F8D"
+    },
+    {
+      "name": "gipc.exe",
+      "bytes": 10921472,
+      "sha256": "144AA9C868BE179D0B02274E8435CFF5A332846FE5870ECB9C1DB6283753FBCE"
+    },
+    {
+      "name": "glew32.dll",
+      "bytes": 504832,
+      "sha256": "82533396AE0D3AA25A860028EC10C72C56FAB9D3DE0D941BE488EB4D58D1E708"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "schema": "stiffgipc-step-boundary-v3",
+  "complete": true,
+  "vertex_count": 29513,
+  "soft_count": 0,
+  "abd_body_count": 0,
+  "contact_count": 2,
+  "contact_host_counts": [
+    2,
+    0,
+    0,
+    2,
+    0
+  ],
+  "ground_contact_count": 0,
+  "physical_frame": 3,
+  "ipc_dt": 0.01,
+  "kappa": 16.081558701731947,
+  "animation_sub_rate": 1.0,
+  "animation_full_rate": 1.0,
+  "files": [
+    {
+      "name": "fem_vertexes.bin",
+      "count": 29513,
+      "element_bytes": 24,
+      "bytes": 708312
+    },
+    {
+      "name": "fem_o_vertexes.bin",
+      "count": 29513,
+      "element_bytes": 24,
+      "bytes": 708312
+    },
+    {
+      "name": "fem_velocities.bin",
+      "count": 29513,
+      "element_bytes": 24,
+      "bytes": 708312
+    },
+    {
+      "name": "fem_x_tilde.bin",
+      "count": 29513,
+      "element_bytes": 24,
+      "bytes": 708312
+    },
+    {
+      "name": "fem_targets.bin",
+      "count": 0,
+      "element_bytes": 24,
+      "bytes": 0
+    },
+    {
+      "name": "fem_boundary.bin",
+      "count": 29513,
+      "element_bytes": 4,
+      "bytes": 118052
+    },
+    {
+      "name": "fem_apply_gravity.bin",
+      "count": 29513,
+      "element_bytes": 4,
+      "bytes": 118052
+    },
+    {
+      "name": "contact_counts.bin",
+      "count": 5,
+      "element_bytes": 4,
+      "bytes": 20
+    },
+    {
+      "name": "contact_pairs.bin",
+      "count": 2,
+      "element_bytes": 16,
+      "bytes": 32
+    },
+    {
+      "name": "contact_matrix_indices.bin",
+      "count": 2,
+      "element_bytes": 4,
+      "bytes": 8
+    },
+    {
+      "name": "ground_count.bin",
+      "count": 1,
+      "element_bytes": 4,
+      "bytes": 4
+    },
+    {
+      "name": "ground_pairs.bin",
+      "count": 0,
+      "element_bytes": 4,
+      "bytes": 0
+    },
+    {
+      "name": "abd_q.bin",
+      "count": 0,
+      "element_bytes": 96,
+      "bytes": 0
+    },
+    {
+      "name": "abd_q_temp.bin",
+      "count": 0,
+      "element_bytes": 96,
+      "bytes": 0
+    },
+    {
+      "name": "abd_q_tilde.bin",
+      "count": 0,
+      "element_bytes": 96,
+      "bytes": 0
+    },
+    {
+      "name": "abd_q_prev.bin",
+      "count": 0,
+      "element_bytes": 96,
+      "bytes": 0
+    },
+    {
+      "name": "abd_q_v.bin",
+      "count": 0,
+      "element_bytes": 96,
+      "bytes": 0
+    },
+    {
+      "name": "abd_dq.bin",
+      "count": 0,
+      "element_bytes": 96,
+      "bytes": 0
+    }
+  ],
+  "derived_state": {
+    "bvh": "rebuilt",
+    "contact_pairs": "restored_exactly",
+    "friction_set": "rebuilt_at_next_physical_step",
+    "linear_system_and_graph": "existing_initialized_instance; numeric data overwritten before use"
+  }
+}

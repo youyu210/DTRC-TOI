@@ -1,0 +1,93 @@
+[
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 2.7185667425613337e-05,
+    "measured_residual": 2.7185667425613337e-05,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 0.004258916246169773,
+    "measured_residual": 0.004258916246169773,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 0.0035111500057109866,
+    "measured_residual": 0.0035111500057109866,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 0.0028803444153194116,
+    "measured_residual": 0.0028803444153194116,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 0.0020017142781407807,
+    "measured_residual": 0.0020017142781407807,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 0.0009656822035865427,
+    "measured_residual": 0.0009656822035865427,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 0.0005323041217924066,
+    "measured_residual": 0.0005323041217924066,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 0.00032612956647794,
+    "measured_residual": 0.00032612956647794,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 0.0001026332737498792,
+    "measured_residual": 0.0001026332737498792,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 0.00019011848579466597,
+    "measured_residual": 0.00019011848579466597,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 0.00010966672770997545,
+    "measured_residual": 0.00010966672770997545,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 7.89530866713623e-05,
+    "measured_residual": 7.89530866713623e-05,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.533562868386276e-05,
+    "measured_residual": 3.533562868386276e-05,
+    "agrees": true
+  }
+]

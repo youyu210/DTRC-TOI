@@ -1,0 +1,1644 @@
+{
+  "implementation_commit": "8f248d0d976250bb069e464c5b123f48d041fc4e",
+  "binary_sha256": "e3c7c28e0760750ccee57c45fe6dc70f5b0eebf902ef83f67075b904f16a4f9a",
+  "formal_runs": 18,
+  "formal_frames": 1800,
+  "late_audit_frames": 300,
+  "files": [
+    {
+      "path": "experiments/comparison-100-v1/logs/scene1-base-r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene1-base-r01.stdout.log",
+      "bytes": 1841,
+      "sha256": "5afcc5145a319354c8a4c73f5e41fa02c58c650f0ddaad3d0b15a5c592ad989b"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene1-base-r02.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene1-base-r02.stdout.log",
+      "bytes": 1841,
+      "sha256": "5afcc5145a319354c8a4c73f5e41fa02c58c650f0ddaad3d0b15a5c592ad989b"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene1-base-r03.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene1-base-r03.stdout.log",
+      "bytes": 1841,
+      "sha256": "5afcc5145a319354c8a4c73f5e41fa02c58c650f0ddaad3d0b15a5c592ad989b"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene1-pcg_dual_graph-r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene1-pcg_dual_graph-r01.stdout.log",
+      "bytes": 1841,
+      "sha256": "5afcc5145a319354c8a4c73f5e41fa02c58c650f0ddaad3d0b15a5c592ad989b"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene1-pcg_dual_graph-r02.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene1-pcg_dual_graph-r02.stdout.log",
+      "bytes": 1841,
+      "sha256": "5afcc5145a319354c8a4c73f5e41fa02c58c650f0ddaad3d0b15a5c592ad989b"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene1-pcg_dual_graph-r03.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene1-pcg_dual_graph-r03.stdout.log",
+      "bytes": 1841,
+      "sha256": "5afcc5145a319354c8a4c73f5e41fa02c58c650f0ddaad3d0b15a5c592ad989b"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene3-base-r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene3-base-r01.stdout.log",
+      "bytes": 1775,
+      "sha256": "dab9a5e61e0c66a1795c9db37440c5e732d07b1d087fb2e8dab9d7a980dbf321"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene3-base-r02.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene3-base-r02.stdout.log",
+      "bytes": 1775,
+      "sha256": "dab9a5e61e0c66a1795c9db37440c5e732d07b1d087fb2e8dab9d7a980dbf321"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene3-base-r03.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene3-base-r03.stdout.log",
+      "bytes": 1775,
+      "sha256": "dab9a5e61e0c66a1795c9db37440c5e732d07b1d087fb2e8dab9d7a980dbf321"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene3-pcg_dual_graph-r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene3-pcg_dual_graph-r01.stdout.log",
+      "bytes": 1775,
+      "sha256": "dab9a5e61e0c66a1795c9db37440c5e732d07b1d087fb2e8dab9d7a980dbf321"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene3-pcg_dual_graph-r02.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene3-pcg_dual_graph-r02.stdout.log",
+      "bytes": 1775,
+      "sha256": "dab9a5e61e0c66a1795c9db37440c5e732d07b1d087fb2e8dab9d7a980dbf321"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene3-pcg_dual_graph-r03.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene3-pcg_dual_graph-r03.stdout.log",
+      "bytes": 1775,
+      "sha256": "dab9a5e61e0c66a1795c9db37440c5e732d07b1d087fb2e8dab9d7a980dbf321"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene5-base-r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene5-base-r01.stdout.log",
+      "bytes": 1811,
+      "sha256": "ab832914c728de601070050481f148dab1a17f8a129284359c3621f09892ba67"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene5-base-r02.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene5-base-r02.stdout.log",
+      "bytes": 1811,
+      "sha256": "ab832914c728de601070050481f148dab1a17f8a129284359c3621f09892ba67"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene5-base-r03.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene5-base-r03.stdout.log",
+      "bytes": 1811,
+      "sha256": "ab832914c728de601070050481f148dab1a17f8a129284359c3621f09892ba67"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene5-pcg_dual_graph-r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene5-pcg_dual_graph-r01.stdout.log",
+      "bytes": 1811,
+      "sha256": "ab832914c728de601070050481f148dab1a17f8a129284359c3621f09892ba67"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene5-pcg_dual_graph-r02.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene5-pcg_dual_graph-r02.stdout.log",
+      "bytes": 1811,
+      "sha256": "ab832914c728de601070050481f148dab1a17f8a129284359c3621f09892ba67"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene5-pcg_dual_graph-r03.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/comparison-100-v1/logs/scene5-pcg_dual_graph-r03.stdout.log",
+      "bytes": 1811,
+      "sha256": "ab832914c728de601070050481f148dab1a17f8a129284359c3621f09892ba67"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r01/audits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r01/environment.json",
+      "bytes": 749,
+      "sha256": "a33961929323e788a6db7a3dac0b8fe25fed7c8d2705c7d384f7583d6378fdc6"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r01/final.f64",
+      "bytes": 1022664,
+      "sha256": "5268ca74129624e69bc29e127f9027616fe15ba5a29f87054517b69f51a61cca"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r01/final_velocities.f64",
+      "bytes": 1022664,
+      "sha256": "3a3d07fc7595de06e8790215975bc21576a3a0eca44782514ea50281dae5dc33"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r01/frames.csv",
+      "bytes": 8163,
+      "sha256": "b683ea9d7793126f248db5e3268e9c6fc21e8e51c0b008727fc903592a6b7c59"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r01/initial.f64",
+      "bytes": 1022664,
+      "sha256": "619c573e6780d4a17041775e64d8442b008d73b425406b54dfec4a090aad3f4a"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r01/metadata.json",
+      "bytes": 499,
+      "sha256": "83b9882e361c5115da67412c259d3636758c9122999c42f08993b3df8b956a26"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r01/pcg_iterations.jsonl",
+      "bytes": 6984,
+      "sha256": "1892ea46a42646d96dbcd975c66f083dfb35576f1c80f56ed7a5bbc564caa178"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r01/states.f64",
+      "bytes": 102266400,
+      "sha256": "e05220ba026645d0786b6d11b19e21a9b159c01a2a4383932491f228ec7be151"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r01/status.json",
+      "bytes": 78,
+      "sha256": "121045f9211bf7f03132a977b8d45bc2fa9e39bd6020d73be5b641220cc4a7c2"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r02/audits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r02/environment.json",
+      "bytes": 749,
+      "sha256": "b4b95c7baa362301ad1a7d6a2e2eb68762dcf35c45b5ebf2f6908fe290c7e4f4"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r02/final.f64",
+      "bytes": 1022664,
+      "sha256": "4a34887289da62906033462c2c0eec1d01a86b0c5b2220ed0402e51b3d2c099e"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r02/final_velocities.f64",
+      "bytes": 1022664,
+      "sha256": "71721b0626cbdd1256b1eded8de250624c13f90f9995e61d1448180a0e781f6c"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r02/frames.csv",
+      "bytes": 8259,
+      "sha256": "e3f5c3076ae69ba1cd20891c6533df29993bff2706b91b43e5ef1375caa59f23"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r02/initial.f64",
+      "bytes": 1022664,
+      "sha256": "619c573e6780d4a17041775e64d8442b008d73b425406b54dfec4a090aad3f4a"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r02/metadata.json",
+      "bytes": 499,
+      "sha256": "83b9882e361c5115da67412c259d3636758c9122999c42f08993b3df8b956a26"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r02/pcg_iterations.jsonl",
+      "bytes": 6939,
+      "sha256": "9ed45bfa712db41f9d8c8e5a9cd646563f4ef0a6809e318e9624747a5797a73e"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r02/states.f64",
+      "bytes": 102266400,
+      "sha256": "b44ff478a4923154b355721bbfe7b752ff5a512202dd75e2473a5ef7656a5aad"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r02/status.json",
+      "bytes": 78,
+      "sha256": "121045f9211bf7f03132a977b8d45bc2fa9e39bd6020d73be5b641220cc4a7c2"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r03/audits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r03/environment.json",
+      "bytes": 749,
+      "sha256": "7ade6bde1863769e1c4609ec2f4dadcf71d2c04d532570f8000e4587c904e268"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r03/final.f64",
+      "bytes": 1022664,
+      "sha256": "ec4a65b5811b1b791ac827436c879ba684698bf4493c83e465321cb33e025d7c"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r03/final_velocities.f64",
+      "bytes": 1022664,
+      "sha256": "e7d6694862f65b7df3bed1f75be390fa17e2f5b1e71aa3f9faaf3056164e98b7"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r03/frames.csv",
+      "bytes": 8225,
+      "sha256": "2390f42aa10153d2ef9bdba64c27250fca8e5e2a33b3e3542c2eede2fdc742a2"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r03/initial.f64",
+      "bytes": 1022664,
+      "sha256": "619c573e6780d4a17041775e64d8442b008d73b425406b54dfec4a090aad3f4a"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r03/metadata.json",
+      "bytes": 499,
+      "sha256": "83b9882e361c5115da67412c259d3636758c9122999c42f08993b3df8b956a26"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r03/pcg_iterations.jsonl",
+      "bytes": 6963,
+      "sha256": "61eb0e44e7f15b8b7ed3360f1682e9c55f80d9cc6040729600bc483913f06fdd"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r03/states.f64",
+      "bytes": 102266400,
+      "sha256": "b397b41ad4df64b8fc85c7afe49313f169c32625e4deb14d801f243c3f0fc0d3"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/base/r03/status.json",
+      "bytes": 78,
+      "sha256": "121045f9211bf7f03132a977b8d45bc2fa9e39bd6020d73be5b641220cc4a7c2"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r01/audits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r01/environment.json",
+      "bytes": 784,
+      "sha256": "0d5ca8254bb88a2be3e3845b16dcb7a4fd3fc1792d110c0ddfa0392e73e0b4de"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r01/final.f64",
+      "bytes": 1022664,
+      "sha256": "1595aee37ef7ccd7c7dcf997329449d367c1127367aae1d4fbeb5f307cc1e6ab"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r01/final_velocities.f64",
+      "bytes": 1022664,
+      "sha256": "d24ebe8cd15d64c550b9b3035607d89ec0dd67fd977cff80cc0e32fcd01a9afc"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r01/frames.csv",
+      "bytes": 8631,
+      "sha256": "7157c074a9d64f4409c2c413535570b7d529c10f980df657e7d75b098cd5d626"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r01/initial.f64",
+      "bytes": 1022664,
+      "sha256": "619c573e6780d4a17041775e64d8442b008d73b425406b54dfec4a090aad3f4a"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r01/metadata.json",
+      "bytes": 509,
+      "sha256": "8a561592287e67636d9670510de03b08010612cc4e85a99ceacf798875d29ce3"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r01/pcg_iterations.jsonl",
+      "bytes": 6948,
+      "sha256": "ce194f8ab17039642e559e3d591505343160c146367b1b60fc9a61e3454b7f23"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r01/states.f64",
+      "bytes": 102266400,
+      "sha256": "c700b10545f63947c3c261f946a8794da21d477d1f4702293d917e244e4096cd"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r01/status.json",
+      "bytes": 78,
+      "sha256": "121045f9211bf7f03132a977b8d45bc2fa9e39bd6020d73be5b641220cc4a7c2"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r02/audits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r02/environment.json",
+      "bytes": 784,
+      "sha256": "9a726dab7322d81b5606649a58cafe9b0291e5705fd4f5a9a3eb1abddf8318c7"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r02/final.f64",
+      "bytes": 1022664,
+      "sha256": "17eac8550125aeb3beead23a75b51de142c711ab14418b48497c0609354776f9"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r02/final_velocities.f64",
+      "bytes": 1022664,
+      "sha256": "d9bbd9a7fab9e948497a75cadc9b0e578d8714bb40bcfb677517a0023c98b102"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r02/frames.csv",
+      "bytes": 8671,
+      "sha256": "5f37c8be92df8e7aa1bc61b0bee2eea146c7408004283f764322342a94451011"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r02/initial.f64",
+      "bytes": 1022664,
+      "sha256": "619c573e6780d4a17041775e64d8442b008d73b425406b54dfec4a090aad3f4a"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r02/metadata.json",
+      "bytes": 509,
+      "sha256": "8a561592287e67636d9670510de03b08010612cc4e85a99ceacf798875d29ce3"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r02/pcg_iterations.jsonl",
+      "bytes": 6966,
+      "sha256": "a51c8db94b1b4e56ad57bd97c19fc90714639450aec06af9378c70c27d5a5966"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r02/states.f64",
+      "bytes": 102266400,
+      "sha256": "4acd414366d8d24d13bd86e9b6f58f713dc3fecb56c625e03f5c5ffa39d7ff60"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r02/status.json",
+      "bytes": 78,
+      "sha256": "121045f9211bf7f03132a977b8d45bc2fa9e39bd6020d73be5b641220cc4a7c2"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r03/audits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r03/environment.json",
+      "bytes": 784,
+      "sha256": "4e75b3b948696c237e2858ee8daa26023987d57f5404e7fc8b799ce331c70328"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r03/final.f64",
+      "bytes": 1022664,
+      "sha256": "c0544de6d4b1af1764bc13401754ba847bb6f70b9fd8f9890b2a4dccb6a77472"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r03/final_velocities.f64",
+      "bytes": 1022664,
+      "sha256": "4552dfde5d652d99539b77bd82a72e2516d8d0be0236b5b0b648745532d751a3"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r03/frames.csv",
+      "bytes": 8731,
+      "sha256": "e26126adcae678984d8dc7bf14dc2f5fe9bad7faf1fb77993cfa92796a2b42a9"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r03/initial.f64",
+      "bytes": 1022664,
+      "sha256": "619c573e6780d4a17041775e64d8442b008d73b425406b54dfec4a090aad3f4a"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r03/metadata.json",
+      "bytes": 509,
+      "sha256": "8a561592287e67636d9670510de03b08010612cc4e85a99ceacf798875d29ce3"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r03/pcg_iterations.jsonl",
+      "bytes": 6942,
+      "sha256": "79e7966034bc8c3f0e0cef5078cd6e41c83704e13e6e9b829c99b1a5becf5e84"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r03/states.f64",
+      "bytes": 102266400,
+      "sha256": "de3d102b82376ee47b413bee177ddf8d196eefd2e49f760d85d8685fe088a4c3"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene1/pcg_dual_graph/r03/status.json",
+      "bytes": 78,
+      "sha256": "121045f9211bf7f03132a977b8d45bc2fa9e39bd6020d73be5b641220cc4a7c2"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r01/audits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r01/environment.json",
+      "bytes": 749,
+      "sha256": "bf41a5b83520b28fe67b424a4cb632c7020d4bcb3e0be9791ab3b0dd38b11e00"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r01/final.f64",
+      "bytes": 101400,
+      "sha256": "44a1b589869c61539e6c2905513faa228174c56f7aeb20029e4613e4ba17d9d8"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r01/final_velocities.f64",
+      "bytes": 101400,
+      "sha256": "fc5d071894eda3799e88c1f3c599bad3c5bba06af0a135f3082dbbc789f865fa"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r01/frames.csv",
+      "bytes": 8164,
+      "sha256": "d093600fff4bad4d8f1f4905ff869814aaaa6486907f86832e5cbc4089c50f67"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r01/initial.f64",
+      "bytes": 101400,
+      "sha256": "3e9abdee519d866023aaf6a75651028b24f89e83cf51a015fcfca2f30ce6c94f"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r01/metadata.json",
+      "bytes": 493,
+      "sha256": "d71392ec10372402c656befe6f246e292b969c9996409aaa8001ad131c6bf3c0"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r01/pcg_iterations.jsonl",
+      "bytes": 3664,
+      "sha256": "3b4b85565d03c4322de79fa2a68f14dd3461c917b52e771f2aeeb71147a0b158"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r01/states.f64",
+      "bytes": 10140000,
+      "sha256": "e1229743972858ac51f85d28d2025931e7f7e5554dc2ff75c1b7385bcb7b4a1b"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r01/status.json",
+      "bytes": 78,
+      "sha256": "121045f9211bf7f03132a977b8d45bc2fa9e39bd6020d73be5b641220cc4a7c2"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r02/audits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r02/environment.json",
+      "bytes": 748,
+      "sha256": "a22c5b48c84f7f576ecb4f47dcdc531687343b14906bdee48ae9d9a2f1006e32"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r02/final.f64",
+      "bytes": 101400,
+      "sha256": "dae862c1d8afa12c94a0f7d303c2e9ed7d900c10ca726929480587da5d7dae81"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r02/final_velocities.f64",
+      "bytes": 101400,
+      "sha256": "ac7405f79e5d157ce1d76934be05e82f5424ac63056ccc7ed4c4275f4a787ca8"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r02/frames.csv",
+      "bytes": 8090,
+      "sha256": "bb83e1960f8a4458f8ba8e3800b82f807cbb498b48c1ca1a81d1fafbada0202a"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r02/initial.f64",
+      "bytes": 101400,
+      "sha256": "3e9abdee519d866023aaf6a75651028b24f89e83cf51a015fcfca2f30ce6c94f"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r02/metadata.json",
+      "bytes": 493,
+      "sha256": "d71392ec10372402c656befe6f246e292b969c9996409aaa8001ad131c6bf3c0"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r02/pcg_iterations.jsonl",
+      "bytes": 3664,
+      "sha256": "8eccc09262098a9c0142cc2e8b3b7f3b3d578df71b2d29d275f5c0cc36a8cef0"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r02/states.f64",
+      "bytes": 10140000,
+      "sha256": "f8e09a47704102c086c808ab3508adf581297b85abb4af03ccb1da50883d8fb0"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r02/status.json",
+      "bytes": 78,
+      "sha256": "121045f9211bf7f03132a977b8d45bc2fa9e39bd6020d73be5b641220cc4a7c2"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r03/audits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r03/environment.json",
+      "bytes": 749,
+      "sha256": "0c578bf916a5f5be69afb668fa03e0cc867d9c6f54e66a9be66cdd3fe6948e76"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r03/final.f64",
+      "bytes": 101400,
+      "sha256": "1c368cd3e40fe45671babc332f22e7ad577f1258d7e24437e6ad3dbd9c08a891"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r03/final_velocities.f64",
+      "bytes": 101400,
+      "sha256": "2846a0f37c5720fdc99e374cf7def6ab46a3ce4033d93f6d268ed4f651fabf5d"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r03/frames.csv",
+      "bytes": 8127,
+      "sha256": "a72787323bb65bbed3b483b8bf25a1352eb01c46f254dbf4612be8fe738f1e15"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r03/initial.f64",
+      "bytes": 101400,
+      "sha256": "3e9abdee519d866023aaf6a75651028b24f89e83cf51a015fcfca2f30ce6c94f"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r03/metadata.json",
+      "bytes": 493,
+      "sha256": "d71392ec10372402c656befe6f246e292b969c9996409aaa8001ad131c6bf3c0"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r03/pcg_iterations.jsonl",
+      "bytes": 3664,
+      "sha256": "f913049c1893e14b42e8bcbcf382add98f805a4331d1c73b711843a355f07263"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r03/states.f64",
+      "bytes": 10140000,
+      "sha256": "c522ef32ae8596f7ad858e2d893d093279bf8910886fc9054d108183b8cb05bf"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/base/r03/status.json",
+      "bytes": 78,
+      "sha256": "121045f9211bf7f03132a977b8d45bc2fa9e39bd6020d73be5b641220cc4a7c2"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r01/audits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r01/environment.json",
+      "bytes": 786,
+      "sha256": "b7f5f16b5bb98e288868318006e15b55e30e97257800c6ffde6770481c508e36"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r01/final.f64",
+      "bytes": 101400,
+      "sha256": "9c4c28b1800f49e52103a88fd1511ff5dfc269f320864ea4be48b8efdbd0c5a1"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r01/final_velocities.f64",
+      "bytes": 101400,
+      "sha256": "5410accd612e0a5fed382e3fc4ff15e8aa1cb84b6856a805c37947a08c66c6ff"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r01/frames.csv",
+      "bytes": 8019,
+      "sha256": "21b35cb46006bef68b19cf8612e9b1c8cba7a3d94b90b9c4ce0f62941f5a8fa6"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r01/initial.f64",
+      "bytes": 101400,
+      "sha256": "3e9abdee519d866023aaf6a75651028b24f89e83cf51a015fcfca2f30ce6c94f"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r01/metadata.json",
+      "bytes": 503,
+      "sha256": "064d945d399cbae66d138938ea70cdecf3a3f0dfba6bc801f5d59d8a782a1449"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r01/pcg_iterations.jsonl",
+      "bytes": 3663,
+      "sha256": "967da237c2f143672679b5e29ac06a6ceba916a7d154b13c95bd60a4d751bef5"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r01/states.f64",
+      "bytes": 10140000,
+      "sha256": "affa42eca1ff4fc91ea1f362106ca694734ec9527aedea99c370e00692ac5fdb"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r01/status.json",
+      "bytes": 78,
+      "sha256": "121045f9211bf7f03132a977b8d45bc2fa9e39bd6020d73be5b641220cc4a7c2"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r02/audits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r02/environment.json",
+      "bytes": 786,
+      "sha256": "ef00e9ad664427b2b84dfc34db61c11491183d1185696421b2bc6b6ef86ef681"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r02/final.f64",
+      "bytes": 101400,
+      "sha256": "3b12d5a27061eba6ca1040398cbaf2f624071161ac1973c5bc0fe0b5ed986ef1"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r02/final_velocities.f64",
+      "bytes": 101400,
+      "sha256": "a8fec30d33318a6e209069aae7d304d68be988bab91634c425ad878ce858e2ca"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r02/frames.csv",
+      "bytes": 8135,
+      "sha256": "d381f9aec905e741878d6935488ed56f317caa5ad82187f6ff2a4a41cf42c146"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r02/initial.f64",
+      "bytes": 101400,
+      "sha256": "3e9abdee519d866023aaf6a75651028b24f89e83cf51a015fcfca2f30ce6c94f"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r02/metadata.json",
+      "bytes": 503,
+      "sha256": "064d945d399cbae66d138938ea70cdecf3a3f0dfba6bc801f5d59d8a782a1449"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r02/pcg_iterations.jsonl",
+      "bytes": 3663,
+      "sha256": "9d36fe9c0a9c8520276a29ededc511e97075c0b5003a484cea3a2d544250696c"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r02/states.f64",
+      "bytes": 10140000,
+      "sha256": "a041fd792f1c62f18f6d1b30d35462b2966a95fce38a9591719fce11b3b8d9d0"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r02/status.json",
+      "bytes": 78,
+      "sha256": "121045f9211bf7f03132a977b8d45bc2fa9e39bd6020d73be5b641220cc4a7c2"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r03/audits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r03/environment.json",
+      "bytes": 786,
+      "sha256": "12eee4c646613a9eef435fabfc904780f09b9b5281341220d88688d71b48af28"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r03/final.f64",
+      "bytes": 101400,
+      "sha256": "c2135ad56c42e5162968d5c07613e8eb0e691ed5d6650fd64b91eb2c2111bdfb"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r03/final_velocities.f64",
+      "bytes": 101400,
+      "sha256": "64f3822b11828cbf0acad40e4a222fbb052095c3869e0148cfc82553400f722f"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r03/frames.csv",
+      "bytes": 8031,
+      "sha256": "c986ae628e7d76746f83fa8f861bea0dd1712c9049d567eff290396f2dee6631"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r03/initial.f64",
+      "bytes": 101400,
+      "sha256": "3e9abdee519d866023aaf6a75651028b24f89e83cf51a015fcfca2f30ce6c94f"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r03/metadata.json",
+      "bytes": 503,
+      "sha256": "064d945d399cbae66d138938ea70cdecf3a3f0dfba6bc801f5d59d8a782a1449"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r03/pcg_iterations.jsonl",
+      "bytes": 3664,
+      "sha256": "1da480844cfa0a2a3eba19f3cf73d45d22f5678f2b7dda50415acd1210c18f95"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r03/states.f64",
+      "bytes": 10140000,
+      "sha256": "b4982871b6d1fbb2c94a5036cda30c44e9703b3107731b90d576686308f56b05"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene3/pcg_dual_graph/r03/status.json",
+      "bytes": 78,
+      "sha256": "121045f9211bf7f03132a977b8d45bc2fa9e39bd6020d73be5b641220cc4a7c2"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r01/audits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r01/environment.json",
+      "bytes": 749,
+      "sha256": "d22b3dff19d368ab8d3abd8e9b724ada35624223fa1e289f6f04d3ec2852bcdc"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r01/final.f64",
+      "bytes": 470040,
+      "sha256": "12f8ee1a0c64bc7742a795868ca2fd8958a647c464c06429d333aefe007b4ef3"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r01/final_velocities.f64",
+      "bytes": 470040,
+      "sha256": "35b6f26d5a6e224df48a2f00be5f5ba8c53b8d11e1fcf779f6976cb2715a8bb2"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r01/frames.csv",
+      "bytes": 7947,
+      "sha256": "4e058a4bf58683314e9d49a735e582827c4738e269c69edc5ad2eafa451c09d3"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r01/initial.f64",
+      "bytes": 470040,
+      "sha256": "bfa6643e743df7288ad877a1c16c4a77e38b484f064d6990a5448546f142843f"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r01/metadata.json",
+      "bytes": 497,
+      "sha256": "85a4af0883568395ada310b19a38a15447083455805f40549dbc3ff7a79ef51f"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r01/pcg_iterations.jsonl",
+      "bytes": 5064,
+      "sha256": "f59071ae1a7a8c703f9ac2c694e3a7dedfb6e650f0a952d2221316884274f9d8"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r01/states.f64",
+      "bytes": 47004000,
+      "sha256": "3711579e718edc3b5b7d833092f23370728f45053fe2f54ab90c37afe932e14d"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r01/status.json",
+      "bytes": 78,
+      "sha256": "121045f9211bf7f03132a977b8d45bc2fa9e39bd6020d73be5b641220cc4a7c2"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r02/audits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r02/environment.json",
+      "bytes": 749,
+      "sha256": "637509fbf3abd508df07e27ef1bb8764461571140d6a6491945c9072df38164b"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r02/final.f64",
+      "bytes": 470040,
+      "sha256": "20f69a25801865be017c67aa6f8977b8d1c5c7fba973fa0acf6396faeea7b436"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r02/final_velocities.f64",
+      "bytes": 470040,
+      "sha256": "2c4b4d94a4a60ae02c7f7f9cd51b047739c9307f4b27778e921150056ab17ffe"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r02/frames.csv",
+      "bytes": 8015,
+      "sha256": "46368880e87757c07a69003e12e83f57b11e6355b1e34be03e8339ed1b8b3d76"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r02/initial.f64",
+      "bytes": 470040,
+      "sha256": "bfa6643e743df7288ad877a1c16c4a77e38b484f064d6990a5448546f142843f"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r02/metadata.json",
+      "bytes": 497,
+      "sha256": "85a4af0883568395ada310b19a38a15447083455805f40549dbc3ff7a79ef51f"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r02/pcg_iterations.jsonl",
+      "bytes": 5025,
+      "sha256": "f919e5f40f89d549b663097e346a0fb9440b134a3178d924d72885632e44a6b5"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r02/states.f64",
+      "bytes": 47004000,
+      "sha256": "e9c71c4da854cb77f5526b1e099bea3bcfa384c41f6ec596b7bd83f8e81f5d5a"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r02/status.json",
+      "bytes": 78,
+      "sha256": "121045f9211bf7f03132a977b8d45bc2fa9e39bd6020d73be5b641220cc4a7c2"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r03/audits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r03/environment.json",
+      "bytes": 749,
+      "sha256": "1a06328bd7035cede7113d9099ba74e59eb9e7c296533e83b4d46a9842b93f8c"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r03/final.f64",
+      "bytes": 470040,
+      "sha256": "b5f8f3fdbb55657ef82bd5cec47db937164798f92b774413f3edc8b7b5116bde"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r03/final_velocities.f64",
+      "bytes": 470040,
+      "sha256": "3e5e3a521d763e391b10429298f439f0fa3114e5f708c3475eaa398c504acce9"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r03/frames.csv",
+      "bytes": 7885,
+      "sha256": "87a3c8096ee9ed9ce2f23e6e0e337fad0313a273f66cd0122f3a43186ceb6660"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r03/initial.f64",
+      "bytes": 470040,
+      "sha256": "bfa6643e743df7288ad877a1c16c4a77e38b484f064d6990a5448546f142843f"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r03/metadata.json",
+      "bytes": 497,
+      "sha256": "85a4af0883568395ada310b19a38a15447083455805f40549dbc3ff7a79ef51f"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r03/pcg_iterations.jsonl",
+      "bytes": 5016,
+      "sha256": "aece2025591efee4851fa49a479a5b1aad385528aaa19e22119acd1b03fcdb7b"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r03/states.f64",
+      "bytes": 47004000,
+      "sha256": "b0b6a549af0dabb2f67a6266132ce198824e25d2ab336396c3f46c0965f006bb"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/base/r03/status.json",
+      "bytes": 78,
+      "sha256": "121045f9211bf7f03132a977b8d45bc2fa9e39bd6020d73be5b641220cc4a7c2"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r01/audits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r01/environment.json",
+      "bytes": 784,
+      "sha256": "fc3669ce2139a3d13a3db4ca01fb36ca5bc18970113d329ffd81467725fbe5bc"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r01/final.f64",
+      "bytes": 470040,
+      "sha256": "b65ac5b56b903124c2691791b30690f778293706039682c12739bd7d8c0ae0d9"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r01/final_velocities.f64",
+      "bytes": 470040,
+      "sha256": "565c30c856285622a1ed36610de98071bf568ea8830d8fa249fad3349f39493a"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r01/frames.csv",
+      "bytes": 8396,
+      "sha256": "64adcea3a5576250e8317c0de5283a7a1f205dd2fa3a27ce6856cb6a7ba3727d"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r01/initial.f64",
+      "bytes": 470040,
+      "sha256": "bfa6643e743df7288ad877a1c16c4a77e38b484f064d6990a5448546f142843f"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r01/metadata.json",
+      "bytes": 507,
+      "sha256": "a38c35c0bd582b899515f26ec6cd7d9a455f2429603e8f66c995c710ec4bc918"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r01/pcg_iterations.jsonl",
+      "bytes": 5024,
+      "sha256": "b765587c38ce73fb2f908b1edd29a64feff880de6f83fbb59bc5498bc99460d5"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r01/states.f64",
+      "bytes": 47004000,
+      "sha256": "68e3c0a6e2639b66efb2986dcaeb4de2c2545528dd1fa6d5cbcfc50b861b512a"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r01/status.json",
+      "bytes": 78,
+      "sha256": "121045f9211bf7f03132a977b8d45bc2fa9e39bd6020d73be5b641220cc4a7c2"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r02/audits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r02/environment.json",
+      "bytes": 771,
+      "sha256": "a2dfbc299926d8da320da4a7d09323605426f8ec6cc6634243e899f093a32088"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r02/final.f64",
+      "bytes": 470040,
+      "sha256": "db8d2475866d6a00c903d7471ba93ae9a487daef7a9188510fc5191530554c0a"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r02/final_velocities.f64",
+      "bytes": 470040,
+      "sha256": "85732cc94ca1b486eac07a09ce694ee85925eeaad03c5b339c1c590900e1895a"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r02/frames.csv",
+      "bytes": 8360,
+      "sha256": "0636769080cfa6d1909c1c51fff08b5a35b6009d5e985de4fa8162299d1982c4"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r02/initial.f64",
+      "bytes": 470040,
+      "sha256": "bfa6643e743df7288ad877a1c16c4a77e38b484f064d6990a5448546f142843f"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r02/metadata.json",
+      "bytes": 507,
+      "sha256": "a38c35c0bd582b899515f26ec6cd7d9a455f2429603e8f66c995c710ec4bc918"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r02/pcg_iterations.jsonl",
+      "bytes": 5317,
+      "sha256": "9cd5f6fb58e3eadcf9304e61dab1b7bd44760a6aa30da012d8eb69e1aae0ed9a"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r02/states.f64",
+      "bytes": 47004000,
+      "sha256": "c71d4e095ad53112e94890c0ee6a3efe90b8036076739402f143a46de557f6a9"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r02/status.json",
+      "bytes": 78,
+      "sha256": "121045f9211bf7f03132a977b8d45bc2fa9e39bd6020d73be5b641220cc4a7c2"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r03/audits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r03/environment.json",
+      "bytes": 784,
+      "sha256": "7d1607e2e88f3204bffca2d9bae2a21934644a1603887de4a122b14e5b2ecedd"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r03/final.f64",
+      "bytes": 470040,
+      "sha256": "842f5d2a543de8bb367cc4f3826b6ac699f7fdd027e90cbfe28e6ef6d09193a7"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r03/final_velocities.f64",
+      "bytes": 470040,
+      "sha256": "25c0634ab54b5376ea4fb27cfa0f14abfccf4fe5e25294dc2194e989b8de0739"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r03/frames.csv",
+      "bytes": 8459,
+      "sha256": "5545ba38e5642674b617fd3865cd4a4234516a699b19eec5e71dc2152fdca3dd"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r03/initial.f64",
+      "bytes": 470040,
+      "sha256": "bfa6643e743df7288ad877a1c16c4a77e38b484f064d6990a5448546f142843f"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r03/metadata.json",
+      "bytes": 507,
+      "sha256": "a38c35c0bd582b899515f26ec6cd7d9a455f2429603e8f66c995c710ec4bc918"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r03/pcg_iterations.jsonl",
+      "bytes": 4996,
+      "sha256": "ad72790b5c57612ae7692d18ba904463ce2c4d22f4c3299b6b1f0bfb6d163365"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r03/states.f64",
+      "bytes": 47004000,
+      "sha256": "8629d04ed4d799c228d35470509ff43112154169113da845d832582da6fe2d6a"
+    },
+    {
+      "path": "experiments/comparison-100-v1/scene5/pcg_dual_graph/r03/status.json",
+      "bytes": 78,
+      "sha256": "121045f9211bf7f03132a977b8d45bc2fa9e39bd6020d73be5b641220cc4a7c2"
+    },
+    {
+      "path": "experiments/comparison-100-v1/summary.json",
+      "bytes": 1138766,
+      "sha256": "8c8658bb8744a8f5dd4ae7d55e19b540777f8b41f25c1435644920f5c8ff2687"
+    },
+    {
+      "path": "experiments/smoke-v1/logs/scene1-base-r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/smoke-v1/logs/scene1-base-r01.stdout.log",
+      "bytes": 1520,
+      "sha256": "8fbcaa8132857de3f84203400942c47a21a48d17d78f00e2ecbe23717bdb9f04"
+    },
+    {
+      "path": "experiments/smoke-v1/logs/scene1-pcg_dual_graph-r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/smoke-v1/logs/scene1-pcg_dual_graph-r01.stdout.log",
+      "bytes": 1520,
+      "sha256": "8fbcaa8132857de3f84203400942c47a21a48d17d78f00e2ecbe23717bdb9f04"
+    },
+    {
+      "path": "experiments/smoke-v1/logs/scene3-base-r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/smoke-v1/logs/scene3-base-r01.stdout.log",
+      "bytes": 1454,
+      "sha256": "740cc8ba9fe750d8651e578288991a670e2e2f7a8bdf23739182e4d720b4f1c4"
+    },
+    {
+      "path": "experiments/smoke-v1/logs/scene3-pcg_dual_graph-r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/smoke-v1/logs/scene3-pcg_dual_graph-r01.stdout.log",
+      "bytes": 1454,
+      "sha256": "740cc8ba9fe750d8651e578288991a670e2e2f7a8bdf23739182e4d720b4f1c4"
+    },
+    {
+      "path": "experiments/smoke-v1/logs/scene5-base-r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/smoke-v1/logs/scene5-base-r01.stdout.log",
+      "bytes": 1490,
+      "sha256": "b4dcf1c66f1649a1490b2c58ddce7fbf18ca9b2fd5700e42a6aa90553a932644"
+    },
+    {
+      "path": "experiments/smoke-v1/logs/scene5-pcg_dual_graph-r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/smoke-v1/logs/scene5-pcg_dual_graph-r01.stdout.log",
+      "bytes": 1490,
+      "sha256": "b4dcf1c66f1649a1490b2c58ddce7fbf18ca9b2fd5700e42a6aa90553a932644"
+    },
+    {
+      "path": "experiments/smoke-v1/scene1/base/r01/audits.json",
+      "bytes": 321,
+      "sha256": "8db74e9f8be6e2c7b1a9eb267c8369a208d93efeb209ae4c5dd5b3ea9bb95037"
+    },
+    {
+      "path": "experiments/smoke-v1/scene1/base/r01/environment.json",
+      "bytes": 775,
+      "sha256": "9b35d88582716a77fef08f796e55e48458e1dbdc151aff58dbf3f6fe6bd5035f"
+    },
+    {
+      "path": "experiments/smoke-v1/scene1/base/r01/final.f64",
+      "bytes": 1022664,
+      "sha256": "236ddc2c87b5e9e2fb212ce721276b434cc2185afa2a99bf625aa4b340dbdb5f"
+    },
+    {
+      "path": "experiments/smoke-v1/scene1/base/r01/final_velocities.f64",
+      "bytes": 1022664,
+      "sha256": "fa84176855b6f55140e31bf19645166773feb53591beed1fc648b2973594a1e0"
+    },
+    {
+      "path": "experiments/smoke-v1/scene1/base/r01/frames.csv",
+      "bytes": 335,
+      "sha256": "9436bbd5e2dab3ab263b0d51b92f4b8a71adb681b50ecef882db4a2b90df32e0"
+    },
+    {
+      "path": "experiments/smoke-v1/scene1/base/r01/initial.f64",
+      "bytes": 1022664,
+      "sha256": "619c573e6780d4a17041775e64d8442b008d73b425406b54dfec4a090aad3f4a"
+    },
+    {
+      "path": "experiments/smoke-v1/scene1/base/r01/metadata.json",
+      "bytes": 497,
+      "sha256": "bda10bce5caba32f84f8601567dc28328b25084ce0dfc0a3d50c7f1ca77702ef"
+    },
+    {
+      "path": "experiments/smoke-v1/scene1/base/r01/pcg_iterations.jsonl",
+      "bytes": 73,
+      "sha256": "0143ed3a9c154c09655afa397de0388b66a4104a4503b20f14a17640b8115b8f"
+    },
+    {
+      "path": "experiments/smoke-v1/scene1/base/r01/states.f64",
+      "bytes": 2045328,
+      "sha256": "2a8e4d87683c80693f1723d1fc21ad3884ee8eba91d351b2f2a6601dca0b084e"
+    },
+    {
+      "path": "experiments/smoke-v1/scene1/base/r01/status.json",
+      "bytes": 76,
+      "sha256": "2e8c4d8fbbcd1aaf3b8606b91ef814a8371ed6a1c34c39c7f0eff3313cb9c3a1"
+    },
+    {
+      "path": "experiments/smoke-v1/scene1/pcg_dual_graph/r01/audits.json",
+      "bytes": 321,
+      "sha256": "06365161fe2fcb2037e70e5cf89d882eaaf135633f7ea4eacdded6352ee6fa01"
+    },
+    {
+      "path": "experiments/smoke-v1/scene1/pcg_dual_graph/r01/environment.json",
+      "bytes": 810,
+      "sha256": "5c60063d37dfc0a423a0daf987e6036ddb52ae0e082eb8dfb01193bf4bb607c1"
+    },
+    {
+      "path": "experiments/smoke-v1/scene1/pcg_dual_graph/r01/final.f64",
+      "bytes": 1022664,
+      "sha256": "6e722807221891518920e83c7c6e8b4d991d7f598486df788a83f431023800fb"
+    },
+    {
+      "path": "experiments/smoke-v1/scene1/pcg_dual_graph/r01/final_velocities.f64",
+      "bytes": 1022664,
+      "sha256": "4b5ab2a6ca916ca4808a10f09477ae3d72992e19bb6c0e63dbec4c252c0b9a96"
+    },
+    {
+      "path": "experiments/smoke-v1/scene1/pcg_dual_graph/r01/frames.csv",
+      "bytes": 327,
+      "sha256": "653edb8463a3ebff0cdc658febf33b757ab43631e46a9e19cf1f25c5834a5cf0"
+    },
+    {
+      "path": "experiments/smoke-v1/scene1/pcg_dual_graph/r01/initial.f64",
+      "bytes": 1022664,
+      "sha256": "619c573e6780d4a17041775e64d8442b008d73b425406b54dfec4a090aad3f4a"
+    },
+    {
+      "path": "experiments/smoke-v1/scene1/pcg_dual_graph/r01/metadata.json",
+      "bytes": 507,
+      "sha256": "f6cfb33aaddf7dbf5e94f0f73d4c74565f3222c42a3cd01fc53a3ad11e032f09"
+    },
+    {
+      "path": "experiments/smoke-v1/scene1/pcg_dual_graph/r01/pcg_iterations.jsonl",
+      "bytes": 73,
+      "sha256": "0143ed3a9c154c09655afa397de0388b66a4104a4503b20f14a17640b8115b8f"
+    },
+    {
+      "path": "experiments/smoke-v1/scene1/pcg_dual_graph/r01/states.f64",
+      "bytes": 2045328,
+      "sha256": "2269b0581976413ac05f0cfcf6ac9f8ea39850246bfca265b84311c71621b51f"
+    },
+    {
+      "path": "experiments/smoke-v1/scene1/pcg_dual_graph/r01/status.json",
+      "bytes": 76,
+      "sha256": "2e8c4d8fbbcd1aaf3b8606b91ef814a8371ed6a1c34c39c7f0eff3313cb9c3a1"
+    },
+    {
+      "path": "experiments/smoke-v1/scene3/base/r01/audits.json",
+      "bytes": 320,
+      "sha256": "dfd249dc6789027a36c31976e1cb29bbfbf032d5b457c83f73efba375b6c8c40"
+    },
+    {
+      "path": "experiments/smoke-v1/scene3/base/r01/environment.json",
+      "bytes": 776,
+      "sha256": "5d140c4112cd3ea47c2a96a41c3f88f3e4cba0be56a35be0bb046309d4abbd00"
+    },
+    {
+      "path": "experiments/smoke-v1/scene3/base/r01/final.f64",
+      "bytes": 101400,
+      "sha256": "a733fbd694d4e954e4758c665721d51256de177b469fdc566fae42a606db4286"
+    },
+    {
+      "path": "experiments/smoke-v1/scene3/base/r01/final_velocities.f64",
+      "bytes": 101400,
+      "sha256": "43f7ac6f192286ceb25d4337d5eccbd76e1068fcee799376c09495ebd3c1d340"
+    },
+    {
+      "path": "experiments/smoke-v1/scene3/base/r01/frames.csv",
+      "bytes": 326,
+      "sha256": "4016312274e490c6e0a5a67fd115541f16ad205068e2b8333aeaeb07696fe664"
+    },
+    {
+      "path": "experiments/smoke-v1/scene3/base/r01/initial.f64",
+      "bytes": 101400,
+      "sha256": "3e9abdee519d866023aaf6a75651028b24f89e83cf51a015fcfca2f30ce6c94f"
+    },
+    {
+      "path": "experiments/smoke-v1/scene3/base/r01/metadata.json",
+      "bytes": 491,
+      "sha256": "2b248d0f1929b401b152e1c3a45c52dd06c13d0338896927ff7689cff3ecfa2f"
+    },
+    {
+      "path": "experiments/smoke-v1/scene3/base/r01/pcg_iterations.jsonl",
+      "bytes": 68,
+      "sha256": "5d237c5c8db1fd59295a5cc7fe99bc8f1b552aca7bce057097f51527ad079778"
+    },
+    {
+      "path": "experiments/smoke-v1/scene3/base/r01/states.f64",
+      "bytes": 202800,
+      "sha256": "2e21888e2a2a95960b4f1cc162834533bdbd1467c5838ecddc911cd12426fcf0"
+    },
+    {
+      "path": "experiments/smoke-v1/scene3/base/r01/status.json",
+      "bytes": 76,
+      "sha256": "2e8c4d8fbbcd1aaf3b8606b91ef814a8371ed6a1c34c39c7f0eff3313cb9c3a1"
+    },
+    {
+      "path": "experiments/smoke-v1/scene3/pcg_dual_graph/r01/audits.json",
+      "bytes": 320,
+      "sha256": "3c307b09481474794911764d3c0a23cdc248a282c7890d065b5e66823ef566c3"
+    },
+    {
+      "path": "experiments/smoke-v1/scene3/pcg_dual_graph/r01/environment.json",
+      "bytes": 811,
+      "sha256": "7631313b624ee1280567191629093d3090ba886a8c61f6cabf3773f6001728af"
+    },
+    {
+      "path": "experiments/smoke-v1/scene3/pcg_dual_graph/r01/final.f64",
+      "bytes": 101400,
+      "sha256": "7d97c4a07644965aa1bdbcc20a26a25104cf26db50a604bc919daf3b325b4b44"
+    },
+    {
+      "path": "experiments/smoke-v1/scene3/pcg_dual_graph/r01/final_velocities.f64",
+      "bytes": 101400,
+      "sha256": "074b158089629d8e7ba03a58b19770fdf120e52be81111c8e04e1ffe09d5aff0"
+    },
+    {
+      "path": "experiments/smoke-v1/scene3/pcg_dual_graph/r01/frames.csv",
+      "bytes": 345,
+      "sha256": "5f5495e9f7460941dcdee4ef713fc236c2d20bb3c3aa6b45486d070634b79fb8"
+    },
+    {
+      "path": "experiments/smoke-v1/scene3/pcg_dual_graph/r01/initial.f64",
+      "bytes": 101400,
+      "sha256": "3e9abdee519d866023aaf6a75651028b24f89e83cf51a015fcfca2f30ce6c94f"
+    },
+    {
+      "path": "experiments/smoke-v1/scene3/pcg_dual_graph/r01/metadata.json",
+      "bytes": 501,
+      "sha256": "6b76c22bceefd8ae7a894ffbdd0821e6332e8205caa452a3d9e4edaa7968ffd4"
+    },
+    {
+      "path": "experiments/smoke-v1/scene3/pcg_dual_graph/r01/pcg_iterations.jsonl",
+      "bytes": 68,
+      "sha256": "5d237c5c8db1fd59295a5cc7fe99bc8f1b552aca7bce057097f51527ad079778"
+    },
+    {
+      "path": "experiments/smoke-v1/scene3/pcg_dual_graph/r01/states.f64",
+      "bytes": 202800,
+      "sha256": "20e4f23ce56f8c0b594d1a3fdc4a74258ab783da862d66c15a7fbf34df4378a5"
+    },
+    {
+      "path": "experiments/smoke-v1/scene3/pcg_dual_graph/r01/status.json",
+      "bytes": 76,
+      "sha256": "2e8c4d8fbbcd1aaf3b8606b91ef814a8371ed6a1c34c39c7f0eff3313cb9c3a1"
+    },
+    {
+      "path": "experiments/smoke-v1/scene5/base/r01/audits.json",
+      "bytes": 321,
+      "sha256": "47693cdda34d68daf5410692e7b1020e1b2ec01c4155208a78b0fad4cd24ca51"
+    },
+    {
+      "path": "experiments/smoke-v1/scene5/base/r01/environment.json",
+      "bytes": 776,
+      "sha256": "41c02362dc5481f658f59e63cac6acc09fa52265b3be30e69b5f587f72ffb8dd"
+    },
+    {
+      "path": "experiments/smoke-v1/scene5/base/r01/final.f64",
+      "bytes": 470040,
+      "sha256": "3414f059b377f1090a945aff3350c71195134335383184dd2884399d449dc16e"
+    },
+    {
+      "path": "experiments/smoke-v1/scene5/base/r01/final_velocities.f64",
+      "bytes": 470040,
+      "sha256": "4c94ff6cfda49ada86cc5793b737f57e5caed82da976b66ae01b77606748112a"
+    },
+    {
+      "path": "experiments/smoke-v1/scene5/base/r01/frames.csv",
+      "bytes": 303,
+      "sha256": "6b7def07f2a85f3263350edf46d802aba29225ed08f2e60972d8a6cb8b10d229"
+    },
+    {
+      "path": "experiments/smoke-v1/scene5/base/r01/initial.f64",
+      "bytes": 470040,
+      "sha256": "bfa6643e743df7288ad877a1c16c4a77e38b484f064d6990a5448546f142843f"
+    },
+    {
+      "path": "experiments/smoke-v1/scene5/base/r01/metadata.json",
+      "bytes": 495,
+      "sha256": "5a5b1a9df582e365e6eafd3fc2097259f73268161b99d6e3693dc9aeaf1f57dc"
+    },
+    {
+      "path": "experiments/smoke-v1/scene5/base/r01/pcg_iterations.jsonl",
+      "bytes": 66,
+      "sha256": "f18d2cfd5dc9ec8f170504e338f04dce70748487888d0ec4182d479001b9fc26"
+    },
+    {
+      "path": "experiments/smoke-v1/scene5/base/r01/states.f64",
+      "bytes": 940080,
+      "sha256": "591789f5ce9ae5a96ffde21d908f7f602b47e9f469d3da92a5b3005fd383a988"
+    },
+    {
+      "path": "experiments/smoke-v1/scene5/base/r01/status.json",
+      "bytes": 76,
+      "sha256": "2e8c4d8fbbcd1aaf3b8606b91ef814a8371ed6a1c34c39c7f0eff3313cb9c3a1"
+    },
+    {
+      "path": "experiments/smoke-v1/scene5/pcg_dual_graph/r01/audits.json",
+      "bytes": 320,
+      "sha256": "05f2761ac2a8ee27c404ffc97e9c7ae532c370687334968ca034f96a3a4182d6"
+    },
+    {
+      "path": "experiments/smoke-v1/scene5/pcg_dual_graph/r01/environment.json",
+      "bytes": 811,
+      "sha256": "e203527b1d224920c5a48d9bf3c33295afccadfda5583b502117dd4c7d903fae"
+    },
+    {
+      "path": "experiments/smoke-v1/scene5/pcg_dual_graph/r01/final.f64",
+      "bytes": 470040,
+      "sha256": "c09df38469a5672b6e5d1cbe5ae54bcaf83a9481218976e6a9b5f2f935f41355"
+    },
+    {
+      "path": "experiments/smoke-v1/scene5/pcg_dual_graph/r01/final_velocities.f64",
+      "bytes": 470040,
+      "sha256": "24e5906f164d956401d5391e061912672a6e14540c307c3e0221564376431678"
+    },
+    {
+      "path": "experiments/smoke-v1/scene5/pcg_dual_graph/r01/frames.csv",
+      "bytes": 339,
+      "sha256": "7e11e6fe78bd53ae97cd8c2abda5afaea954544820f43185cfa9a92aadf07856"
+    },
+    {
+      "path": "experiments/smoke-v1/scene5/pcg_dual_graph/r01/initial.f64",
+      "bytes": 470040,
+      "sha256": "bfa6643e743df7288ad877a1c16c4a77e38b484f064d6990a5448546f142843f"
+    },
+    {
+      "path": "experiments/smoke-v1/scene5/pcg_dual_graph/r01/metadata.json",
+      "bytes": 505,
+      "sha256": "1099d6dca8f558eaa50c67bdad41618dececf90b6ebcbb64723f57caddf8cc5e"
+    },
+    {
+      "path": "experiments/smoke-v1/scene5/pcg_dual_graph/r01/pcg_iterations.jsonl",
+      "bytes": 66,
+      "sha256": "f18d2cfd5dc9ec8f170504e338f04dce70748487888d0ec4182d479001b9fc26"
+    },
+    {
+      "path": "experiments/smoke-v1/scene5/pcg_dual_graph/r01/states.f64",
+      "bytes": 940080,
+      "sha256": "2c32d1c73b9932ab93f969886d623a1b28375e217c03bfae3a2752ecfe732580"
+    },
+    {
+      "path": "experiments/smoke-v1/scene5/pcg_dual_graph/r01/status.json",
+      "bytes": 76,
+      "sha256": "2e8c4d8fbbcd1aaf3b8606b91ef814a8371ed6a1c34c39c7f0eff3313cb9c3a1"
+    },
+    {
+      "path": "experiments/smoke-v1/summary.json",
+      "bytes": 22933,
+      "sha256": "9079368ca0fe0d0623ece0d179be502403e5b5233a4f6b3918cdd1030807cdfc"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/AUDITS.json",
+      "bytes": 1397,
+      "sha256": "be6c8913c212fa44a2a90900167574e9c40fd76420fe9c6ba25596122a5b2d01"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/logs/scene1-pcg_dual_graph-r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/logs/scene1-pcg_dual_graph-r01.stdout.log",
+      "bytes": 1841,
+      "sha256": "5afcc5145a319354c8a4c73f5e41fa02c58c650f0ddaad3d0b15a5c592ad989b"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/logs/scene3-pcg_dual_graph-r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/logs/scene3-pcg_dual_graph-r01.stdout.log",
+      "bytes": 1775,
+      "sha256": "dab9a5e61e0c66a1795c9db37440c5e732d07b1d087fb2e8dab9d7a980dbf321"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/logs/scene5-pcg_dual_graph-r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/logs/scene5-pcg_dual_graph-r01.stdout.log",
+      "bytes": 1811,
+      "sha256": "ab832914c728de601070050481f148dab1a17f8a129284359c3621f09892ba67"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene1/pcg_dual_graph/r01/audits.json",
+      "bytes": 325,
+      "sha256": "ccfb6bf36e524e6c1b64bd0bbe6c9da6dd6b5629bb67fbb749c38d44f1db0867"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene1/pcg_dual_graph/r01/environment.json",
+      "bytes": 822,
+      "sha256": "23c41dc0582f99c8bc5afc8697491dbbdbd612bef8114becdb3491717792c046"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene1/pcg_dual_graph/r01/final.f64",
+      "bytes": 1022664,
+      "sha256": "7f4d7c7c6d232117769aa8341830546416f892a97813d797d74ef639583cd784"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene1/pcg_dual_graph/r01/final_velocities.f64",
+      "bytes": 1022664,
+      "sha256": "93f5e6bc7d917e07089bae96964ca5db87dd2fa5f1abce5547939f669c41e629"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene1/pcg_dual_graph/r01/frames.csv",
+      "bytes": 8671,
+      "sha256": "37edf99db6e725208fbf6d3f150c48aa7a2f1c23566a17c407854f28524546ba"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene1/pcg_dual_graph/r01/initial.f64",
+      "bytes": 1022664,
+      "sha256": "619c573e6780d4a17041775e64d8442b008d73b425406b54dfec4a090aad3f4a"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene1/pcg_dual_graph/r01/metadata.json",
+      "bytes": 511,
+      "sha256": "74741372bfe5ff60971cadb4f0e540ba7425e978e57377bbf10da1a2cc3fc872"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene1/pcg_dual_graph/r01/pcg_iterations.jsonl",
+      "bytes": 7059,
+      "sha256": "7925efadea065a265b7a6d6e3cde3911c703d23c3f650b94d402bed0f42b67b8"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene1/pcg_dual_graph/r01/states.f64",
+      "bytes": 102266400,
+      "sha256": "bc469325311e867873f930d0f81354131dc20432e50d1b724e90abdce7254a44"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene1/pcg_dual_graph/r01/status.json",
+      "bytes": 78,
+      "sha256": "121045f9211bf7f03132a977b8d45bc2fa9e39bd6020d73be5b641220cc4a7c2"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene3/pcg_dual_graph/r01/audits.json",
+      "bytes": 325,
+      "sha256": "9e6a1dd8c732b53b267169213dcc1b25ead22593a9e07e913a9b7e43a643d214"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene3/pcg_dual_graph/r01/environment.json",
+      "bytes": 823,
+      "sha256": "d31cb7c4ce20b46caba3ada4b428ef546bcd6996d286c87f894fd206ef17e1ff"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene3/pcg_dual_graph/r01/final.f64",
+      "bytes": 101400,
+      "sha256": "23cea19e2f9f0902d30ae5ed3487e91cf34474ce6779551b0453df8bb02aa1d5"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene3/pcg_dual_graph/r01/final_velocities.f64",
+      "bytes": 101400,
+      "sha256": "2a785b6e1bcf4203930614d7cede758db6911bf15ff656a9efc4d935e62e56c2"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene3/pcg_dual_graph/r01/frames.csv",
+      "bytes": 8220,
+      "sha256": "f70ab5d50badc3db26a59ca1d5d4c69035bb9063e2ec77e8ef3c186d940a33cd"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene3/pcg_dual_graph/r01/initial.f64",
+      "bytes": 101400,
+      "sha256": "3e9abdee519d866023aaf6a75651028b24f89e83cf51a015fcfca2f30ce6c94f"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene3/pcg_dual_graph/r01/metadata.json",
+      "bytes": 505,
+      "sha256": "4aa88f3e17b46289ab3936700e48ffd1cdd3b50715d40b9608d261de9b48362f"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene3/pcg_dual_graph/r01/pcg_iterations.jsonl",
+      "bytes": 3663,
+      "sha256": "b1e2fd69b6426e1266b78ba975841b8be372615d7fc36da6aed0683f2ef6f2c3"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene3/pcg_dual_graph/r01/states.f64",
+      "bytes": 10140000,
+      "sha256": "707abdc92ff7405965f65caa9d2c2900a089bfa5ce1367e717ec0bfaefac8825"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene3/pcg_dual_graph/r01/status.json",
+      "bytes": 78,
+      "sha256": "121045f9211bf7f03132a977b8d45bc2fa9e39bd6020d73be5b641220cc4a7c2"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene5/pcg_dual_graph/r01/audits.json",
+      "bytes": 321,
+      "sha256": "9ea5b9fd57b2372178d01393b5457b7f42b38c45288085dbb2d9d71619024b6c"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene5/pcg_dual_graph/r01/environment.json",
+      "bytes": 822,
+      "sha256": "fa7969316b08dce7a71b4054c00105fa1b67d4f9b846cd21768814bf313564db"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene5/pcg_dual_graph/r01/final.f64",
+      "bytes": 470040,
+      "sha256": "0f220a267a1bbc219ba63119c6d99c273107312fd230f0aa2f40d08e105972b4"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene5/pcg_dual_graph/r01/final_velocities.f64",
+      "bytes": 470040,
+      "sha256": "a6e281c460a8d5e330bba4a0d0e3affc4744b7f4015ff606931eda6f0425553a"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene5/pcg_dual_graph/r01/frames.csv",
+      "bytes": 8419,
+      "sha256": "f729a3ec4f9601c9dfbed5f4d21d0e5c8c4697529d58f88136c07e31a5490ffc"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene5/pcg_dual_graph/r01/initial.f64",
+      "bytes": 470040,
+      "sha256": "bfa6643e743df7288ad877a1c16c4a77e38b484f064d6990a5448546f142843f"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene5/pcg_dual_graph/r01/metadata.json",
+      "bytes": 509,
+      "sha256": "797865acf813da33581d92e945b58e751af73916ae2160d7d8b787b74a27479a"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene5/pcg_dual_graph/r01/pcg_iterations.jsonl",
+      "bytes": 5238,
+      "sha256": "af42fa592e3f1362553039a6bd724bd8fc61fded83571190a4d36c6719a084f8"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene5/pcg_dual_graph/r01/states.f64",
+      "bytes": 47004000,
+      "sha256": "cb2611a540fb7b984de9becaeb2069323b731c4044922f03e8396c5271fd3bf6"
+    },
+    {
+      "path": "experiments/late-audit-100-v1/scene5/pcg_dual_graph/r01/status.json",
+      "bytes": 78,
+      "sha256": "121045f9211bf7f03132a977b8d45bc2fa9e39bd6020d73be5b641220cc4a7c2"
+    }
+  ]
+}

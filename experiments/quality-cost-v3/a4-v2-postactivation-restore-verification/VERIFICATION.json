@@ -1,0 +1,24 @@
+{
+  "status": "passed_before_candidate_runs",
+  "criterion": "minimum accepted alpha among Newton k>=5",
+  "binary_sha256": "84c429f7e30dcd15f420cb22b50b90972045905d3981481eb97f8201d0178ae9",
+  "selection_sha256": "7b72eb58d187f5323ecd112efdcb0bd2a4c3d58c32dc7fc3dd7713dac187ef58",
+  "results": {
+    "table-f28": {
+      "source_post_activation_min_alpha": 0.507492565083021,
+      "restored_post_activation_min_alpha": 0.5433672181102306,
+      "source_newton": 14,
+      "restored_newton": 14,
+      "restored_post_activation_updates": 9,
+      "reproduced_post_activation_alpha": true
+    },
+    "bunny-f46": {
+      "source_post_activation_min_alpha": 0.5,
+      "restored_post_activation_min_alpha": 0.5,
+      "source_newton": 105,
+      "restored_newton": 105,
+      "restored_post_activation_updates": 100,
+      "reproduced_post_activation_alpha": true
+    }
+  }
+}

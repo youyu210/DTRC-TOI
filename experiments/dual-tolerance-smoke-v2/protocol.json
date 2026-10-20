@@ -1,0 +1,62 @@
+{
+  "exe_sha256": "b89ec1bf92e45338008725e7cf79cb719b9832c7c30fed4b349c13b127de32d1",
+  "plan_sha256": "f6ede6352ee20b112e7e92d65bfbf7f5bfd4c3cf8b30d61c1089e1b9e3895986",
+  "scenes": [
+    "table",
+    "bunny"
+  ],
+  "frames": 50,
+  "configs": {
+    "graph": [
+      "original",
+      0.001
+    ],
+    "toi": [
+      "toi",
+      0.001
+    ],
+    "comp001": [
+      "compensated",
+      0.001
+    ],
+    "comp01": [
+      "compensated",
+      0.01
+    ],
+    "comp03": [
+      "compensated",
+      0.03
+    ],
+    "comp10": [
+      "compensated",
+      0.1
+    ],
+    "gate01": [
+      "gated",
+      0.01
+    ],
+    "gate03": [
+      "gated",
+      0.03
+    ],
+    "gate10": [
+      "gated",
+      0.1
+    ]
+  },
+  "three_repeat_configs": [
+    "graph",
+    "toi",
+    "comp001",
+    "comp03",
+    "gate03"
+  ],
+  "epsilon_toi": 0.001,
+  "minimum_updates": 6,
+  "strict_reference_scales": [
+    0.5,
+    0.25
+  ],
+  "contact_probe_y_offset": -0.248,
+  "smoke": true
+}

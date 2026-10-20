@@ -1,0 +1,25 @@
+{
+  "command": [
+    "D:\\code_2\\stiffGIPC\\residual-toi-graph-c49982fa\\versions\\quality-cost-v3-b1-profile-instrumentation\\gipc.exe",
+    "--scene",
+    "1",
+    "--pcg-dual-graph",
+    "--benchmark-frames",
+    "35",
+    "--benchmark-output-dir",
+    "D:\\code_2\\stiffGIPC\\residual-toi-graph-c49982fa\\experiments\\quality-cost-v3\\b1-profile-v1\\runs\\current_off\\r01",
+    "--termination",
+    "original",
+    "--production-measurement"
+  ],
+  "returncode": 0,
+  "wall_seconds": 155.0470000000205,
+  "exe_sha256": "bd9b1ce75f4d310e4f57dce08c34f3fb3510ff25bcdd4befba88ae63809a89f0",
+  "source_commit": "c4ca04c2ecfb8fc30c91bf2903aa096084b1590b",
+  "gpu_before": {
+    "unavailable": "zip() argument 2 is longer than argument 1"
+  },
+  "gpu_after": {
+    "unavailable": "zip() argument 2 is longer than argument 1"
+  }
+}

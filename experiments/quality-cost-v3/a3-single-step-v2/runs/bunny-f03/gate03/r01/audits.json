@@ -1,0 +1,23 @@
+[
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 6.692242137630409e-08,
+    "measured_residual": 6.692242137630409e-08,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.5500370560498255e-07,
+    "measured_residual": 1.5500370560498255e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 7.611332933481217e-08,
+    "measured_residual": 7.611332933481217e-08,
+    "agrees": true
+  }
+]

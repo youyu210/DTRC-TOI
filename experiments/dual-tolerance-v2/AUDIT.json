@@ -1,0 +1,37 @@
+{
+  "completed_runs": 67,
+  "completed_frames": 2257,
+  "interrupted_reference_runs": 1,
+  "partial_frames_retained": 22,
+  "partial_reference_exports": {
+    "references/table/strict4": {
+      "states.f64": {
+        "bytes": 15581184,
+        "complete_state_frames": 21,
+        "partial_frame_bytes": 706632
+      },
+      "velocities.f64": {
+        "bytes": 15581184,
+        "complete_state_frames": 21,
+        "partial_frame_bytes": 706632
+      }
+    }
+  },
+  "source_commit": "cc1afb9",
+  "exe_sha256": "c9aa98b158887d96cea133d2632ca9cf5f4c4ac6665f4998c82d72f6a932f54b",
+  "original_binary_hash_preserved": true,
+  "plan_hash_preserved": true,
+  "totals": {
+    "newton_cap_hits": 0,
+    "fallbacks": 0,
+    "nonfinite_vertices": 0,
+    "intersection": 0,
+    "history_rejections": 0,
+    "guard_rejections": 0
+  },
+  "gate_exits_that_history_would_veto": [],
+  "tail_frames_not_explained_by_current_residual": [],
+  "formal_trace_active_samples": 123,
+  "formal_native_rhs_checks": 211,
+  "max_fixed_drift_m": 7.850462293418876e-17
+}

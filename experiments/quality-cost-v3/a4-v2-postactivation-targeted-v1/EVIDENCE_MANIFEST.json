@@ -1,0 +1,3464 @@
+{
+  "files": [
+    {
+      "path": "build/gipc.exe",
+      "bytes": 11035648,
+      "sha256": "84c429f7e30dcd15f420cb22b50b90972045905d3981481eb97f8201d0178ae9"
+    },
+    {
+      "path": "experiments/analyze_a4_v2_postactivation_matrix.py",
+      "bytes": 14527,
+      "sha256": "ac86bda7e8e257c1c5b33893851c58afa0dc343d3b738644531d02ed77317e41"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/A4_V2_REPORT.md",
+      "bytes": 2833,
+      "sha256": "519077f5c30cb787724a9444229f35bb0f95271141b306383ba1e63ab0d9be51"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/analysis.json",
+      "bytes": 52778,
+      "sha256": "86779aa0921a14b2ffda0eddaeeb8c50ef8a0bbcc71a2bf9afc52686512f4506"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/MATRIX_COMPLETE.json",
+      "bytes": 580,
+      "sha256": "a71e92da6d8d982e7402b897b9274b93e16e8045e42ae824bbf2caefbf53ba65"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/README.md",
+      "bytes": 345,
+      "sha256": "7aba5c0e7a10464dfa41769a44c5155b1648112164e77e7b7b0cff44556727b0"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r01/audits.json",
+      "bytes": 2012,
+      "sha256": "d500847695cecc276d5408af467303dffb187d331910ba3b1e4bc77bb6a99ce7"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r01/boundary.i32",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r01/cloth_scene.json",
+      "bytes": 556190,
+      "sha256": "b727199410f7942a00b3ddfa61de0929d33a4836015719343f0a140db96ce013"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r01/execution.json",
+      "bytes": 1286,
+      "sha256": "be80ac652313493169f93c5ebd8f5107c99a3be0f1a2184376f837fa51b4284f"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r01/final.f64",
+      "bytes": 1007856,
+      "sha256": "9d22b46e055dfdfe76aa897d13c9afbda3a6a3215ffa4bbf124e0f6b9ec9315d"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r01/final_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "471d718099097be3e3cbd9a05ca609c0e2768265239433da39dc47c74a2206af"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r01/frames.csv",
+      "bytes": 808,
+      "sha256": "ceac96ee93150d84c72d60cae15c5b84202176eb4decf7831ce8b3c9b0410812"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r01/initial.f64",
+      "bytes": 1007856,
+      "sha256": "d02b7c034bb8c7d9bb1c60249c5fc8ef7e6287075213edf1a183b7586b3949cf"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r01/initial_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "a7970fecace2d0dd21ed39ff29ec21a6186ae0bc3b9736313b0e9d047cb993fa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r01/masses.f64",
+      "bytes": 335952,
+      "sha256": "f43d1b542b1aaee8f5daa7a4c86554daa4a5ce6d36bf0d4c1c84badbcb6b4773"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r01/metadata.json",
+      "bytes": 1491,
+      "sha256": "35fa2fe889235a22393551994569ca182e08cd440cb2d96e8fda0de32dd5e10a"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r01/pcg_iterations.jsonl",
+      "bytes": 64,
+      "sha256": "d589607ee9fa91b30f6cca569476319be5e6ee54dcb2b1915ca682032572b2d2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r01/scene_initial.f64",
+      "bytes": 1007856,
+      "sha256": "1871f310bd89da155476579012419c8dbea7a0dfcc62e92cfdbc98d73e2c8070"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r01/scene_triangles.u32",
+      "bytes": 540000,
+      "sha256": "6a1bd30569021168e2734bc9dbe3c094cd3fbe2c04484c8ad56f974f3b8ee5dc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r01/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r01/termination_trace.jsonl",
+      "bytes": 4178,
+      "sha256": "10c2a82f5b9c4e29e19518a6601a56d12a71db668cb1b37a49e91b4c5fa4e171"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r01/tetrahedra.u32",
+      "bytes": 1278960,
+      "sha256": "14d617981d1b1d2ccc44bda068e36716f3d90529afff94b37b0df766c6c99eb6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r01.stdout.log",
+      "bytes": 1552,
+      "sha256": "f3ad54fc5cc5c337f16a3152196fba26c4994339a3e5177a15e9bdd8381f17f2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r02/audits.json",
+      "bytes": 2199,
+      "sha256": "8d90e03a27b10ccfffb9e73c4727091c74c3eae008a43ea90e1e019f44edad71"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r02/boundary.i32",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r02/cloth_scene.json",
+      "bytes": 556190,
+      "sha256": "b727199410f7942a00b3ddfa61de0929d33a4836015719343f0a140db96ce013"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r02/execution.json",
+      "bytes": 1286,
+      "sha256": "a05968f9ea7625ee38f63228f5126f27597288901a8ce51f470b3094cf269533"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r02/final.f64",
+      "bytes": 1007856,
+      "sha256": "4b78a258a125d5adb58d2b9b4fe35987d3c8412f7d0540e98792f66d69008811"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r02/final_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "9eed4eaa1f2673cbaf0e597e141d8a6c180a220eb0e502c52248022f3ee3e5c5"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r02/frames.csv",
+      "bytes": 801,
+      "sha256": "c21b1bac0390840001732b856c58d3976f08a2eeadd349c48518f638743889bb"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r02/initial.f64",
+      "bytes": 1007856,
+      "sha256": "d02b7c034bb8c7d9bb1c60249c5fc8ef7e6287075213edf1a183b7586b3949cf"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r02/initial_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "a7970fecace2d0dd21ed39ff29ec21a6186ae0bc3b9736313b0e9d047cb993fa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r02/masses.f64",
+      "bytes": 335952,
+      "sha256": "f43d1b542b1aaee8f5daa7a4c86554daa4a5ce6d36bf0d4c1c84badbcb6b4773"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r02/metadata.json",
+      "bytes": 1491,
+      "sha256": "35fa2fe889235a22393551994569ca182e08cd440cb2d96e8fda0de32dd5e10a"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r02/pcg_iterations.jsonl",
+      "bytes": 68,
+      "sha256": "e218c1186f60c1c37a7cae95ec9deda0904e059637c9f030acd606cc55ae2f1c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r02/scene_initial.f64",
+      "bytes": 1007856,
+      "sha256": "1871f310bd89da155476579012419c8dbea7a0dfcc62e92cfdbc98d73e2c8070"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r02/scene_triangles.u32",
+      "bytes": 540000,
+      "sha256": "6a1bd30569021168e2734bc9dbe3c094cd3fbe2c04484c8ad56f974f3b8ee5dc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r02/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r02/termination_trace.jsonl",
+      "bytes": 4579,
+      "sha256": "cad3f000078cf4ff96f874ace7f5d448cca13080aeebfa542db8471ba736fc6a"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r02/tetrahedra.u32",
+      "bytes": 1278960,
+      "sha256": "14d617981d1b1d2ccc44bda068e36716f3d90529afff94b37b0df766c6c99eb6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r02.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r02.stdout.log",
+      "bytes": 1552,
+      "sha256": "f3ad54fc5cc5c337f16a3152196fba26c4994339a3e5177a15e9bdd8381f17f2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r03/audits.json",
+      "bytes": 2199,
+      "sha256": "e5076c76508fd1000ab5d009fece9d112d458bb9e8c2994d70055b9872de7927"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r03/boundary.i32",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r03/cloth_scene.json",
+      "bytes": 556190,
+      "sha256": "b727199410f7942a00b3ddfa61de0929d33a4836015719343f0a140db96ce013"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r03/execution.json",
+      "bytes": 1286,
+      "sha256": "2c160fe63f83488b27fce3185f25ad1442dc8064850a6098bc7d4ff0e17c3df5"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r03/final.f64",
+      "bytes": 1007856,
+      "sha256": "508ee373f56d7eaffb1a5c8c52abfcd9a250623e22006bd77535e5705e1b1235"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r03/final_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "f5cb0a3d04751b5868766488b670e13049257fe7989258072a6dc1bcdbcb84cf"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r03/frames.csv",
+      "bytes": 811,
+      "sha256": "7156a1f008faba48b743356c99cecf8ed4e381befed47b494af587d87ca29d28"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r03/initial.f64",
+      "bytes": 1007856,
+      "sha256": "d02b7c034bb8c7d9bb1c60249c5fc8ef7e6287075213edf1a183b7586b3949cf"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r03/initial_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "a7970fecace2d0dd21ed39ff29ec21a6186ae0bc3b9736313b0e9d047cb993fa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r03/masses.f64",
+      "bytes": 335952,
+      "sha256": "f43d1b542b1aaee8f5daa7a4c86554daa4a5ce6d36bf0d4c1c84badbcb6b4773"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r03/metadata.json",
+      "bytes": 1491,
+      "sha256": "35fa2fe889235a22393551994569ca182e08cd440cb2d96e8fda0de32dd5e10a"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r03/pcg_iterations.jsonl",
+      "bytes": 67,
+      "sha256": "a5e8ee4f14cf10917c8e8e9df26a4eb0f25b6c0a78e0155171d31f736bd1146c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r03/scene_initial.f64",
+      "bytes": 1007856,
+      "sha256": "1871f310bd89da155476579012419c8dbea7a0dfcc62e92cfdbc98d73e2c8070"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r03/scene_triangles.u32",
+      "bytes": 540000,
+      "sha256": "6a1bd30569021168e2734bc9dbe3c094cd3fbe2c04484c8ad56f974f3b8ee5dc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r03/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r03/termination_trace.jsonl",
+      "bytes": 4560,
+      "sha256": "74554bd5ea6d22f05407fe161fc3639d7349a7ae41741d03df6b444f19a8e128"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r03/tetrahedra.u32",
+      "bytes": 1278960,
+      "sha256": "14d617981d1b1d2ccc44bda068e36716f3d90529afff94b37b0df766c6c99eb6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r03.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/comp03/r03.stdout.log",
+      "bytes": 1552,
+      "sha256": "f3ad54fc5cc5c337f16a3152196fba26c4994339a3e5177a15e9bdd8381f17f2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r01/audits.json",
+      "bytes": 2016,
+      "sha256": "6514cd1ce0a1a682120305eb1036b7fff2a31b769d2fbcc7ea929bf02133ae7d"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r01/boundary.i32",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r01/cloth_scene.json",
+      "bytes": 556190,
+      "sha256": "b727199410f7942a00b3ddfa61de0929d33a4836015719343f0a140db96ce013"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r01/execution.json",
+      "bytes": 1279,
+      "sha256": "1a583fefafe946dc9108eb41cd5d2a50a33f93a77a461c896aa9d75c5376d833"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r01/final.f64",
+      "bytes": 1007856,
+      "sha256": "5bede38c440ef9352e8222e2484d49fa19e3fc55a9e746ee86e087dade31a5c1"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r01/final_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "98013ee6a8c37554225625ca62e97a573eacc4eb93d90cff524302b50f14df90"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r01/frames.csv",
+      "bytes": 782,
+      "sha256": "856835f508ceeffb55fd7d4f4653df5c58bc0d99157578c0944a18ce1fd08afc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r01/initial.f64",
+      "bytes": 1007856,
+      "sha256": "d02b7c034bb8c7d9bb1c60249c5fc8ef7e6287075213edf1a183b7586b3949cf"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r01/initial_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "a7970fecace2d0dd21ed39ff29ec21a6186ae0bc3b9736313b0e9d047cb993fa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r01/masses.f64",
+      "bytes": 335952,
+      "sha256": "f43d1b542b1aaee8f5daa7a4c86554daa4a5ce6d36bf0d4c1c84badbcb6b4773"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r01/metadata.json",
+      "bytes": 1485,
+      "sha256": "1f243d69e8ef82460679c610464062fded9ac5cc639f4e82e6e0d4337a4db328"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r01/pcg_iterations.jsonl",
+      "bytes": 64,
+      "sha256": "97707d133e7b300d024c7e4770fcbe3808c210f19ff616b4f55c005cdca55e24"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r01/scene_initial.f64",
+      "bytes": 1007856,
+      "sha256": "1871f310bd89da155476579012419c8dbea7a0dfcc62e92cfdbc98d73e2c8070"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r01/scene_triangles.u32",
+      "bytes": 540000,
+      "sha256": "6a1bd30569021168e2734bc9dbe3c094cd3fbe2c04484c8ad56f974f3b8ee5dc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r01/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r01/termination_trace.jsonl",
+      "bytes": 4175,
+      "sha256": "bc6ff69c3e0bce5bd1d9a9f6fb3a97bb259265021a05f5867dd637c4d0d422fa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r01/tetrahedra.u32",
+      "bytes": 1278960,
+      "sha256": "14d617981d1b1d2ccc44bda068e36716f3d90529afff94b37b0df766c6c99eb6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r01.stdout.log",
+      "bytes": 1552,
+      "sha256": "f3ad54fc5cc5c337f16a3152196fba26c4994339a3e5177a15e9bdd8381f17f2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r02/audits.json",
+      "bytes": 2018,
+      "sha256": "4ad79e386012ee0f144b3a34204a4cf6f6c4c8ccb526fdf7c8747866c8160044"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r02/boundary.i32",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r02/cloth_scene.json",
+      "bytes": 556190,
+      "sha256": "b727199410f7942a00b3ddfa61de0929d33a4836015719343f0a140db96ce013"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r02/execution.json",
+      "bytes": 1280,
+      "sha256": "e795b13116a22d428f305a563ec88b107fe647194d1c4db15503665a9c1d898f"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r02/final.f64",
+      "bytes": 1007856,
+      "sha256": "e4a58eaca8bf5968d82d2d232b975e39f292bea6259efc92611c2e6a95280a39"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r02/final_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "2e062aaa268249c3c6ac856267f22ae5a51346acd0240cae3c5f9426e5e8d996"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r02/frames.csv",
+      "bytes": 802,
+      "sha256": "764824887bcd0738061a4f6c5fb39f1898cdc5873524a2734009cec44ce37e8e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r02/initial.f64",
+      "bytes": 1007856,
+      "sha256": "d02b7c034bb8c7d9bb1c60249c5fc8ef7e6287075213edf1a183b7586b3949cf"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r02/initial_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "a7970fecace2d0dd21ed39ff29ec21a6186ae0bc3b9736313b0e9d047cb993fa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r02/masses.f64",
+      "bytes": 335952,
+      "sha256": "f43d1b542b1aaee8f5daa7a4c86554daa4a5ce6d36bf0d4c1c84badbcb6b4773"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r02/metadata.json",
+      "bytes": 1485,
+      "sha256": "1f243d69e8ef82460679c610464062fded9ac5cc639f4e82e6e0d4337a4db328"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r02/pcg_iterations.jsonl",
+      "bytes": 64,
+      "sha256": "e61bb2ed3b740c38606e8eefd396288bc5bc80c232fb0042b4d9e68f6312319e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r02/scene_initial.f64",
+      "bytes": 1007856,
+      "sha256": "1871f310bd89da155476579012419c8dbea7a0dfcc62e92cfdbc98d73e2c8070"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r02/scene_triangles.u32",
+      "bytes": 540000,
+      "sha256": "6a1bd30569021168e2734bc9dbe3c094cd3fbe2c04484c8ad56f974f3b8ee5dc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r02/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r02/termination_trace.jsonl",
+      "bytes": 4182,
+      "sha256": "bcbe5e128a3d029d6e5a16f44e4438fffb02db10d237c9551e58b029666b212c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r02/tetrahedra.u32",
+      "bytes": 1278960,
+      "sha256": "14d617981d1b1d2ccc44bda068e36716f3d90529afff94b37b0df766c6c99eb6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r02.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r02.stdout.log",
+      "bytes": 1552,
+      "sha256": "f3ad54fc5cc5c337f16a3152196fba26c4994339a3e5177a15e9bdd8381f17f2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r03/audits.json",
+      "bytes": 2016,
+      "sha256": "1e57b094c424298054e7997b178936c45568e421468f73e0ef0f516804a86e06"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r03/boundary.i32",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r03/cloth_scene.json",
+      "bytes": 556190,
+      "sha256": "b727199410f7942a00b3ddfa61de0929d33a4836015719343f0a140db96ce013"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r03/execution.json",
+      "bytes": 1279,
+      "sha256": "9d7977b2220050191749834300447f06bcfda5300e489fe22c7b8b6896fdc435"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r03/final.f64",
+      "bytes": 1007856,
+      "sha256": "1579c6f75c882273b5ff830f63cd22a3a9ba8675e325bdcf8e5bc2265ca01d29"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r03/final_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "2c420c9b4cee7d3a8fb3429772bccce1483200f424622aa12a2c84508b6510f4"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r03/frames.csv",
+      "bytes": 802,
+      "sha256": "ac2425a1dc761d1e6fe0e8eb6ac21b14748be280c5747f71920b09496ceced4d"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r03/initial.f64",
+      "bytes": 1007856,
+      "sha256": "d02b7c034bb8c7d9bb1c60249c5fc8ef7e6287075213edf1a183b7586b3949cf"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r03/initial_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "a7970fecace2d0dd21ed39ff29ec21a6186ae0bc3b9736313b0e9d047cb993fa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r03/masses.f64",
+      "bytes": 335952,
+      "sha256": "f43d1b542b1aaee8f5daa7a4c86554daa4a5ce6d36bf0d4c1c84badbcb6b4773"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r03/metadata.json",
+      "bytes": 1485,
+      "sha256": "1f243d69e8ef82460679c610464062fded9ac5cc639f4e82e6e0d4337a4db328"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r03/pcg_iterations.jsonl",
+      "bytes": 64,
+      "sha256": "5523021d65994f398c0e6f776675172cc78d413601359376ba838e363bffc264"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r03/scene_initial.f64",
+      "bytes": 1007856,
+      "sha256": "1871f310bd89da155476579012419c8dbea7a0dfcc62e92cfdbc98d73e2c8070"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r03/scene_triangles.u32",
+      "bytes": 540000,
+      "sha256": "6a1bd30569021168e2734bc9dbe3c094cd3fbe2c04484c8ad56f974f3b8ee5dc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r03/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r03/termination_trace.jsonl",
+      "bytes": 4172,
+      "sha256": "198efca8d4e6e5f405db79237928e378fff57e7d683cee4863655fa1e6022025"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r03/tetrahedra.u32",
+      "bytes": 1278960,
+      "sha256": "14d617981d1b1d2ccc44bda068e36716f3d90529afff94b37b0df766c6c99eb6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r03.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/gate03/r03.stdout.log",
+      "bytes": 1552,
+      "sha256": "f3ad54fc5cc5c337f16a3152196fba26c4994339a3e5177a15e9bdd8381f17f2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r01/audits.json",
+      "bytes": 19314,
+      "sha256": "b18350eb4ec434cedfdacf18240002fe7d610fab9aa67c4cb6cc12e92fb1910c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r01/boundary.i32",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r01/cloth_scene.json",
+      "bytes": 556190,
+      "sha256": "b727199410f7942a00b3ddfa61de0929d33a4836015719343f0a140db96ce013"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r01/execution.json",
+      "bytes": 1283,
+      "sha256": "1416c445452d2b442131f8c36e526486ab57256d55e97316567dd5f41f2efbf4"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r01/final.f64",
+      "bytes": 1007856,
+      "sha256": "ee3a2eea5662faaa346b59f3c75546b51781c681aa452a6501897f3959635724"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r01/final_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "71ec9d26fac754318ae3a6d1c7ee14e6e2c8f6fd7a887b601f94c75988ba6216"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r01/frames.csv",
+      "bytes": 826,
+      "sha256": "abfaaa2bbd19c35604a9c4084a3798289dd968a24d328090756c5bf0c113c9ba"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r01/initial.f64",
+      "bytes": 1007856,
+      "sha256": "d02b7c034bb8c7d9bb1c60249c5fc8ef7e6287075213edf1a183b7586b3949cf"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r01/initial_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "a7970fecace2d0dd21ed39ff29ec21a6186ae0bc3b9736313b0e9d047cb993fa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r01/masses.f64",
+      "bytes": 335952,
+      "sha256": "f43d1b542b1aaee8f5daa7a4c86554daa4a5ce6d36bf0d4c1c84badbcb6b4773"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r01/metadata.json",
+      "bytes": 1488,
+      "sha256": "3507fa9526b42f2964011fa68d945d7375efe27075e20b2d0b94381d36e9cff2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r01/pcg_iterations.jsonl",
+      "bytes": 347,
+      "sha256": "267121953426bee6441490ce9afa8289937d61d0c4ab041d4e91f94487ea6ddb"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r01/scene_initial.f64",
+      "bytes": 1007856,
+      "sha256": "1871f310bd89da155476579012419c8dbea7a0dfcc62e92cfdbc98d73e2c8070"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r01/scene_triangles.u32",
+      "bytes": 540000,
+      "sha256": "6a1bd30569021168e2734bc9dbe3c094cd3fbe2c04484c8ad56f974f3b8ee5dc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r01/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r01/termination_trace.jsonl",
+      "bytes": 41282,
+      "sha256": "78f70a7a0589e4f0f262114282cb44249ed91080a50fe67bc0bb86073628108a"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r01/tetrahedra.u32",
+      "bytes": 1278960,
+      "sha256": "14d617981d1b1d2ccc44bda068e36716f3d90529afff94b37b0df766c6c99eb6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r01.stdout.log",
+      "bytes": 1552,
+      "sha256": "f3ad54fc5cc5c337f16a3152196fba26c4994339a3e5177a15e9bdd8381f17f2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r02/audits.json",
+      "bytes": 19841,
+      "sha256": "328a32163322a3422ff765cc07a8b3fee7dcc204447163db79ef9bb170a023d5"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r02/boundary.i32",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r02/cloth_scene.json",
+      "bytes": 556190,
+      "sha256": "b727199410f7942a00b3ddfa61de0929d33a4836015719343f0a140db96ce013"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r02/execution.json",
+      "bytes": 1285,
+      "sha256": "3b86141ddf9505363c657c26c399f875c7feb2af7751f3e076e321383d751f85"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r02/final.f64",
+      "bytes": 1007856,
+      "sha256": "8ade3ff472e90dac5410ca9fe9fbe06bbc5aff03f4f833414b3e1325cbd36159"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r02/final_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "2e8ed9c453f7e9d8154988569d64169fe5c8e1c645f2572afc759ad131b69738"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r02/frames.csv",
+      "bytes": 828,
+      "sha256": "ae9b441127bea15b2ec7149d2a91a8fa611f1bb79924e4df109045abe27f3d25"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r02/initial.f64",
+      "bytes": 1007856,
+      "sha256": "d02b7c034bb8c7d9bb1c60249c5fc8ef7e6287075213edf1a183b7586b3949cf"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r02/initial_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "a7970fecace2d0dd21ed39ff29ec21a6186ae0bc3b9736313b0e9d047cb993fa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r02/masses.f64",
+      "bytes": 335952,
+      "sha256": "f43d1b542b1aaee8f5daa7a4c86554daa4a5ce6d36bf0d4c1c84badbcb6b4773"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r02/metadata.json",
+      "bytes": 1488,
+      "sha256": "3507fa9526b42f2964011fa68d945d7375efe27075e20b2d0b94381d36e9cff2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r02/pcg_iterations.jsonl",
+      "bytes": 357,
+      "sha256": "e3ccf5cabaa3ea06a4369e302fb397379d96aec16f70ad289349019f896ba66d"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r02/scene_initial.f64",
+      "bytes": 1007856,
+      "sha256": "1871f310bd89da155476579012419c8dbea7a0dfcc62e92cfdbc98d73e2c8070"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r02/scene_triangles.u32",
+      "bytes": 540000,
+      "sha256": "6a1bd30569021168e2734bc9dbe3c094cd3fbe2c04484c8ad56f974f3b8ee5dc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r02/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r02/termination_trace.jsonl",
+      "bytes": 42428,
+      "sha256": "ec0eb7d7895136e194e289064b4a8c8e0492d0857f267aedfa9754f80d466db0"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r02/tetrahedra.u32",
+      "bytes": 1278960,
+      "sha256": "14d617981d1b1d2ccc44bda068e36716f3d90529afff94b37b0df766c6c99eb6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r02.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r02.stdout.log",
+      "bytes": 1552,
+      "sha256": "f3ad54fc5cc5c337f16a3152196fba26c4994339a3e5177a15e9bdd8381f17f2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r03/audits.json",
+      "bytes": 19296,
+      "sha256": "24c56a7ec20e8bd7807d7abee30bab69637f775aa5a27f171c18c658b7e90c54"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r03/boundary.i32",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r03/cloth_scene.json",
+      "bytes": 556190,
+      "sha256": "b727199410f7942a00b3ddfa61de0929d33a4836015719343f0a140db96ce013"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r03/execution.json",
+      "bytes": 1284,
+      "sha256": "30e87d248d18fb3a498ad94e104c38e8e21cc5b3beae45b56fbe8a8e06572748"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r03/final.f64",
+      "bytes": 1007856,
+      "sha256": "a555c82c2d7f885a1185025d301d82f571f14254393d975bc8e9150fefa2ae4b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r03/final_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "446bf6d51148b4cf1a422a07cf0162e8873f799d8615ea7512626731aa42f801"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r03/frames.csv",
+      "bytes": 827,
+      "sha256": "effcc256ae401fed7d8e02146b8293430ef48911b0a254a56a636dfe5f250718"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r03/initial.f64",
+      "bytes": 1007856,
+      "sha256": "d02b7c034bb8c7d9bb1c60249c5fc8ef7e6287075213edf1a183b7586b3949cf"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r03/initial_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "a7970fecace2d0dd21ed39ff29ec21a6186ae0bc3b9736313b0e9d047cb993fa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r03/masses.f64",
+      "bytes": 335952,
+      "sha256": "f43d1b542b1aaee8f5daa7a4c86554daa4a5ce6d36bf0d4c1c84badbcb6b4773"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r03/metadata.json",
+      "bytes": 1488,
+      "sha256": "3507fa9526b42f2964011fa68d945d7375efe27075e20b2d0b94381d36e9cff2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r03/pcg_iterations.jsonl",
+      "bytes": 347,
+      "sha256": "e4ec096fcd2f4b6835851d3c8e867653e8ae54afa79329f6f204853a0a7e6dde"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r03/scene_initial.f64",
+      "bytes": 1007856,
+      "sha256": "1871f310bd89da155476579012419c8dbea7a0dfcc62e92cfdbc98d73e2c8070"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r03/scene_triangles.u32",
+      "bytes": 540000,
+      "sha256": "6a1bd30569021168e2734bc9dbe3c094cd3fbe2c04484c8ad56f974f3b8ee5dc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r03/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r03/termination_trace.jsonl",
+      "bytes": 41240,
+      "sha256": "406dce6c2ae3d60d1a0b8c45b688a0f10d4256e5fce598490d4b4c0a43f8a4e4"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r03/tetrahedra.u32",
+      "bytes": 1278960,
+      "sha256": "14d617981d1b1d2ccc44bda068e36716f3d90529afff94b37b0df766c6c99eb6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r03.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/graph_n1/r03.stdout.log",
+      "bytes": 1552,
+      "sha256": "f3ad54fc5cc5c337f16a3152196fba26c4994339a3e5177a15e9bdd8381f17f2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r01/audits.json",
+      "bytes": 20209,
+      "sha256": "84617b98bb408a31d34b42e893d9f4fdca08193082e3c23e9f2d9b4bb8088192"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r01/boundary.i32",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r01/cloth_scene.json",
+      "bytes": 556190,
+      "sha256": "b727199410f7942a00b3ddfa61de0929d33a4836015719343f0a140db96ce013"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r01/execution.json",
+      "bytes": 1282,
+      "sha256": "c7f2242732b5dab5cc7ea50cd164ad16a2d509e5a4dd0d99977f3c9ce89794db"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r01/final.f64",
+      "bytes": 1007856,
+      "sha256": "d3e4c1755923aed874efb96332a3cbdceb0626ef3f444b29934b1e36f0560320"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r01/final_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "71d4de7553bda2393a96c2639b8a6d658376c74ac61a149171daae6b80921e75"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r01/frames.csv",
+      "bytes": 817,
+      "sha256": "9a52e63433a9d2547e08a929b22ef9b5bea3f63db16c14625ebfe00eda7bc08c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r01/initial.f64",
+      "bytes": 1007856,
+      "sha256": "d02b7c034bb8c7d9bb1c60249c5fc8ef7e6287075213edf1a183b7586b3949cf"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r01/initial_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "a7970fecace2d0dd21ed39ff29ec21a6186ae0bc3b9736313b0e9d047cb993fa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r01/masses.f64",
+      "bytes": 335952,
+      "sha256": "f43d1b542b1aaee8f5daa7a4c86554daa4a5ce6d36bf0d4c1c84badbcb6b4773"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r01/metadata.json",
+      "bytes": 1490,
+      "sha256": "30ac7d460cdc003ee436227eee7361ce6eb45d55405dc715e34d270efed79f99"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r01/pcg_iterations.jsonl",
+      "bytes": 363,
+      "sha256": "b03356e9d5aa16908dfdde9eaef64f62572197131c7cfdce45c36a8e83c50fbd"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r01/scene_initial.f64",
+      "bytes": 1007856,
+      "sha256": "1871f310bd89da155476579012419c8dbea7a0dfcc62e92cfdbc98d73e2c8070"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r01/scene_triangles.u32",
+      "bytes": 540000,
+      "sha256": "6a1bd30569021168e2734bc9dbe3c094cd3fbe2c04484c8ad56f974f3b8ee5dc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r01/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r01/termination_trace.jsonl",
+      "bytes": 43282,
+      "sha256": "c8e8040fdceb4727bc868332f00cad32bf24b88139b8ec044dcacbb62d2e0abf"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r01/tetrahedra.u32",
+      "bytes": 1278960,
+      "sha256": "14d617981d1b1d2ccc44bda068e36716f3d90529afff94b37b0df766c6c99eb6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r01.stdout.log",
+      "bytes": 1552,
+      "sha256": "f3ad54fc5cc5c337f16a3152196fba26c4994339a3e5177a15e9bdd8381f17f2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r02/audits.json",
+      "bytes": 20197,
+      "sha256": "d02df9247c8cfb8a4a906a6a1efd156b4592d613fadf99f66405dcb8172fb51f"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r02/boundary.i32",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r02/cloth_scene.json",
+      "bytes": 556190,
+      "sha256": "b727199410f7942a00b3ddfa61de0929d33a4836015719343f0a140db96ce013"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r02/execution.json",
+      "bytes": 1271,
+      "sha256": "174af538b6baae647d5076faef172abb0be21c47ff5e900273b243d9a5e62cd0"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r02/final.f64",
+      "bytes": 1007856,
+      "sha256": "204a99d095a55f82466d0c2523524380a7cadc90c8981da26e3236115614af4d"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r02/final_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "a3bae3a9c3f2456d68501ddc7b12b96458b548924b1328fb897fa6ad122695c1"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r02/frames.csv",
+      "bytes": 826,
+      "sha256": "172cf03a461ebb430318cb88553f26c6aaf653d68a0f7d41d1a6094a32fb67a5"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r02/initial.f64",
+      "bytes": 1007856,
+      "sha256": "d02b7c034bb8c7d9bb1c60249c5fc8ef7e6287075213edf1a183b7586b3949cf"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r02/initial_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "a7970fecace2d0dd21ed39ff29ec21a6186ae0bc3b9736313b0e9d047cb993fa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r02/masses.f64",
+      "bytes": 335952,
+      "sha256": "f43d1b542b1aaee8f5daa7a4c86554daa4a5ce6d36bf0d4c1c84badbcb6b4773"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r02/metadata.json",
+      "bytes": 1490,
+      "sha256": "30ac7d460cdc003ee436227eee7361ce6eb45d55405dc715e34d270efed79f99"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r02/pcg_iterations.jsonl",
+      "bytes": 363,
+      "sha256": "46573b7910957cbde02469a9106e1c903d4d647452a8e28a30ebf90084731db4"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r02/scene_initial.f64",
+      "bytes": 1007856,
+      "sha256": "1871f310bd89da155476579012419c8dbea7a0dfcc62e92cfdbc98d73e2c8070"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r02/scene_triangles.u32",
+      "bytes": 540000,
+      "sha256": "6a1bd30569021168e2734bc9dbe3c094cd3fbe2c04484c8ad56f974f3b8ee5dc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r02/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r02/termination_trace.jsonl",
+      "bytes": 43257,
+      "sha256": "51d9bb579d8490e8b058c40decdee302d6e74f1b2650ed98d4d48920720e7250"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r02/tetrahedra.u32",
+      "bytes": 1278960,
+      "sha256": "14d617981d1b1d2ccc44bda068e36716f3d90529afff94b37b0df766c6c99eb6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r02.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r02.stdout.log",
+      "bytes": 1552,
+      "sha256": "f3ad54fc5cc5c337f16a3152196fba26c4994339a3e5177a15e9bdd8381f17f2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r03/audits.json",
+      "bytes": 20026,
+      "sha256": "8d7140ed532a8ad5df54105aaf846b8fff2b089cd83ce96e8c90a8a99e9f502f"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r03/boundary.i32",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r03/cloth_scene.json",
+      "bytes": 556190,
+      "sha256": "b727199410f7942a00b3ddfa61de0929d33a4836015719343f0a140db96ce013"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r03/execution.json",
+      "bytes": 1282,
+      "sha256": "eed6d9564c053edb11164f400a35dc5273e88eb6c3dcf110d4a17bd33ae2e3aa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r03/final.f64",
+      "bytes": 1007856,
+      "sha256": "c62e6a92ef05a91c1000e2c5e2b2f0cad3bd8dbf1b94aaed4dd9382c385f31be"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r03/final_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "0a2c93116d7efbe6e838531c5f6ec8244d55b94419aa5d08bba50823191689e8"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r03/frames.csv",
+      "bytes": 827,
+      "sha256": "0d7f30528598166898ff20d15d7c1517e2e5dfed2dc916317b2d63e4e888412e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r03/initial.f64",
+      "bytes": 1007856,
+      "sha256": "d02b7c034bb8c7d9bb1c60249c5fc8ef7e6287075213edf1a183b7586b3949cf"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r03/initial_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "a7970fecace2d0dd21ed39ff29ec21a6186ae0bc3b9736313b0e9d047cb993fa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r03/masses.f64",
+      "bytes": 335952,
+      "sha256": "f43d1b542b1aaee8f5daa7a4c86554daa4a5ce6d36bf0d4c1c84badbcb6b4773"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r03/metadata.json",
+      "bytes": 1490,
+      "sha256": "30ac7d460cdc003ee436227eee7361ce6eb45d55405dc715e34d270efed79f99"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r03/pcg_iterations.jsonl",
+      "bytes": 360,
+      "sha256": "1f0287b7b5cd35760509cb3497a4cef1f8dc636ea19e826be68d295ce8c26672"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r03/scene_initial.f64",
+      "bytes": 1007856,
+      "sha256": "1871f310bd89da155476579012419c8dbea7a0dfcc62e92cfdbc98d73e2c8070"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r03/scene_triangles.u32",
+      "bytes": 540000,
+      "sha256": "6a1bd30569021168e2734bc9dbe3c094cd3fbe2c04484c8ad56f974f3b8ee5dc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r03/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r03/termination_trace.jsonl",
+      "bytes": 42874,
+      "sha256": "d2902111ac34268b796fc344c2926187982506586a8b2af60ce62cf97df0b9df"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r03/tetrahedra.u32",
+      "bytes": 1278960,
+      "sha256": "14d617981d1b1d2ccc44bda068e36716f3d90529afff94b37b0df766c6c99eb6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r03.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict2/r03.stdout.log",
+      "bytes": 1552,
+      "sha256": "f3ad54fc5cc5c337f16a3152196fba26c4994339a3e5177a15e9bdd8381f17f2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r01/audits.json",
+      "bytes": 21329,
+      "sha256": "50e510ca921d135602e4b65603e66b2fdbb17d30425611841b290d3ab49a35b3"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r01/boundary.i32",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r01/cloth_scene.json",
+      "bytes": 556190,
+      "sha256": "b727199410f7942a00b3ddfa61de0929d33a4836015719343f0a140db96ce013"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r01/execution.json",
+      "bytes": 1284,
+      "sha256": "ab665e935191e512d57b28e5ee91e90370566f3c1248699d984a27ed0504c9a4"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r01/final.f64",
+      "bytes": 1007856,
+      "sha256": "3921f7c9a23faaac2fabd7b0f69c0a23fe18c76b962aca85fc1a1bbc42a9c74b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r01/final_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "2d4563a419c8dc537263be86c9e363388de3e02745822342b8896f9cf3dd448f"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r01/frames.csv",
+      "bytes": 818,
+      "sha256": "d00b00717ef9145570a0f90110a2e3044df696a7bb8b7f13f46ddbb9c6046557"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r01/initial.f64",
+      "bytes": 1007856,
+      "sha256": "d02b7c034bb8c7d9bb1c60249c5fc8ef7e6287075213edf1a183b7586b3949cf"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r01/initial_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "a7970fecace2d0dd21ed39ff29ec21a6186ae0bc3b9736313b0e9d047cb993fa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r01/masses.f64",
+      "bytes": 335952,
+      "sha256": "f43d1b542b1aaee8f5daa7a4c86554daa4a5ce6d36bf0d4c1c84badbcb6b4773"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r01/metadata.json",
+      "bytes": 1494,
+      "sha256": "60aaa21204b41f3cbd3542f96f152427072a55009bb90ac754a52c4c791e473e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r01/pcg_iterations.jsonl",
+      "bytes": 385,
+      "sha256": "943e0121bbdb769878d80e4bc8cdf1ef9fb8fabe9fb58a4bc5c69a0fba16db6e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r01/scene_initial.f64",
+      "bytes": 1007856,
+      "sha256": "1871f310bd89da155476579012419c8dbea7a0dfcc62e92cfdbc98d73e2c8070"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r01/scene_triangles.u32",
+      "bytes": 540000,
+      "sha256": "6a1bd30569021168e2734bc9dbe3c094cd3fbe2c04484c8ad56f974f3b8ee5dc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r01/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r01/termination_trace.jsonl",
+      "bytes": 45658,
+      "sha256": "6b1bc207ecfbbc97fc178dc9d0b23b4bddf867c64ec5512fcec05ffdb0b4777e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r01/tetrahedra.u32",
+      "bytes": 1278960,
+      "sha256": "14d617981d1b1d2ccc44bda068e36716f3d90529afff94b37b0df766c6c99eb6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r01.stdout.log",
+      "bytes": 1552,
+      "sha256": "f3ad54fc5cc5c337f16a3152196fba26c4994339a3e5177a15e9bdd8381f17f2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r02/audits.json",
+      "bytes": 21307,
+      "sha256": "46a778824357b40dab6cfb52358a3eb50ad4d03cf9f642ce66533e23939e5102"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r02/boundary.i32",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r02/cloth_scene.json",
+      "bytes": 556190,
+      "sha256": "b727199410f7942a00b3ddfa61de0929d33a4836015719343f0a140db96ce013"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r02/execution.json",
+      "bytes": 1273,
+      "sha256": "3e20bc71334c12e866e79c2d04fd97d921f74a80f4882004847e92a1f9f045da"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r02/final.f64",
+      "bytes": 1007856,
+      "sha256": "aaeda066e4d36b091174bd871c02a48d11396af7b0b01c0577cfbf3a17c26be6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r02/final_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "d6bef3f00204417620a937173bbb42050b83d894866da48f2d3c98594ab903a0"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r02/frames.csv",
+      "bytes": 827,
+      "sha256": "f0fe82e08a9ebeed25de6c2854e5a4cd2075f1af5dc05bc6e348c1411d931093"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r02/initial.f64",
+      "bytes": 1007856,
+      "sha256": "d02b7c034bb8c7d9bb1c60249c5fc8ef7e6287075213edf1a183b7586b3949cf"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r02/initial_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "a7970fecace2d0dd21ed39ff29ec21a6186ae0bc3b9736313b0e9d047cb993fa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r02/masses.f64",
+      "bytes": 335952,
+      "sha256": "f43d1b542b1aaee8f5daa7a4c86554daa4a5ce6d36bf0d4c1c84badbcb6b4773"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r02/metadata.json",
+      "bytes": 1494,
+      "sha256": "60aaa21204b41f3cbd3542f96f152427072a55009bb90ac754a52c4c791e473e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r02/pcg_iterations.jsonl",
+      "bytes": 385,
+      "sha256": "b06d8857996f5600de90cf9e79ddf9c4644f564a9734453df40181cc4c60b070"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r02/scene_initial.f64",
+      "bytes": 1007856,
+      "sha256": "1871f310bd89da155476579012419c8dbea7a0dfcc62e92cfdbc98d73e2c8070"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r02/scene_triangles.u32",
+      "bytes": 540000,
+      "sha256": "6a1bd30569021168e2734bc9dbe3c094cd3fbe2c04484c8ad56f974f3b8ee5dc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r02/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r02/termination_trace.jsonl",
+      "bytes": 45414,
+      "sha256": "6014ba0e1fa3d1e96333ab854ab8bc498deb4f41677f29794954f3fa93cf4170"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r02/tetrahedra.u32",
+      "bytes": 1278960,
+      "sha256": "14d617981d1b1d2ccc44bda068e36716f3d90529afff94b37b0df766c6c99eb6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r02.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r02.stdout.log",
+      "bytes": 1552,
+      "sha256": "f3ad54fc5cc5c337f16a3152196fba26c4994339a3e5177a15e9bdd8381f17f2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r03/audits.json",
+      "bytes": 21146,
+      "sha256": "1a5ae21fd5bd4dc45cb1ae95cd569a6e8e1836a7f62472781ff7edcc00bde5e4"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r03/boundary.i32",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r03/cloth_scene.json",
+      "bytes": 556190,
+      "sha256": "b727199410f7942a00b3ddfa61de0929d33a4836015719343f0a140db96ce013"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r03/execution.json",
+      "bytes": 1286,
+      "sha256": "a15a40e091e6bc87bd14acc5af2355eda87781435121f68884c6acb075e9095f"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r03/final.f64",
+      "bytes": 1007856,
+      "sha256": "a0cf6d1a7a8e83b7121b065394f105397c8038335ae20b9c9d9e291efd587669"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r03/final_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "9e51b7980628295822ee77fe66045e7872b3750145640668cd42390f0591535a"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r03/frames.csv",
+      "bytes": 818,
+      "sha256": "a708d90d8940a0f51c67de07b2839a90b1573429cf20b6fd641668ba7eb8713c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r03/initial.f64",
+      "bytes": 1007856,
+      "sha256": "d02b7c034bb8c7d9bb1c60249c5fc8ef7e6287075213edf1a183b7586b3949cf"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r03/initial_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "a7970fecace2d0dd21ed39ff29ec21a6186ae0bc3b9736313b0e9d047cb993fa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r03/masses.f64",
+      "bytes": 335952,
+      "sha256": "f43d1b542b1aaee8f5daa7a4c86554daa4a5ce6d36bf0d4c1c84badbcb6b4773"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r03/metadata.json",
+      "bytes": 1494,
+      "sha256": "60aaa21204b41f3cbd3542f96f152427072a55009bb90ac754a52c4c791e473e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r03/pcg_iterations.jsonl",
+      "bytes": 381,
+      "sha256": "9c88ba972b448e2d38eb5b1037161dccb5e76f76ed7a3caad322d034a27e2db2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r03/scene_initial.f64",
+      "bytes": 1007856,
+      "sha256": "1871f310bd89da155476579012419c8dbea7a0dfcc62e92cfdbc98d73e2c8070"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r03/scene_triangles.u32",
+      "bytes": 540000,
+      "sha256": "6a1bd30569021168e2734bc9dbe3c094cd3fbe2c04484c8ad56f974f3b8ee5dc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r03/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r03/termination_trace.jsonl",
+      "bytes": 45248,
+      "sha256": "2fa6755b73e3a7261f9c552e78d91c98e10d1e24cf05106fa07567f6dacde442"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r03/tetrahedra.u32",
+      "bytes": 1278960,
+      "sha256": "14d617981d1b1d2ccc44bda068e36716f3d90529afff94b37b0df766c6c99eb6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r03.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/strict4/r03.stdout.log",
+      "bytes": 1552,
+      "sha256": "f3ad54fc5cc5c337f16a3152196fba26c4994339a3e5177a15e9bdd8381f17f2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r01/audits.json",
+      "bytes": 1099,
+      "sha256": "f8dea5483be2d26dab0410fb333ec444d4c28c7e9014437ed1b3ce749b2eb4b0"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r01/boundary.i32",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r01/cloth_scene.json",
+      "bytes": 556190,
+      "sha256": "b727199410f7942a00b3ddfa61de0929d33a4836015719343f0a140db96ce013"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r01/execution.json",
+      "bytes": 1274,
+      "sha256": "a509303b50743f0447c858686e52389eb750e251a0bfcf063551ac507c7725c1"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r01/final.f64",
+      "bytes": 1007856,
+      "sha256": "aab28c0efc3385d1fef5c73a3746be4266e3aa174e92db7401ec1f3f677aea92"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r01/final_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "efb377dbea86b74a588aeaa12a8654246022b1215f1b1c1fa1276416eca603e9"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r01/frames.csv",
+      "bytes": 791,
+      "sha256": "b6634b47fbce0033069701c4d064f642ccd58dac85ec237d8d9d190ac6d7533d"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r01/initial.f64",
+      "bytes": 1007856,
+      "sha256": "d02b7c034bb8c7d9bb1c60249c5fc8ef7e6287075213edf1a183b7586b3949cf"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r01/initial_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "a7970fecace2d0dd21ed39ff29ec21a6186ae0bc3b9736313b0e9d047cb993fa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r01/masses.f64",
+      "bytes": 335952,
+      "sha256": "f43d1b542b1aaee8f5daa7a4c86554daa4a5ce6d36bf0d4c1c84badbcb6b4773"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r01/metadata.json",
+      "bytes": 1483,
+      "sha256": "061f057de4fd2918df8a3ca290336cbd07309e1444f77c5b934055560bc9e05e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r01/pcg_iterations.jsonl",
+      "bytes": 49,
+      "sha256": "d9d0df067ad59662195bb8d2960f8762b41066339342ec9be66040dad881bf51"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r01/scene_initial.f64",
+      "bytes": 1007856,
+      "sha256": "1871f310bd89da155476579012419c8dbea7a0dfcc62e92cfdbc98d73e2c8070"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r01/scene_triangles.u32",
+      "bytes": 540000,
+      "sha256": "6a1bd30569021168e2734bc9dbe3c094cd3fbe2c04484c8ad56f974f3b8ee5dc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r01/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r01/termination_trace.jsonl",
+      "bytes": 2188,
+      "sha256": "2391e88225aa0ea9ed35464d501ec857376bcfc2eaee371e971a9e0c7caf43a2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r01/tetrahedra.u32",
+      "bytes": 1278960,
+      "sha256": "14d617981d1b1d2ccc44bda068e36716f3d90529afff94b37b0df766c6c99eb6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r01.stdout.log",
+      "bytes": 1552,
+      "sha256": "f3ad54fc5cc5c337f16a3152196fba26c4994339a3e5177a15e9bdd8381f17f2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r02/audits.json",
+      "bytes": 1099,
+      "sha256": "b72016853b6244cfd5b235f4ab62c58a4d0649ae8dd02a9660afd6e48be13c53"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r02/boundary.i32",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r02/cloth_scene.json",
+      "bytes": 556190,
+      "sha256": "b727199410f7942a00b3ddfa61de0929d33a4836015719343f0a140db96ce013"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r02/execution.json",
+      "bytes": 1274,
+      "sha256": "3c8d5b1f953bde371113eeb5896b573a4201ebc2430bcbc548d0fc2cb7937777"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r02/final.f64",
+      "bytes": 1007856,
+      "sha256": "12ae16813ff5f9fb8298bcd511e496952b9771449b8868d666734acd84800562"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r02/final_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "6abe0e570073c3ecf0e8b37db1100fe43b1212827c520d4bb4a68abd3d22200a"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r02/frames.csv",
+      "bytes": 782,
+      "sha256": "b27189a7d25667b4aa94f906cecaedcde121a8c47bbdc6b3b42417e6ea4fd783"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r02/initial.f64",
+      "bytes": 1007856,
+      "sha256": "d02b7c034bb8c7d9bb1c60249c5fc8ef7e6287075213edf1a183b7586b3949cf"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r02/initial_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "a7970fecace2d0dd21ed39ff29ec21a6186ae0bc3b9736313b0e9d047cb993fa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r02/masses.f64",
+      "bytes": 335952,
+      "sha256": "f43d1b542b1aaee8f5daa7a4c86554daa4a5ce6d36bf0d4c1c84badbcb6b4773"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r02/metadata.json",
+      "bytes": 1483,
+      "sha256": "061f057de4fd2918df8a3ca290336cbd07309e1444f77c5b934055560bc9e05e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r02/pcg_iterations.jsonl",
+      "bytes": 49,
+      "sha256": "3c8c5f6e91249fdf0a79da228ec4980ba37446c93f32877a58936c5fe84bdfd9"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r02/scene_initial.f64",
+      "bytes": 1007856,
+      "sha256": "1871f310bd89da155476579012419c8dbea7a0dfcc62e92cfdbc98d73e2c8070"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r02/scene_triangles.u32",
+      "bytes": 540000,
+      "sha256": "6a1bd30569021168e2734bc9dbe3c094cd3fbe2c04484c8ad56f974f3b8ee5dc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r02/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r02/termination_trace.jsonl",
+      "bytes": 2192,
+      "sha256": "70a61d73a182884584054f6abcbf68412076ade75cc4ad221bcf39fc024dd634"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r02/tetrahedra.u32",
+      "bytes": 1278960,
+      "sha256": "14d617981d1b1d2ccc44bda068e36716f3d90529afff94b37b0df766c6c99eb6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r02.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r02.stdout.log",
+      "bytes": 1552,
+      "sha256": "f3ad54fc5cc5c337f16a3152196fba26c4994339a3e5177a15e9bdd8381f17f2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r03/audits.json",
+      "bytes": 1097,
+      "sha256": "a37b198cf465a0c765fd644e59c27336ca6ca4df312e37a76910964e0514a305"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r03/boundary.i32",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r03/cloth_scene.json",
+      "bytes": 556190,
+      "sha256": "b727199410f7942a00b3ddfa61de0929d33a4836015719343f0a140db96ce013"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r03/execution.json",
+      "bytes": 1275,
+      "sha256": "d5b8dff44b935756051efda996bd9f240dca0ccbb046379b7e9838cd9c4ce577"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r03/final.f64",
+      "bytes": 1007856,
+      "sha256": "309de5e33876dc6f51a753823b50303e5c00dc9c19826de5c9956d80e1a76a9c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r03/final_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "b85db515f9cf3873b980d34f319fcb4b6447920891c74a70bb105538aef8ab33"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r03/frames.csv",
+      "bytes": 781,
+      "sha256": "34423c34e6e5bc5afce52b699f703ee4a93244ba2910aa5bb5de4e85bd8fc451"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r03/initial.f64",
+      "bytes": 1007856,
+      "sha256": "d02b7c034bb8c7d9bb1c60249c5fc8ef7e6287075213edf1a183b7586b3949cf"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r03/initial_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "a7970fecace2d0dd21ed39ff29ec21a6186ae0bc3b9736313b0e9d047cb993fa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r03/masses.f64",
+      "bytes": 335952,
+      "sha256": "f43d1b542b1aaee8f5daa7a4c86554daa4a5ce6d36bf0d4c1c84badbcb6b4773"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r03/metadata.json",
+      "bytes": 1483,
+      "sha256": "061f057de4fd2918df8a3ca290336cbd07309e1444f77c5b934055560bc9e05e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r03/pcg_iterations.jsonl",
+      "bytes": 49,
+      "sha256": "d99b6db7bfbb044311b5155f70bf115c5bd60ab66c2124ca783e03cd46d98abc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r03/scene_initial.f64",
+      "bytes": 1007856,
+      "sha256": "1871f310bd89da155476579012419c8dbea7a0dfcc62e92cfdbc98d73e2c8070"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r03/scene_triangles.u32",
+      "bytes": 540000,
+      "sha256": "6a1bd30569021168e2734bc9dbe3c094cd3fbe2c04484c8ad56f974f3b8ee5dc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r03/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r03/termination_trace.jsonl",
+      "bytes": 2191,
+      "sha256": "6a084dfb66cc126a803c85be4ea74d033fdfc6f088b518b41177c070c26d5aa3"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r03/tetrahedra.u32",
+      "bytes": 1278960,
+      "sha256": "14d617981d1b1d2ccc44bda068e36716f3d90529afff94b37b0df766c6c99eb6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r03.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/bunny-f46/toi/r03.stdout.log",
+      "bytes": 1552,
+      "sha256": "f3ad54fc5cc5c337f16a3152196fba26c4994339a3e5177a15e9bdd8381f17f2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r01/audits.json",
+      "bytes": 1843,
+      "sha256": "53753cb64052f29907931177df46ce813b561ad79ce1fe7a5c95a8c654c05083"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r01/boundary.i32",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r01/cloth_scene.json",
+      "bytes": 309871,
+      "sha256": "3b5f7f39f6f9c1cef68c4805aea14fd4e85414d46f81d04af843adcd205a765e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r01/execution.json",
+      "bytes": 1286,
+      "sha256": "29936dc9365001fcc9beeab3ed1eb797936c37af7d7709876b3fc553bd25b53f"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r01/final.f64",
+      "bytes": 708312,
+      "sha256": "4ea0786444a4d8333231e7ede7101b0c5c89bff6914fa7e355c64792395768d4"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r01/final_velocities.f64",
+      "bytes": 708312,
+      "sha256": "a470ae06214d827a0f2d3713f6661feb3da387806dbbc45a60bd8c8100f0d38f"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r01/frames.csv",
+      "bytes": 796,
+      "sha256": "1fc26dfe80b34c88d42adce5df82476cc96e527eb90a34db43a92e1bcbcdfb2e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r01/initial.f64",
+      "bytes": 708312,
+      "sha256": "408af0e68939894ba70636f27ff6954fd20296af7e121063eb1bb54d0b861d46"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r01/initial_velocities.f64",
+      "bytes": 708312,
+      "sha256": "6af079e43aa533a9999e405072d08e3dfcebd942835c63a13b3a6c66265e172b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r01/masses.f64",
+      "bytes": 236104,
+      "sha256": "a21f2249591c9584761c7cb5d4cfbc104c1c1da9231dbce621524d7c5e246088"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r01/metadata.json",
+      "bytes": 1483,
+      "sha256": "938bd1d3a8660f34a07ea0d4612522cd3e9404e6b396877b2c00f4aa651e2197"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r01/pcg_iterations.jsonl",
+      "bytes": 58,
+      "sha256": "2355f6622f8bb663270dec18c542dc8c8644ad076101e4cbf229084016c1a751"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r01/scene_initial.f64",
+      "bytes": 708312,
+      "sha256": "98adb74d76463d0c1b92e72067286bc96936acfe11fd7fb929c6a3e80b86d74c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r01/scene_triangles.u32",
+      "bytes": 701040,
+      "sha256": "fe6c35dbf7a0565ba3567733831c75ab8f1416843a3e6185e1ea52f089523531"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r01/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r01/termination_trace.jsonl",
+      "bytes": 3862,
+      "sha256": "801edfcb4a723c7535b0d342a1d6f7946c47cd46e8189a27197e1c13a10edfb9"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r01/tetrahedra.u32",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r01.stdout.log",
+      "bytes": 1567,
+      "sha256": "2e35801c607a2c8553874a1ebbdebfdf4cc642b2ca0e10185a6740b6fb88de09"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r02/audits.json",
+      "bytes": 1839,
+      "sha256": "73b120a44d3a033501c8cd95391d4cdce2c40328d51bad34480f7c849ed81638"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r02/boundary.i32",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r02/cloth_scene.json",
+      "bytes": 309871,
+      "sha256": "3b5f7f39f6f9c1cef68c4805aea14fd4e85414d46f81d04af843adcd205a765e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r02/execution.json",
+      "bytes": 1286,
+      "sha256": "9bdc7c181fc9d5a4d87528470ac09d60e92109d0970494dc778e1e3894351d55"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r02/final.f64",
+      "bytes": 708312,
+      "sha256": "721a9e0100dbb4582b2c352d7e58babbe0cb1b99cdef573fced2a839d48f414e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r02/final_velocities.f64",
+      "bytes": 708312,
+      "sha256": "1e2bac433ad3ac1881c52d39d57bae2f32de7ce91803f5187cf5f872f0fbcdd1"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r02/frames.csv",
+      "bytes": 805,
+      "sha256": "47178c85c0e2d0c37b7f7d9f33f7927bfbb09510d64bdf3b155663a9d7852a46"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r02/initial.f64",
+      "bytes": 708312,
+      "sha256": "408af0e68939894ba70636f27ff6954fd20296af7e121063eb1bb54d0b861d46"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r02/initial_velocities.f64",
+      "bytes": 708312,
+      "sha256": "6af079e43aa533a9999e405072d08e3dfcebd942835c63a13b3a6c66265e172b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r02/masses.f64",
+      "bytes": 236104,
+      "sha256": "a21f2249591c9584761c7cb5d4cfbc104c1c1da9231dbce621524d7c5e246088"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r02/metadata.json",
+      "bytes": 1483,
+      "sha256": "938bd1d3a8660f34a07ea0d4612522cd3e9404e6b396877b2c00f4aa651e2197"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r02/pcg_iterations.jsonl",
+      "bytes": 58,
+      "sha256": "86db5c0db36bd7a85d422ad7c7b7de241638a646c8f463bdd047c4bb03988e1b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r02/scene_initial.f64",
+      "bytes": 708312,
+      "sha256": "98adb74d76463d0c1b92e72067286bc96936acfe11fd7fb929c6a3e80b86d74c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r02/scene_triangles.u32",
+      "bytes": 701040,
+      "sha256": "fe6c35dbf7a0565ba3567733831c75ab8f1416843a3e6185e1ea52f089523531"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r02/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r02/termination_trace.jsonl",
+      "bytes": 3856,
+      "sha256": "93b895501dbf9b75679ad87871c39d8e9565e9793af9d1578c187b37e1ffeada"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r02/tetrahedra.u32",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r02.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r02.stdout.log",
+      "bytes": 1567,
+      "sha256": "2e35801c607a2c8553874a1ebbdebfdf4cc642b2ca0e10185a6740b6fb88de09"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r03/audits.json",
+      "bytes": 1660,
+      "sha256": "34d3b936a0c6e9b16cbc2f0ce96367eab407bc47bfe2f2e47f91e27bd8bc3b5f"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r03/boundary.i32",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r03/cloth_scene.json",
+      "bytes": 309871,
+      "sha256": "3b5f7f39f6f9c1cef68c4805aea14fd4e85414d46f81d04af843adcd205a765e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r03/execution.json",
+      "bytes": 1286,
+      "sha256": "00a28bf423ea7fdbbc12ade229d2ac9b52c78afebf12f9355602b5ba7d6bcc0d"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r03/final.f64",
+      "bytes": 708312,
+      "sha256": "d5462efd52c7bc1bf4b9712af65e56f6e695cc33723458e767099169cbf01c7e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r03/final_velocities.f64",
+      "bytes": 708312,
+      "sha256": "2261aa3310ac5d5674d2678d791791b40142d389c4a86bb81c52e5e70ebd3afd"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r03/frames.csv",
+      "bytes": 794,
+      "sha256": "1b137ed22fd1398c142c4dbc6c41810e94e5c3cee35e4715e4b6bbcd7bae3ef8"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r03/initial.f64",
+      "bytes": 708312,
+      "sha256": "408af0e68939894ba70636f27ff6954fd20296af7e121063eb1bb54d0b861d46"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r03/initial_velocities.f64",
+      "bytes": 708312,
+      "sha256": "6af079e43aa533a9999e405072d08e3dfcebd942835c63a13b3a6c66265e172b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r03/masses.f64",
+      "bytes": 236104,
+      "sha256": "a21f2249591c9584761c7cb5d4cfbc104c1c1da9231dbce621524d7c5e246088"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r03/metadata.json",
+      "bytes": 1483,
+      "sha256": "938bd1d3a8660f34a07ea0d4612522cd3e9404e6b396877b2c00f4aa651e2197"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r03/pcg_iterations.jsonl",
+      "bytes": 55,
+      "sha256": "d964be887240bcf35620160fe247679de917c7c406d58aad5943cddee178806c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r03/scene_initial.f64",
+      "bytes": 708312,
+      "sha256": "98adb74d76463d0c1b92e72067286bc96936acfe11fd7fb929c6a3e80b86d74c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r03/scene_triangles.u32",
+      "bytes": 701040,
+      "sha256": "fe6c35dbf7a0565ba3567733831c75ab8f1416843a3e6185e1ea52f089523531"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r03/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r03/termination_trace.jsonl",
+      "bytes": 3403,
+      "sha256": "1247bdf7e9bfdc7e28be616b881fbbfd987a4bd71acf721c8dfd5a9a69e3ad76"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r03/tetrahedra.u32",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r03.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/comp03/r03.stdout.log",
+      "bytes": 1567,
+      "sha256": "2e35801c607a2c8553874a1ebbdebfdf4cc642b2ca0e10185a6740b6fb88de09"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r01/audits.json",
+      "bytes": 1837,
+      "sha256": "1c9ccdd7dc6bfa30aa939cb87c28b1df2002e65b745c589d6168654a7a2c5191"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r01/boundary.i32",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r01/cloth_scene.json",
+      "bytes": 309871,
+      "sha256": "3b5f7f39f6f9c1cef68c4805aea14fd4e85414d46f81d04af843adcd205a765e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r01/execution.json",
+      "bytes": 1280,
+      "sha256": "d56df3ca305ceb1b14133664f1416a577835d418c619daf63c6932bf7c6b1962"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r01/final.f64",
+      "bytes": 708312,
+      "sha256": "fd89c0f167b28fa07b8061c1d201059d665846ca75604800dd6c388db0152c2a"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r01/final_velocities.f64",
+      "bytes": 708312,
+      "sha256": "32b6b6d2bb73f5608190964c8bc19710e344c77a993e70e4480dd5045eac6b5c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r01/frames.csv",
+      "bytes": 790,
+      "sha256": "4cbcd1ac7c86c66833807e3547468899f8228369efebc3c61d2e0adcec8ab1d6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r01/initial.f64",
+      "bytes": 708312,
+      "sha256": "408af0e68939894ba70636f27ff6954fd20296af7e121063eb1bb54d0b861d46"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r01/initial_velocities.f64",
+      "bytes": 708312,
+      "sha256": "6af079e43aa533a9999e405072d08e3dfcebd942835c63a13b3a6c66265e172b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r01/masses.f64",
+      "bytes": 236104,
+      "sha256": "a21f2249591c9584761c7cb5d4cfbc104c1c1da9231dbce621524d7c5e246088"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r01/metadata.json",
+      "bytes": 1477,
+      "sha256": "5315d942dab8e287c5a7abfece256079dcb4ac5e6a1cee1403c37142a0f5315e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r01/pcg_iterations.jsonl",
+      "bytes": 58,
+      "sha256": "6bd017fd7105d2e1a1bf2f2761f29c0507604c678130756ecd6e770f5c5a5fc3"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r01/scene_initial.f64",
+      "bytes": 708312,
+      "sha256": "98adb74d76463d0c1b92e72067286bc96936acfe11fd7fb929c6a3e80b86d74c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r01/scene_triangles.u32",
+      "bytes": 701040,
+      "sha256": "fe6c35dbf7a0565ba3567733831c75ab8f1416843a3e6185e1ea52f089523531"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r01/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r01/termination_trace.jsonl",
+      "bytes": 3844,
+      "sha256": "43ced2035f62c3f18f69b4b33641f220bf327193e96f5a3eaa3fa055a040ca23"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r01/tetrahedra.u32",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r01.stdout.log",
+      "bytes": 1567,
+      "sha256": "2e35801c607a2c8553874a1ebbdebfdf4cc642b2ca0e10185a6740b6fb88de09"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r02/audits.json",
+      "bytes": 1841,
+      "sha256": "25789e604d39c9796f3b035e0e2471984816de52a5777aeb74c5fa11013f1f76"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r02/boundary.i32",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r02/cloth_scene.json",
+      "bytes": 309871,
+      "sha256": "3b5f7f39f6f9c1cef68c4805aea14fd4e85414d46f81d04af843adcd205a765e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r02/execution.json",
+      "bytes": 1280,
+      "sha256": "29367c9ab55ec2ddf066865a7bf01a870ed919014c02607bb7661a5784d26ac9"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r02/final.f64",
+      "bytes": 708312,
+      "sha256": "2cc4e4026a80ffc837cf054e67dafceaafa60c848af221390fa294dd3f96b611"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r02/final_velocities.f64",
+      "bytes": 708312,
+      "sha256": "a1fd4600db24838411d81023ec697f8e81a8801310c06f53663cbb8d3cc71aa0"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r02/frames.csv",
+      "bytes": 801,
+      "sha256": "3d74de0be111d109318872b8a53f0a0f236900cc88522cdb31d98da7b0f925a2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r02/initial.f64",
+      "bytes": 708312,
+      "sha256": "408af0e68939894ba70636f27ff6954fd20296af7e121063eb1bb54d0b861d46"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r02/initial_velocities.f64",
+      "bytes": 708312,
+      "sha256": "6af079e43aa533a9999e405072d08e3dfcebd942835c63a13b3a6c66265e172b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r02/masses.f64",
+      "bytes": 236104,
+      "sha256": "a21f2249591c9584761c7cb5d4cfbc104c1c1da9231dbce621524d7c5e246088"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r02/metadata.json",
+      "bytes": 1477,
+      "sha256": "5315d942dab8e287c5a7abfece256079dcb4ac5e6a1cee1403c37142a0f5315e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r02/pcg_iterations.jsonl",
+      "bytes": 58,
+      "sha256": "e2fdb042353fbdbed29dcb7e2552f194e8921eaa1f02394ad40a25c5229f20a9"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r02/scene_initial.f64",
+      "bytes": 708312,
+      "sha256": "98adb74d76463d0c1b92e72067286bc96936acfe11fd7fb929c6a3e80b86d74c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r02/scene_triangles.u32",
+      "bytes": 701040,
+      "sha256": "fe6c35dbf7a0565ba3567733831c75ab8f1416843a3e6185e1ea52f089523531"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r02/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r02/termination_trace.jsonl",
+      "bytes": 3852,
+      "sha256": "c49ea4da862047d6a6bae0601ec56815544f460d686776da4024e0d9a2d4f5b0"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r02/tetrahedra.u32",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r02.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r02.stdout.log",
+      "bytes": 1567,
+      "sha256": "2e35801c607a2c8553874a1ebbdebfdf4cc642b2ca0e10185a6740b6fb88de09"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r03/audits.json",
+      "bytes": 1839,
+      "sha256": "5299b3db9d4119019c22620a9109e2dc4dc8889aed06c44183d6623e89ed3088"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r03/boundary.i32",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r03/cloth_scene.json",
+      "bytes": 309871,
+      "sha256": "3b5f7f39f6f9c1cef68c4805aea14fd4e85414d46f81d04af843adcd205a765e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r03/execution.json",
+      "bytes": 1280,
+      "sha256": "4065dd578754a0a6e1949e8899bc00a1635a55e075008787c8f6b0ed3ce908b5"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r03/final.f64",
+      "bytes": 708312,
+      "sha256": "ea95294bba6689fd8676fda4f3bf9bdd3468ad729f01678265f8079f32b1cba0"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r03/final_velocities.f64",
+      "bytes": 708312,
+      "sha256": "171e54cec7d5a7c955090434bc12a0cd55214123aa5d860fe903636278a2ad01"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r03/frames.csv",
+      "bytes": 801,
+      "sha256": "34b8d3e8c73015d503699ff948fe2ba0344455e8924af222f982509370c2c822"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r03/initial.f64",
+      "bytes": 708312,
+      "sha256": "408af0e68939894ba70636f27ff6954fd20296af7e121063eb1bb54d0b861d46"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r03/initial_velocities.f64",
+      "bytes": 708312,
+      "sha256": "6af079e43aa533a9999e405072d08e3dfcebd942835c63a13b3a6c66265e172b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r03/masses.f64",
+      "bytes": 236104,
+      "sha256": "a21f2249591c9584761c7cb5d4cfbc104c1c1da9231dbce621524d7c5e246088"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r03/metadata.json",
+      "bytes": 1477,
+      "sha256": "5315d942dab8e287c5a7abfece256079dcb4ac5e6a1cee1403c37142a0f5315e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r03/pcg_iterations.jsonl",
+      "bytes": 58,
+      "sha256": "543d754b521016a71c56355de54e0616120d54c90ad8811b7f8451935b047f40"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r03/scene_initial.f64",
+      "bytes": 708312,
+      "sha256": "98adb74d76463d0c1b92e72067286bc96936acfe11fd7fb929c6a3e80b86d74c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r03/scene_triangles.u32",
+      "bytes": 701040,
+      "sha256": "fe6c35dbf7a0565ba3567733831c75ab8f1416843a3e6185e1ea52f089523531"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r03/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r03/termination_trace.jsonl",
+      "bytes": 3840,
+      "sha256": "89e5dd0c51af685d6bc20fc9c1a2d84a7465c1684339612a0576c286c1fcc94d"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r03/tetrahedra.u32",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r03.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/gate03/r03.stdout.log",
+      "bytes": 1567,
+      "sha256": "2e35801c607a2c8553874a1ebbdebfdf4cc642b2ca0e10185a6740b6fb88de09"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r01/audits.json",
+      "bytes": 2579,
+      "sha256": "0a475ae747f3f73b3322d46b5da5b56a54dde18bf261f9c608f2de9a86ec7c55"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r01/boundary.i32",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r01/cloth_scene.json",
+      "bytes": 309871,
+      "sha256": "3b5f7f39f6f9c1cef68c4805aea14fd4e85414d46f81d04af843adcd205a765e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r01/execution.json",
+      "bytes": 1284,
+      "sha256": "246839bc4f4f112cda9a446043691ba29002398313ad9d2d16f1a368b59cb0fb"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r01/final.f64",
+      "bytes": 708312,
+      "sha256": "e85ec003d295e46267d6d11cc6651a83c6d4e778d6d8d632e482576f13d037a4"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r01/final_velocities.f64",
+      "bytes": 708312,
+      "sha256": "7fac859ea0e0853b8e5dd47afaebc698127cde1b0eeaf91c9a3ec0674f96a9bc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r01/frames.csv",
+      "bytes": 815,
+      "sha256": "ebc39a8d1f1136ebf58b16ed00678f4c9a1de09de1f9756fae177426f63a7ddf"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r01/initial.f64",
+      "bytes": 708312,
+      "sha256": "408af0e68939894ba70636f27ff6954fd20296af7e121063eb1bb54d0b861d46"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r01/initial_velocities.f64",
+      "bytes": 708312,
+      "sha256": "6af079e43aa533a9999e405072d08e3dfcebd942835c63a13b3a6c66265e172b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r01/masses.f64",
+      "bytes": 236104,
+      "sha256": "a21f2249591c9584761c7cb5d4cfbc104c1c1da9231dbce621524d7c5e246088"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r01/metadata.json",
+      "bytes": 1480,
+      "sha256": "65a52626085955199e657dede7cd809dccf31ac11985c45c9e3a17e45da5d0fe"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r01/pcg_iterations.jsonl",
+      "bytes": 70,
+      "sha256": "d1e8d72f127b7478ce2942681582e0f17bd1dfce3266041a71083d037e2eef89"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r01/scene_initial.f64",
+      "bytes": 708312,
+      "sha256": "98adb74d76463d0c1b92e72067286bc96936acfe11fd7fb929c6a3e80b86d74c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r01/scene_triangles.u32",
+      "bytes": 701040,
+      "sha256": "fe6c35dbf7a0565ba3567733831c75ab8f1416843a3e6185e1ea52f089523531"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r01/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r01/termination_trace.jsonl",
+      "bytes": 5422,
+      "sha256": "9a8f209bc210e972327b923f73a72d5b2d827ac99f0f2d04aa1a5c05aaa57e77"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r01/tetrahedra.u32",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r01.stdout.log",
+      "bytes": 1567,
+      "sha256": "2e35801c607a2c8553874a1ebbdebfdf4cc642b2ca0e10185a6740b6fb88de09"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r02/audits.json",
+      "bytes": 2577,
+      "sha256": "a9ba7fbf3605dde0697b7629aad3b4d40b6bb0c88451f7af9856cbf74479a217"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r02/boundary.i32",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r02/cloth_scene.json",
+      "bytes": 309871,
+      "sha256": "3b5f7f39f6f9c1cef68c4805aea14fd4e85414d46f81d04af843adcd205a765e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r02/execution.json",
+      "bytes": 1285,
+      "sha256": "7d1d026b05016d5b3225bd4df1c990868f8c0afc4dae90358fd85175f5e09274"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r02/final.f64",
+      "bytes": 708312,
+      "sha256": "24fc0e2276fd4cdf0533b8f419abee4167105c7e7a19e01c85fcd56bdb2f03ac"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r02/final_velocities.f64",
+      "bytes": 708312,
+      "sha256": "5f9a735fe2ae00af886e4577fe333f85eb41ce0f85127b8ff031d4795cc63e09"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r02/frames.csv",
+      "bytes": 804,
+      "sha256": "418c7703043c56d8ecf34b319e0b6d34a1848705a398864fc62dd6f6afbc79fa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r02/initial.f64",
+      "bytes": 708312,
+      "sha256": "408af0e68939894ba70636f27ff6954fd20296af7e121063eb1bb54d0b861d46"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r02/initial_velocities.f64",
+      "bytes": 708312,
+      "sha256": "6af079e43aa533a9999e405072d08e3dfcebd942835c63a13b3a6c66265e172b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r02/masses.f64",
+      "bytes": 236104,
+      "sha256": "a21f2249591c9584761c7cb5d4cfbc104c1c1da9231dbce621524d7c5e246088"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r02/metadata.json",
+      "bytes": 1480,
+      "sha256": "65a52626085955199e657dede7cd809dccf31ac11985c45c9e3a17e45da5d0fe"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r02/pcg_iterations.jsonl",
+      "bytes": 70,
+      "sha256": "3be4afd2a938675e2d254b495e204feae8054be1c689a9933286408dc1cd990f"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r02/scene_initial.f64",
+      "bytes": 708312,
+      "sha256": "98adb74d76463d0c1b92e72067286bc96936acfe11fd7fb929c6a3e80b86d74c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r02/scene_triangles.u32",
+      "bytes": 701040,
+      "sha256": "fe6c35dbf7a0565ba3567733831c75ab8f1416843a3e6185e1ea52f089523531"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r02/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r02/termination_trace.jsonl",
+      "bytes": 5443,
+      "sha256": "ed053975c387528889b2507e87671caed017a0fc4d021a2271090dda7945750c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r02/tetrahedra.u32",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r02.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r02.stdout.log",
+      "bytes": 1567,
+      "sha256": "2e35801c607a2c8553874a1ebbdebfdf4cc642b2ca0e10185a6740b6fb88de09"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r03/audits.json",
+      "bytes": 2575,
+      "sha256": "43ee0ae1acfdee2bcb5016168455b6b365d5310532edb6a3bce0e1b367d0f2de"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r03/boundary.i32",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r03/cloth_scene.json",
+      "bytes": 309871,
+      "sha256": "3b5f7f39f6f9c1cef68c4805aea14fd4e85414d46f81d04af843adcd205a765e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r03/execution.json",
+      "bytes": 1285,
+      "sha256": "94371f8d728eaab641a8ffdd3d080c526527d098f1b64fcc8af99ff50015dd47"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r03/final.f64",
+      "bytes": 708312,
+      "sha256": "f71143cfe9213b15ba048f336edc795dd0ffe3644cf896df20144242f198393e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r03/final_velocities.f64",
+      "bytes": 708312,
+      "sha256": "3c59536b47c6c6bc6c4b95ef92f778711323f9f5dfd41af6f63e0576a2c00873"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r03/frames.csv",
+      "bytes": 815,
+      "sha256": "960473319c029e59ab9cd8665a79fa9333f3e99b9f75e7bd9ef121e82e6fc21b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r03/initial.f64",
+      "bytes": 708312,
+      "sha256": "408af0e68939894ba70636f27ff6954fd20296af7e121063eb1bb54d0b861d46"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r03/initial_velocities.f64",
+      "bytes": 708312,
+      "sha256": "6af079e43aa533a9999e405072d08e3dfcebd942835c63a13b3a6c66265e172b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r03/masses.f64",
+      "bytes": 236104,
+      "sha256": "a21f2249591c9584761c7cb5d4cfbc104c1c1da9231dbce621524d7c5e246088"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r03/metadata.json",
+      "bytes": 1480,
+      "sha256": "65a52626085955199e657dede7cd809dccf31ac11985c45c9e3a17e45da5d0fe"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r03/pcg_iterations.jsonl",
+      "bytes": 70,
+      "sha256": "05cceea18804b076efecc6bef69a7681eb16414b66fe9897573ad26e63d968e0"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r03/scene_initial.f64",
+      "bytes": 708312,
+      "sha256": "98adb74d76463d0c1b92e72067286bc96936acfe11fd7fb929c6a3e80b86d74c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r03/scene_triangles.u32",
+      "bytes": 701040,
+      "sha256": "fe6c35dbf7a0565ba3567733831c75ab8f1416843a3e6185e1ea52f089523531"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r03/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r03/termination_trace.jsonl",
+      "bytes": 5429,
+      "sha256": "040a6d235033480b35330bea58170fb2fb16dafe27c2a9ada0bb0d4db8ee1b44"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r03/tetrahedra.u32",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r03.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/graph_n1/r03.stdout.log",
+      "bytes": 1567,
+      "sha256": "2e35801c607a2c8553874a1ebbdebfdf4cc642b2ca0e10185a6740b6fb88de09"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r01/audits.json",
+      "bytes": 2941,
+      "sha256": "7352410d62664ee4d01224f9261f638ff30e3e8fc39d686ff8faf40a758c9f27"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r01/boundary.i32",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r01/cloth_scene.json",
+      "bytes": 309871,
+      "sha256": "3b5f7f39f6f9c1cef68c4805aea14fd4e85414d46f81d04af843adcd205a765e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r01/execution.json",
+      "bytes": 1284,
+      "sha256": "7ca4d9d615e187a73906f106359fdf439e0aa67d55ad28c64f3f84574512eaff"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r01/final.f64",
+      "bytes": 708312,
+      "sha256": "c5a6610fb8071ea1b4265f0e2c5836c89f91381540af67d01e200664b5eedb34"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r01/final_velocities.f64",
+      "bytes": 708312,
+      "sha256": "9630c02354d8d5ae755f85dbe26d3c8907a8e5660900f9c572048b39377f1d27"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r01/frames.csv",
+      "bytes": 817,
+      "sha256": "a91b1248415cede251fd1adf554fc1a43f91e6e8065833ac0def9307ca7699e7"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r01/initial.f64",
+      "bytes": 708312,
+      "sha256": "408af0e68939894ba70636f27ff6954fd20296af7e121063eb1bb54d0b861d46"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r01/initial_velocities.f64",
+      "bytes": 708312,
+      "sha256": "6af079e43aa533a9999e405072d08e3dfcebd942835c63a13b3a6c66265e172b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r01/masses.f64",
+      "bytes": 236104,
+      "sha256": "a21f2249591c9584761c7cb5d4cfbc104c1c1da9231dbce621524d7c5e246088"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r01/metadata.json",
+      "bytes": 1482,
+      "sha256": "f0bb71191fc5c80a006e89e35f1b622cc215f43ee8c0a7332e8c19ccf3dc1d6e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r01/pcg_iterations.jsonl",
+      "bytes": 76,
+      "sha256": "e6fd150bc6033044b424b92739b833b255cab255b0d62a88e2e5593075aa1705"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r01/scene_initial.f64",
+      "bytes": 708312,
+      "sha256": "98adb74d76463d0c1b92e72067286bc96936acfe11fd7fb929c6a3e80b86d74c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r01/scene_triangles.u32",
+      "bytes": 701040,
+      "sha256": "fe6c35dbf7a0565ba3567733831c75ab8f1416843a3e6185e1ea52f089523531"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r01/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r01/termination_trace.jsonl",
+      "bytes": 6202,
+      "sha256": "f8982fcd8fc9e9805be2f1f92e3859484ddf438baa752a4bc0e21a80dc9d3929"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r01/tetrahedra.u32",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r01.stdout.log",
+      "bytes": 1567,
+      "sha256": "2e35801c607a2c8553874a1ebbdebfdf4cc642b2ca0e10185a6740b6fb88de09"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r02/audits.json",
+      "bytes": 3120,
+      "sha256": "4c904ceb4cfb5b108f7a70ff2ddb4fb71956d60cd9231605772cf3946a8a749a"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r02/boundary.i32",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r02/cloth_scene.json",
+      "bytes": 309871,
+      "sha256": "3b5f7f39f6f9c1cef68c4805aea14fd4e85414d46f81d04af843adcd205a765e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r02/execution.json",
+      "bytes": 1284,
+      "sha256": "fa9a4bac0365c16401311652047a36971d8aee30a6d94d6a89f567746b76e5a2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r02/final.f64",
+      "bytes": 708312,
+      "sha256": "f212c0c10e13b6d4f1ceb7ca1d0d6e248d9fdc7f6185328ce03f7a961afa19d6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r02/final_velocities.f64",
+      "bytes": 708312,
+      "sha256": "dd1f3fc2a100ba1c277aa8bf6a9ea0d6e96cf2e73ce5ef5dd075f8eb387c2cb4"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r02/frames.csv",
+      "bytes": 818,
+      "sha256": "249def2ed0d4737cd4ac713e3d239e6454975051a586ca37ef6d48d7d7de2524"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r02/initial.f64",
+      "bytes": 708312,
+      "sha256": "408af0e68939894ba70636f27ff6954fd20296af7e121063eb1bb54d0b861d46"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r02/initial_velocities.f64",
+      "bytes": 708312,
+      "sha256": "6af079e43aa533a9999e405072d08e3dfcebd942835c63a13b3a6c66265e172b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r02/masses.f64",
+      "bytes": 236104,
+      "sha256": "a21f2249591c9584761c7cb5d4cfbc104c1c1da9231dbce621524d7c5e246088"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r02/metadata.json",
+      "bytes": 1482,
+      "sha256": "f0bb71191fc5c80a006e89e35f1b622cc215f43ee8c0a7332e8c19ccf3dc1d6e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r02/pcg_iterations.jsonl",
+      "bytes": 79,
+      "sha256": "ff0d6ad51b6a4eca3cf9f3864fc58e17fae2763b0fac216c9c1094968236642f"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r02/scene_initial.f64",
+      "bytes": 708312,
+      "sha256": "98adb74d76463d0c1b92e72067286bc96936acfe11fd7fb929c6a3e80b86d74c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r02/scene_triangles.u32",
+      "bytes": 701040,
+      "sha256": "fe6c35dbf7a0565ba3567733831c75ab8f1416843a3e6185e1ea52f089523531"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r02/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r02/termination_trace.jsonl",
+      "bytes": 6588,
+      "sha256": "8eba48e7a339bac76f9a552f379ebcbdffa46624948f5e1b17fe5055f02afad3"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r02/tetrahedra.u32",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r02.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r02.stdout.log",
+      "bytes": 1567,
+      "sha256": "2e35801c607a2c8553874a1ebbdebfdf4cc642b2ca0e10185a6740b6fb88de09"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r03/audits.json",
+      "bytes": 2933,
+      "sha256": "febe08d63771586f5596563435737dd477d745ec2390883a1b0000334ae3f9ba"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r03/boundary.i32",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r03/cloth_scene.json",
+      "bytes": 309871,
+      "sha256": "3b5f7f39f6f9c1cef68c4805aea14fd4e85414d46f81d04af843adcd205a765e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r03/execution.json",
+      "bytes": 1284,
+      "sha256": "63303c590d4684c44a5d8ce34af8e99ee542d67508a33c2d17d87bc6dbd38cb0"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r03/final.f64",
+      "bytes": 708312,
+      "sha256": "89df23ac470cb2d6e97b6a412a21ce41a17aa4b56489a999fa5b48bf55fdc475"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r03/final_velocities.f64",
+      "bytes": 708312,
+      "sha256": "b4c6a3e66a09e7254dd76bab5e204bd3517c14673dc132c5b3b5fc485b306fba"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r03/frames.csv",
+      "bytes": 808,
+      "sha256": "e2a38c537f9afd7c368a1987344a52e757923076b0cd262642148095b668f04d"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r03/initial.f64",
+      "bytes": 708312,
+      "sha256": "408af0e68939894ba70636f27ff6954fd20296af7e121063eb1bb54d0b861d46"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r03/initial_velocities.f64",
+      "bytes": 708312,
+      "sha256": "6af079e43aa533a9999e405072d08e3dfcebd942835c63a13b3a6c66265e172b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r03/masses.f64",
+      "bytes": 236104,
+      "sha256": "a21f2249591c9584761c7cb5d4cfbc104c1c1da9231dbce621524d7c5e246088"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r03/metadata.json",
+      "bytes": 1482,
+      "sha256": "f0bb71191fc5c80a006e89e35f1b622cc215f43ee8c0a7332e8c19ccf3dc1d6e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r03/pcg_iterations.jsonl",
+      "bytes": 76,
+      "sha256": "fc78bb9828b06cbc59055786ca4fa8363b09585a72d14bdc71b220c5c103c59b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r03/scene_initial.f64",
+      "bytes": 708312,
+      "sha256": "98adb74d76463d0c1b92e72067286bc96936acfe11fd7fb929c6a3e80b86d74c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r03/scene_triangles.u32",
+      "bytes": 701040,
+      "sha256": "fe6c35dbf7a0565ba3567733831c75ab8f1416843a3e6185e1ea52f089523531"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r03/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r03/termination_trace.jsonl",
+      "bytes": 6196,
+      "sha256": "f994f5bce21e2116923b704ed293ae31fd878e66819b5141ed2693d372f8d19e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r03/tetrahedra.u32",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r03.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict2/r03.stdout.log",
+      "bytes": 1567,
+      "sha256": "2e35801c607a2c8553874a1ebbdebfdf4cc642b2ca0e10185a6740b6fb88de09"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r01/audits.json",
+      "bytes": 16879,
+      "sha256": "261d9fea6f4fabec93c5acadb53d3229a691217b13ba66ed81db89a95b211ea2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r01/boundary.i32",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r01/cloth_scene.json",
+      "bytes": 309871,
+      "sha256": "3b5f7f39f6f9c1cef68c4805aea14fd4e85414d46f81d04af843adcd205a765e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r01/execution.json",
+      "bytes": 1285,
+      "sha256": "4664d7f9646b1f1034e48508bfdb1a11c8cbeac8f20c387bb46f3dc4c3a6abea"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r01/final.f64",
+      "bytes": 708312,
+      "sha256": "f6081b976dfe6bff93d9a108a165a6ee2b125b8701ae4f8650ddd71729337697"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r01/final_velocities.f64",
+      "bytes": 708312,
+      "sha256": "31f4f36f91d046abe07fb809a80a31c3e167418eede8449c21d06274248bf2e5"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r01/frames.csv",
+      "bytes": 820,
+      "sha256": "cf2beb48dc32b5889b16767e7ed5f7575a94940afbb617d0993a4af4b3e942de"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r01/initial.f64",
+      "bytes": 708312,
+      "sha256": "408af0e68939894ba70636f27ff6954fd20296af7e121063eb1bb54d0b861d46"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r01/initial_velocities.f64",
+      "bytes": 708312,
+      "sha256": "6af079e43aa533a9999e405072d08e3dfcebd942835c63a13b3a6c66265e172b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r01/masses.f64",
+      "bytes": 236104,
+      "sha256": "a21f2249591c9584761c7cb5d4cfbc104c1c1da9231dbce621524d7c5e246088"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r01/metadata.json",
+      "bytes": 1486,
+      "sha256": "7b004d591cab53dc52fafd7b7f5e71f4c41371b33cfc7ef8e8720a6fc06e9706"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r01/pcg_iterations.jsonl",
+      "bytes": 304,
+      "sha256": "67056efc4733b39b515d9b6a7dd784d76b158872bf7b97235bb0e37212e2849c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r01/scene_initial.f64",
+      "bytes": 708312,
+      "sha256": "98adb74d76463d0c1b92e72067286bc96936acfe11fd7fb929c6a3e80b86d74c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r01/scene_triangles.u32",
+      "bytes": 701040,
+      "sha256": "fe6c35dbf7a0565ba3567733831c75ab8f1416843a3e6185e1ea52f089523531"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r01/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r01/termination_trace.jsonl",
+      "bytes": 36091,
+      "sha256": "bfcf9357415681df87170e4f3d833ad1950c3f40f14b5a826049043c36615670"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r01/tetrahedra.u32",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r01.stdout.log",
+      "bytes": 1567,
+      "sha256": "2e35801c607a2c8553874a1ebbdebfdf4cc642b2ca0e10185a6740b6fb88de09"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r02/audits.json",
+      "bytes": 16698,
+      "sha256": "9d65c7702f17d5bc0dd8f7edb01b47bf7ff21dc452189c7829f37420df2a658a"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r02/boundary.i32",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r02/cloth_scene.json",
+      "bytes": 309871,
+      "sha256": "3b5f7f39f6f9c1cef68c4805aea14fd4e85414d46f81d04af843adcd205a765e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r02/execution.json",
+      "bytes": 1285,
+      "sha256": "7c585add3c62403c4176d1249335e908688e118e74642b0c65a8ed3d55284924"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r02/final.f64",
+      "bytes": 708312,
+      "sha256": "27d5f6d569e3e1f42badc9d32a490ce32ec479b4f975c713ac4bcefd11be58ec"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r02/final_velocities.f64",
+      "bytes": 708312,
+      "sha256": "8ba4b208afa7f198b0adbc3385a8d4afee032c259d6fd872ed8b363a05c58775"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r02/frames.csv",
+      "bytes": 810,
+      "sha256": "845b160405beef29e6b065f692b0943484f7429acf572f9201a72a79479deed4"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r02/initial.f64",
+      "bytes": 708312,
+      "sha256": "408af0e68939894ba70636f27ff6954fd20296af7e121063eb1bb54d0b861d46"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r02/initial_velocities.f64",
+      "bytes": 708312,
+      "sha256": "6af079e43aa533a9999e405072d08e3dfcebd942835c63a13b3a6c66265e172b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r02/masses.f64",
+      "bytes": 236104,
+      "sha256": "a21f2249591c9584761c7cb5d4cfbc104c1c1da9231dbce621524d7c5e246088"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r02/metadata.json",
+      "bytes": 1486,
+      "sha256": "7b004d591cab53dc52fafd7b7f5e71f4c41371b33cfc7ef8e8720a6fc06e9706"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r02/pcg_iterations.jsonl",
+      "bytes": 302,
+      "sha256": "01fd7ca4b31f2b7cb07f64f17e3a66131d6b48f164e25c06342eff218c1f742d"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r02/scene_initial.f64",
+      "bytes": 708312,
+      "sha256": "98adb74d76463d0c1b92e72067286bc96936acfe11fd7fb929c6a3e80b86d74c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r02/scene_triangles.u32",
+      "bytes": 701040,
+      "sha256": "fe6c35dbf7a0565ba3567733831c75ab8f1416843a3e6185e1ea52f089523531"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r02/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r02/termination_trace.jsonl",
+      "bytes": 35847,
+      "sha256": "bd101c789a210fe170038373f23ca1c63d1b23fccf69ff3f9c70758691001b92"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r02/tetrahedra.u32",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r02.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r02.stdout.log",
+      "bytes": 1567,
+      "sha256": "2e35801c607a2c8553874a1ebbdebfdf4cc642b2ca0e10185a6740b6fb88de09"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r03/audits.json",
+      "bytes": 16686,
+      "sha256": "71ec43d872f23c3d29305a04748904c02d63ec8009b21937e82891aa3ece68d0"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r03/boundary.i32",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r03/cloth_scene.json",
+      "bytes": 309871,
+      "sha256": "3b5f7f39f6f9c1cef68c4805aea14fd4e85414d46f81d04af843adcd205a765e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r03/execution.json",
+      "bytes": 1285,
+      "sha256": "2fb9eedc4797accc9368f5b775cc86b40d1ab32ab0899f3a1feb385cb7754a19"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r03/final.f64",
+      "bytes": 708312,
+      "sha256": "df536612acc082fc762e4b95bad0a3de53235cca50ccc255b48aa8e7cc3d6bc7"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r03/final_velocities.f64",
+      "bytes": 708312,
+      "sha256": "1cdbb5f62289fc81a196d9ea0c5557a22604e5c68593ce4c76016117d6b7d3a6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r03/frames.csv",
+      "bytes": 810,
+      "sha256": "105175d52c84153607ffe56719fc161121856c9cececa8ac827c43d518068b24"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r03/initial.f64",
+      "bytes": 708312,
+      "sha256": "408af0e68939894ba70636f27ff6954fd20296af7e121063eb1bb54d0b861d46"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r03/initial_velocities.f64",
+      "bytes": 708312,
+      "sha256": "6af079e43aa533a9999e405072d08e3dfcebd942835c63a13b3a6c66265e172b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r03/masses.f64",
+      "bytes": 236104,
+      "sha256": "a21f2249591c9584761c7cb5d4cfbc104c1c1da9231dbce621524d7c5e246088"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r03/metadata.json",
+      "bytes": 1486,
+      "sha256": "7b004d591cab53dc52fafd7b7f5e71f4c41371b33cfc7ef8e8720a6fc06e9706"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r03/pcg_iterations.jsonl",
+      "bytes": 301,
+      "sha256": "cbe49bac2ff85bf5f6d9d51445e5d4cb35db494c8c126f3d8fc329db0a9eea5e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r03/scene_initial.f64",
+      "bytes": 708312,
+      "sha256": "98adb74d76463d0c1b92e72067286bc96936acfe11fd7fb929c6a3e80b86d74c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r03/scene_triangles.u32",
+      "bytes": 701040,
+      "sha256": "fe6c35dbf7a0565ba3567733831c75ab8f1416843a3e6185e1ea52f089523531"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r03/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r03/termination_trace.jsonl",
+      "bytes": 35853,
+      "sha256": "38294a9afbd7fd679bc71c88bb75abcff38526c33dc36a11e1b87bacffd85b7d"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r03/tetrahedra.u32",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r03.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/strict4/r03.stdout.log",
+      "bytes": 1567,
+      "sha256": "2e35801c607a2c8553874a1ebbdebfdf4cc642b2ca0e10185a6740b6fb88de09"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r01/audits.json",
+      "bytes": 1664,
+      "sha256": "707a106fdfd97215392dc20839048c38a7f5120c1e49bd86e241b3b006de98dd"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r01/boundary.i32",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r01/cloth_scene.json",
+      "bytes": 309871,
+      "sha256": "3b5f7f39f6f9c1cef68c4805aea14fd4e85414d46f81d04af843adcd205a765e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r01/execution.json",
+      "bytes": 1275,
+      "sha256": "e0486d1951d69467953fb1e719bc4a242ec5f84b17466246983cbbc77d4d75da"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r01/final.f64",
+      "bytes": 708312,
+      "sha256": "f1279299a4b074b3913bba9fd3bb597eae48efc10e2ff84ed1c07fa2a18e0acc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r01/final_velocities.f64",
+      "bytes": 708312,
+      "sha256": "72d07c5f53d94e3afbf1c3045f3003e207606bf2f8912cecc2abd7fcc1202544"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r01/frames.csv",
+      "bytes": 796,
+      "sha256": "fe69995539b4a734a40d24ee9d72cc8a7f5cc1671692fc33b34ba411a759af7d"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r01/initial.f64",
+      "bytes": 708312,
+      "sha256": "408af0e68939894ba70636f27ff6954fd20296af7e121063eb1bb54d0b861d46"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r01/initial_velocities.f64",
+      "bytes": 708312,
+      "sha256": "6af079e43aa533a9999e405072d08e3dfcebd942835c63a13b3a6c66265e172b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r01/masses.f64",
+      "bytes": 236104,
+      "sha256": "a21f2249591c9584761c7cb5d4cfbc104c1c1da9231dbce621524d7c5e246088"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r01/metadata.json",
+      "bytes": 1475,
+      "sha256": "040094b34eddce21953233141ce88b4863092c8ed07d61abfe098ae69acae184"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r01/pcg_iterations.jsonl",
+      "bytes": 55,
+      "sha256": "ac46920fbbc7af11abd7203b3a8931d2d287582cd8916cd012b05f9280ee03e6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r01/scene_initial.f64",
+      "bytes": 708312,
+      "sha256": "98adb74d76463d0c1b92e72067286bc96936acfe11fd7fb929c6a3e80b86d74c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r01/scene_triangles.u32",
+      "bytes": 701040,
+      "sha256": "fe6c35dbf7a0565ba3567733831c75ab8f1416843a3e6185e1ea52f089523531"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r01/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r01/termination_trace.jsonl",
+      "bytes": 3458,
+      "sha256": "d6565c0a26a1106619e4063d87281335ab8f01ba58a7648ccfe130a287d279a0"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r01/tetrahedra.u32",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r01.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r01.stdout.log",
+      "bytes": 1567,
+      "sha256": "2e35801c607a2c8553874a1ebbdebfdf4cc642b2ca0e10185a6740b6fb88de09"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r02/audits.json",
+      "bytes": 1656,
+      "sha256": "656bf6b55c7efc879deec2ebd867bdd9d5fda08e320dff698b8bd514d1c085a1"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r02/boundary.i32",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r02/cloth_scene.json",
+      "bytes": 309871,
+      "sha256": "3b5f7f39f6f9c1cef68c4805aea14fd4e85414d46f81d04af843adcd205a765e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r02/execution.json",
+      "bytes": 1274,
+      "sha256": "ea424ce53674b5a187720319b849a1228c745e93457c26e3f6cd2ff379b64bd4"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r02/final.f64",
+      "bytes": 708312,
+      "sha256": "c880e0375b066996cf0c5921bb9796c1871d2e14f85f5d445d64699c87d8824a"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r02/final_velocities.f64",
+      "bytes": 708312,
+      "sha256": "78b5e19199982ed4044c39d4ca7daf603832a2281045c733d3813a12c4820386"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r02/frames.csv",
+      "bytes": 795,
+      "sha256": "dbe8194959279541e2c299e14c4be23026efcb9b598f445a5b19629864424591"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r02/initial.f64",
+      "bytes": 708312,
+      "sha256": "408af0e68939894ba70636f27ff6954fd20296af7e121063eb1bb54d0b861d46"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r02/initial_velocities.f64",
+      "bytes": 708312,
+      "sha256": "6af079e43aa533a9999e405072d08e3dfcebd942835c63a13b3a6c66265e172b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r02/masses.f64",
+      "bytes": 236104,
+      "sha256": "a21f2249591c9584761c7cb5d4cfbc104c1c1da9231dbce621524d7c5e246088"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r02/metadata.json",
+      "bytes": 1475,
+      "sha256": "040094b34eddce21953233141ce88b4863092c8ed07d61abfe098ae69acae184"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r02/pcg_iterations.jsonl",
+      "bytes": 55,
+      "sha256": "d64efc668b8313a96a8a322020bc50bda7c792dc85ae488fe9dd2b3dd8442f21"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r02/scene_initial.f64",
+      "bytes": 708312,
+      "sha256": "98adb74d76463d0c1b92e72067286bc96936acfe11fd7fb929c6a3e80b86d74c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r02/scene_triangles.u32",
+      "bytes": 701040,
+      "sha256": "fe6c35dbf7a0565ba3567733831c75ab8f1416843a3e6185e1ea52f089523531"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r02/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r02/termination_trace.jsonl",
+      "bytes": 3455,
+      "sha256": "4603c612a8d70df1ccc699cd7bc53fc9a286a1b04be9f8d40a208f333e025721"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r02/tetrahedra.u32",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r02.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r02.stdout.log",
+      "bytes": 1567,
+      "sha256": "2e35801c607a2c8553874a1ebbdebfdf4cc642b2ca0e10185a6740b6fb88de09"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r03/audits.json",
+      "bytes": 1660,
+      "sha256": "7b48253293d5be2f8a8c939f1e78ed90af7694d9714bb3c4f42077ea417b713b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r03/boundary.i32",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r03/cloth_scene.json",
+      "bytes": 309871,
+      "sha256": "3b5f7f39f6f9c1cef68c4805aea14fd4e85414d46f81d04af843adcd205a765e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r03/execution.json",
+      "bytes": 1274,
+      "sha256": "63ed1428233e3ed03bbc65fe4e5fe104fa315e5c2aeed8aef583f760369b8f03"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r03/final.f64",
+      "bytes": 708312,
+      "sha256": "13022b804d6368122302b806aa3165005814a480405af64ee6ea9a155c4ad1da"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r03/final_velocities.f64",
+      "bytes": 708312,
+      "sha256": "67394d96395d273ed77d1b988727d9578a0edf8c9ad82b10b1daa70bd0294f20"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r03/frames.csv",
+      "bytes": 797,
+      "sha256": "987e4f12d495d58e1825ba4efd2ba10b9c4363a80502dc4fa9865bd9b4cb35d4"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r03/initial.f64",
+      "bytes": 708312,
+      "sha256": "408af0e68939894ba70636f27ff6954fd20296af7e121063eb1bb54d0b861d46"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r03/initial_velocities.f64",
+      "bytes": 708312,
+      "sha256": "6af079e43aa533a9999e405072d08e3dfcebd942835c63a13b3a6c66265e172b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r03/masses.f64",
+      "bytes": 236104,
+      "sha256": "a21f2249591c9584761c7cb5d4cfbc104c1c1da9231dbce621524d7c5e246088"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r03/metadata.json",
+      "bytes": 1475,
+      "sha256": "040094b34eddce21953233141ce88b4863092c8ed07d61abfe098ae69acae184"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r03/pcg_iterations.jsonl",
+      "bytes": 55,
+      "sha256": "fdae68317ef7b1c729cce681fe1415e691d01cde86136ba37752e9a736135852"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r03/scene_initial.f64",
+      "bytes": 708312,
+      "sha256": "98adb74d76463d0c1b92e72067286bc96936acfe11fd7fb929c6a3e80b86d74c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r03/scene_triangles.u32",
+      "bytes": 701040,
+      "sha256": "fe6c35dbf7a0565ba3567733831c75ab8f1416843a3e6185e1ea52f089523531"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r03/status.json",
+      "bytes": 76,
+      "sha256": "152040460afc8a60abe6374183bccc116557e9ef2e0d90e7f4e79b20bb970eaa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r03/termination_trace.jsonl",
+      "bytes": 3458,
+      "sha256": "1043002640321894a349c21af494b45fe1c753bc7d4d044becf9e2f76bb60fff"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r03/tetrahedra.u32",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r03.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-postactivation-targeted-v1/runs/table-f28/toi/r03.stdout.log",
+      "bytes": 1567,
+      "sha256": "2e35801c607a2c8553874a1ebbdebfdf4cc642b2ca0e10185a6740b6fb88de09"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-v2-scout/A4_V2_POSTACTIVATION_SELECTED_STATES.json",
+      "bytes": 20390,
+      "sha256": "7b72eb58d187f5323ecd112efdcb0bd2a4c3d58c32dc7fc3dd7713dac187ef58"
+    },
+    {
+      "path": "experiments/run_a4_v2_postactivation_matrix.py",
+      "bytes": 8575,
+      "sha256": "836ae6bc43944306a32a92400afac69171d613c52e17b8bd638575fa3d0b6074"
+    }
+  ]
+}

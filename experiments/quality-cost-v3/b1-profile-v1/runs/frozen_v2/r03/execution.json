@@ -1,0 +1,25 @@
+{
+  "command": [
+    "D:\\code_2\\stiffGIPC\\residual-toi-graph-c49982fa\\versions\\dual-tolerance-toi-v2\\gipc.exe",
+    "--scene",
+    "1",
+    "--pcg-dual-graph",
+    "--benchmark-frames",
+    "35",
+    "--benchmark-output-dir",
+    "D:\\code_2\\stiffGIPC\\residual-toi-graph-c49982fa\\experiments\\quality-cost-v3\\b1-profile-v1\\runs\\frozen_v2\\r03",
+    "--termination",
+    "original",
+    "--production-measurement"
+  ],
+  "returncode": 0,
+  "wall_seconds": 158.45300000003772,
+  "exe_sha256": "c9aa98b158887d96cea133d2632ca9cf5f4c4ac6665f4998c82d72f6a932f54b",
+  "source_commit": "cc1afb9 (dual-tolerance-toi-v2 tag)",
+  "gpu_before": {
+    "unavailable": "zip() argument 2 is longer than argument 1"
+  },
+  "gpu_after": {
+    "unavailable": "zip() argument 2 is longer than argument 1"
+  }
+}

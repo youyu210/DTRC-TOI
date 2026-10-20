@@ -1,0 +1,27 @@
+{
+  "command": [
+    "D:\\code_2\\stiffGIPC\\residual-toi-graph-c49982fa\\build\\gipc.exe",
+    "--scene",
+    "1",
+    "--pcg-dual-graph",
+    "--benchmark-frames",
+    "50",
+    "--benchmark-output-dir",
+    "D:\\code_2\\stiffGIPC\\residual-toi-graph-c49982fa\\experiments\\quality-cost-v3\\a4-v2-scout\\scout\\table",
+    "--termination",
+    "original",
+    "--newton-tolerance-scale",
+    "1",
+    "--pcg-tolerance-scale",
+    "1",
+    "--trace-newton",
+    "--checkpoint-output-root",
+    "D:\\code_2\\stiffGIPC\\residual-toi-graph-c49982fa\\experiments\\quality-cost-v3\\a4-v2-scout\\checkpoints\\table",
+    "--checkpoint-frames",
+    "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49"
+  ],
+  "returncode": 0,
+  "wall_seconds": 50.79700000002049,
+  "exe_sha256": "84c429f7e30dcd15f420cb22b50b90972045905d3981481eb97f8201d0178ae9",
+  "source_commit": "434ff7de0a75d232d08a173702cfb6d85d604f86"
+}

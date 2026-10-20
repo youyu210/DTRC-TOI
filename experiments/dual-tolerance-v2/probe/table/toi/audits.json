@@ -1,0 +1,44 @@
+[
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 4.4624397384206565e-07,
+    "measured_residual": 4.4624397384206565e-07,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.3419096451843989e-05,
+    "measured_residual": 1.3419096451843989e-05,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.836794076933777e-05,
+    "measured_residual": 1.836794076933777e-05,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 3.1532517130145745e-06,
+    "measured_residual": 3.1532517130145745e-06,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 1.6091331708375136e-06,
+    "measured_residual": 1.6091331708375136e-06,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 4.2059222215593246e-07,
+    "measured_residual": 4.2059222215593246e-07,
+    "agrees": true
+  }
+]

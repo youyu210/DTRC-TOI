@@ -1,0 +1,3024 @@
+{
+  "original_pcg_function_exact_match": true,
+  "numerical_source_unchanged_from": "residual-toi-graph-v1",
+  "source_commit": "ff8b5b9dcebfca6f50612967e2eee0baab295f0d",
+  "new_exe_sha256": "3ae3e1924298f2f15693d7dfdac5ae72741db663666794c92938e885a35b2c10",
+  "previous_exe_sha256": "144aa9c868be179d0b02274e8435cff5a332846fe5870ecb9c1db6283753fbce",
+  "native_rhs_audit_samples": 370,
+  "all_native_rhs_audits_agree": true,
+  "graph_direction_audit_samples": 5,
+  "direction_check_tolerance": 1e-06,
+  "max_graph_direction_relative_l2_diff": 9.03540877439646e-08,
+  "all_audits": [
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 2.2300444444629717e-08,
+      "measured_residual": 2.2300444444629717e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 5.163284626907822e-08,
+      "measured_residual": 5.163284626907822e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 8.379738546313433e-09,
+      "measured_residual": 8.379738546313433e-09,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 4.4635049327797444e-08,
+      "measured_residual": 4.4635049327797444e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.260420374317235e-08,
+      "measured_residual": 7.260420374317235e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 4.8264947071045294e-08,
+      "measured_residual": 4.8264947071045294e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.821778117198856e-09,
+      "measured_residual": 7.821778117198856e-09,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 2.2300444444629717e-08,
+      "measured_residual": 2.2300444444629717e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 5.163294911861249e-08,
+      "measured_residual": 5.163294911861249e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 8.378940851501204e-09,
+      "measured_residual": 8.378940851501204e-09,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 4.463481720783347e-08,
+      "measured_residual": 4.463481720783347e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.26038786723462e-08,
+      "measured_residual": 7.26038786723462e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 4.827018848079093e-08,
+      "measured_residual": 4.827018848079093e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.823540655191936e-09,
+      "measured_residual": 7.823540655191936e-09,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 2.2300444444629717e-08,
+      "measured_residual": 2.2300444444629717e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/graph/r01",
+      "frame": 1,
+      "actual_iterations": 5,
+      "eager_iterations": 5,
+      "actual_true_relative_residual": 0.23382118075633365,
+      "eager_true_relative_residual": 0.2338211326687974,
+      "max_abs_direction_diff": 1.39877127892582e-10,
+      "relative_l2_direction_diff": 2.6699689037198558e-08
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 5.163297778966149e-08,
+      "measured_residual": 5.163297778966149e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 8.377886855434339e-09,
+      "measured_residual": 8.377886855434339e-09,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 4.463487617374337e-08,
+      "measured_residual": 4.463487617374337e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.26042168700396e-08,
+      "measured_residual": 7.26042168700396e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 4.8263847079989645e-08,
+      "measured_residual": 4.8263847079989645e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.807532001403405e-09,
+      "measured_residual": 7.807532001403405e-09,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 2.2300444444629717e-08,
+      "measured_residual": 2.2300444444629717e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 5.1632961133593514e-08,
+      "measured_residual": 5.1632961133593514e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 8.378611227581044e-09,
+      "measured_residual": 8.378611227581044e-09,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 4.463416620790926e-08,
+      "measured_residual": 4.463416620790926e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.260385269209532e-08,
+      "measured_residual": 7.260385269209532e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 4.826086037111193e-08,
+      "measured_residual": 4.826086037111193e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/bunny/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.806191335385698e-09,
+      "measured_residual": 7.806191335385698e-09,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 5.017988108638978e-06,
+      "measured_residual": 5.017988108638978e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 0.002270386641169476,
+      "measured_residual": 0.002270386641169476,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 0.0015934413312988702,
+      "measured_residual": 0.0015934413312988702,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 0.001277089797150107,
+      "measured_residual": 0.001277089797150107,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 0.0002700784527307495,
+      "measured_residual": 0.0002700784527307495,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 7.18572632478282e-05,
+      "measured_residual": 7.18572632478282e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 4.0025314269008485e-05,
+      "measured_residual": 4.0025314269008485e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 2.0413411277857154e-05,
+      "measured_residual": 2.0413411277857154e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 1.2984772523157213e-05,
+      "measured_residual": 1.2984772523157213e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 6.567903695900616e-06,
+      "measured_residual": 6.567903695900616e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 2.8034271384724954e-06,
+      "measured_residual": 2.8034271384724954e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 6.592002658970841e-07,
+      "measured_residual": 6.592002658970841e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 3.284283648749919e-07,
+      "measured_residual": 3.284283648749919e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.0035998812693145e-05,
+      "measured_residual": 1.0035998812693145e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 0.00035770643834799685,
+      "measured_residual": 0.00035770643834799685,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.952966767503087e-05,
+      "measured_residual": 8.952966767503087e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.3062331616861545e-05,
+      "measured_residual": 2.3062331616861545e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.0569651253881925e-05,
+      "measured_residual": 1.0569651253881925e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.03650908593288e-06,
+      "measured_residual": 3.03650908593288e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.546319802379518e-07,
+      "measured_residual": 7.546319802379518e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.850297707256754e-07,
+      "measured_residual": 8.850297707256754e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 9.768987227044906e-07,
+      "measured_residual": 9.768987227044906e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.1935778208906766e-06,
+      "measured_residual": 1.1935778208906766e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.1704262932657585e-06,
+      "measured_residual": 1.1704262932657585e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.1286705266711994e-06,
+      "measured_residual": 1.1286705266711994e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.0076004718696106e-06,
+      "measured_residual": 1.0076004718696106e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 9.42469300554344e-07,
+      "measured_residual": 9.42469300554344e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 9.8757393504789e-07,
+      "measured_residual": 9.8757393504789e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 9.71930213479647e-07,
+      "measured_residual": 9.71930213479647e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.946825177004599e-07,
+      "measured_residual": 8.946825177004599e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.017233090977612e-07,
+      "measured_residual": 8.017233090977612e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.36590080863879e-07,
+      "measured_residual": 7.36590080863879e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 6.671463609324329e-07,
+      "measured_residual": 6.671463609324329e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 6.575866511637046e-07,
+      "measured_residual": 6.575866511637046e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 6.85668341530852e-07,
+      "measured_residual": 6.85668341530852e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.730816103600299e-07,
+      "measured_residual": 7.730816103600299e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.429030577911249e-07,
+      "measured_residual": 8.429030577911249e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.758910831432734e-07,
+      "measured_residual": 8.758910831432734e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.443291407789806e-07,
+      "measured_residual": 8.443291407789806e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.397592084930293e-07,
+      "measured_residual": 8.397592084930293e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.146164420193301e-07,
+      "measured_residual": 8.146164420193301e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.792520436882974e-07,
+      "measured_residual": 7.792520436882974e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.388920673944259e-07,
+      "measured_residual": 7.388920673944259e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 6.947275478564608e-07,
+      "measured_residual": 6.947275478564608e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 6.454113483733949e-07,
+      "measured_residual": 6.454113483733949e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 5.891947047113879e-07,
+      "measured_residual": 5.891947047113879e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 5.539651710108726e-07,
+      "measured_residual": 5.539651710108726e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 5.496307533402632e-07,
+      "measured_residual": 5.496307533402632e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 5.454421713849058e-07,
+      "measured_residual": 5.454421713849058e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 5.379535113447409e-07,
+      "measured_residual": 5.379535113447409e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 5.227181709293677e-07,
+      "measured_residual": 5.227181709293677e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 4.978501615264008e-07,
+      "measured_residual": 4.978501615264008e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 4.7478232754603475e-07,
+      "measured_residual": 4.7478232754603475e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 4.4253885850824913e-07,
+      "measured_residual": 4.4253885850824913e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 4.18314936601265e-07,
+      "measured_residual": 4.18314936601265e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.911033414089871e-07,
+      "measured_residual": 3.911033414089871e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.7396885224518853e-07,
+      "measured_residual": 3.7396885224518853e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.623623169243295e-07,
+      "measured_residual": 3.623623169243295e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.5775905624006683e-07,
+      "measured_residual": 3.5775905624006683e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.535698875073558e-07,
+      "measured_residual": 3.535698875073558e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.4505063330092143e-07,
+      "measured_residual": 3.4505063330092143e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.2787177408557676e-07,
+      "measured_residual": 3.2787177408557676e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.0901065912767893e-07,
+      "measured_residual": 3.0901065912767893e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.7183567725268625e-07,
+      "measured_residual": 2.7183567725268625e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.696600937160106e-07,
+      "measured_residual": 2.696600937160106e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.474260623724449e-07,
+      "measured_residual": 2.474260623724449e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.236636577828997e-07,
+      "measured_residual": 2.236636577828997e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.2027210639749611e-07,
+      "measured_residual": 2.2027210639749611e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.186085509904659e-07,
+      "measured_residual": 2.186085509904659e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.1187730467288835e-07,
+      "measured_residual": 2.1187730467288835e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.9390832972347879e-07,
+      "measured_residual": 1.9390832972347879e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.8831174241297344e-07,
+      "measured_residual": 1.8831174241297344e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.7915606724245714e-07,
+      "measured_residual": 1.7915606724245714e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.680543998840377e-07,
+      "measured_residual": 1.680543998840377e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.5596901274909445e-07,
+      "measured_residual": 1.5596901274909445e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.4398068534699787e-07,
+      "measured_residual": 1.4398068534699787e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.4822733001789733e-07,
+      "measured_residual": 1.4822733001789733e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 5.017988108638978e-06,
+      "measured_residual": 5.017988108638978e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 0.0022703867265486937,
+      "measured_residual": 0.0022703867265486937,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 0.0015934414082086888,
+      "measured_residual": 0.0015934414082086888,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 0.0012770904150215506,
+      "measured_residual": 0.0012770904150215506,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 0.0002700785783368705,
+      "measured_residual": 0.0002700785783368705,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 7.185730839165923e-05,
+      "measured_residual": 7.185730839165923e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 4.0025294423390775e-05,
+      "measured_residual": 4.0025294423390775e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 2.0413370497922553e-05,
+      "measured_residual": 2.0413370497922553e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 1.2984771904590773e-05,
+      "measured_residual": 1.2984771904590773e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 6.567887920405289e-06,
+      "measured_residual": 6.567887920405289e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 2.8034214050166677e-06,
+      "measured_residual": 2.8034214050166677e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 6.591981639805268e-07,
+      "measured_residual": 6.591981639805268e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 3.284302589696244e-07,
+      "measured_residual": 3.284302589696244e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.003599880567934e-05,
+      "measured_residual": 1.003599880567934e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 0.00035770658739371413,
+      "measured_residual": 0.00035770658739371413,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.952965939509644e-05,
+      "measured_residual": 8.952965939509644e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.3062307179585347e-05,
+      "measured_residual": 2.3062307179585347e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.056962137209813e-05,
+      "measured_residual": 1.056962137209813e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.036480690245474e-06,
+      "measured_residual": 3.036480690245474e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.546290332576506e-07,
+      "measured_residual": 7.546290332576506e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.849924253507838e-07,
+      "measured_residual": 8.849924253507838e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 9.768884243474506e-07,
+      "measured_residual": 9.768884243474506e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.193578567698447e-06,
+      "measured_residual": 1.193578567698447e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.1704227457432499e-06,
+      "measured_residual": 1.1704227457432499e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.1286720538504093e-06,
+      "measured_residual": 1.1286720538504093e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.007612137563956e-06,
+      "measured_residual": 1.007612137563956e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 9.42481186924215e-07,
+      "measured_residual": 9.42481186924215e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 9.875646853338142e-07,
+      "measured_residual": 9.875646853338142e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 9.719257850389836e-07,
+      "measured_residual": 9.719257850389836e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.946805298375522e-07,
+      "measured_residual": 8.946805298375522e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.017285770923419e-07,
+      "measured_residual": 8.017285770923419e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.365996301765763e-07,
+      "measured_residual": 7.365996301765763e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 6.671434349187382e-07,
+      "measured_residual": 6.671434349187382e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 6.575774815311847e-07,
+      "measured_residual": 6.575774815311847e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 6.85517690330791e-07,
+      "measured_residual": 6.85517690330791e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.728760280491992e-07,
+      "measured_residual": 7.728760280491992e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.429089261183572e-07,
+      "measured_residual": 8.429089261183572e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.759031494528118e-07,
+      "measured_residual": 8.759031494528118e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.443334337327125e-07,
+      "measured_residual": 8.443334337327125e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.397321023334425e-07,
+      "measured_residual": 8.397321023334425e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.146118723234544e-07,
+      "measured_residual": 8.146118723234544e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.791173334174322e-07,
+      "measured_residual": 7.791173334174322e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.38903166817361e-07,
+      "measured_residual": 7.38903166817361e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 6.947010214545599e-07,
+      "measured_residual": 6.947010214545599e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 6.454102410393082e-07,
+      "measured_residual": 6.454102410393082e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 5.900388818295317e-07,
+      "measured_residual": 5.900388818295317e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 5.421116173853097e-07,
+      "measured_residual": 5.421116173853097e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 5.460133684373641e-07,
+      "measured_residual": 5.460133684373641e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 5.471331938248312e-07,
+      "measured_residual": 5.471331938248312e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 5.379095789193782e-07,
+      "measured_residual": 5.379095789193782e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 5.17328291293189e-07,
+      "measured_residual": 5.17328291293189e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 5.009876148630615e-07,
+      "measured_residual": 5.009876148630615e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 4.724139345123358e-07,
+      "measured_residual": 4.724139345123358e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 4.4537845115819386e-07,
+      "measured_residual": 4.4537845115819386e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 4.188375075913802e-07,
+      "measured_residual": 4.188375075913802e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.909183214988195e-07,
+      "measured_residual": 3.909183214988195e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.7325429127479886e-07,
+      "measured_residual": 3.7325429127479886e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.660528143467295e-07,
+      "measured_residual": 3.660528143467295e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.514192314178704e-07,
+      "measured_residual": 3.514192314178704e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.4019428513320023e-07,
+      "measured_residual": 3.4019428513320023e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.4322316889042616e-07,
+      "measured_residual": 3.4322316889042616e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.363334458201326e-07,
+      "measured_residual": 3.363334458201326e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.0308644818594457e-07,
+      "measured_residual": 3.0308644818594457e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.7953904313017445e-07,
+      "measured_residual": 2.7953904313017445e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.29433222783272e-07,
+      "measured_residual": 2.29433222783272e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.4996143832137385e-07,
+      "measured_residual": 2.4996143832137385e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.2524944462573223e-07,
+      "measured_residual": 2.2524944462573223e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.213225221012095e-07,
+      "measured_residual": 2.213225221012095e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.1885214965478663e-07,
+      "measured_residual": 2.1885214965478663e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.1218794554758738e-07,
+      "measured_residual": 2.1218794554758738e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.9392335235048102e-07,
+      "measured_residual": 1.9392335235048102e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.8780024147543414e-07,
+      "measured_residual": 1.8780024147543414e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.7960165487866646e-07,
+      "measured_residual": 1.7960165487866646e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.684107966763623e-07,
+      "measured_residual": 1.684107966763623e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.5637706315899e-07,
+      "measured_residual": 1.5637706315899e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.440433617442303e-07,
+      "measured_residual": 1.440433617442303e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.484688565451119e-07,
+      "measured_residual": 1.484688565451119e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 5.017988108638978e-06,
+      "measured_residual": 5.017988108638978e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "frame": 1,
+      "actual_iterations": 2,
+      "eager_iterations": 2,
+      "actual_true_relative_residual": 0.0023946134969072184,
+      "eager_true_relative_residual": 0.0023946189566302215,
+      "max_abs_direction_diff": 3.4876440666671213e-09,
+      "relative_l2_direction_diff": 5.255233466367414e-08
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 0.002270386390292656,
+      "measured_residual": 0.002270386390292656,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 0.0015934411305339742,
+      "measured_residual": 0.0015934411305339742,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 0.001277088302820138,
+      "measured_residual": 0.001277088302820138,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 0.0002700781607326646,
+      "measured_residual": 0.0002700781607326646,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 7.185719905584544e-05,
+      "measured_residual": 7.185719905584544e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 4.002528680725913e-05,
+      "measured_residual": 4.002528680725913e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 2.0413391268691792e-05,
+      "measured_residual": 2.0413391268691792e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 1.2984752648361088e-05,
+      "measured_residual": 1.2984752648361088e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 6.567877363434894e-06,
+      "measured_residual": 6.567877363434894e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 2.803415297505732e-06,
+      "measured_residual": 2.803415297505732e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 6.591948405493003e-07,
+      "measured_residual": 6.591948405493003e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 3.284242201879366e-07,
+      "measured_residual": 3.284242201879366e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.0035998812855915e-05,
+      "measured_residual": 1.0035998812855915e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 0.00035770686877269545,
+      "measured_residual": 0.00035770686877269545,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.952980846102373e-05,
+      "measured_residual": 8.952980846102373e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.3062426731815134e-05,
+      "measured_residual": 2.3062426731815134e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.0569684003257754e-05,
+      "measured_residual": 1.0569684003257754e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.036495007865299e-06,
+      "measured_residual": 3.036495007865299e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.546316457794718e-07,
+      "measured_residual": 7.546316457794718e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.85024934606684e-07,
+      "measured_residual": 8.85024934606684e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 9.768998305855403e-07,
+      "measured_residual": 9.768998305855403e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.193574021094597e-06,
+      "measured_residual": 1.193574021094597e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.170415529822536e-06,
+      "measured_residual": 1.170415529822536e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.1286595559620192e-06,
+      "measured_residual": 1.1286595559620192e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.0076055971755715e-06,
+      "measured_residual": 1.0076055971755715e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 9.424756146636068e-07,
+      "measured_residual": 9.424756146636068e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 9.875651660149575e-07,
+      "measured_residual": 9.875651660149575e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 9.719235974774808e-07,
+      "measured_residual": 9.719235974774808e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.94676732856878e-07,
+      "measured_residual": 8.94676732856878e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.01725053451724e-07,
+      "measured_residual": 8.01725053451724e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.365933501645316e-07,
+      "measured_residual": 7.365933501645316e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 6.671436676555011e-07,
+      "measured_residual": 6.671436676555011e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 6.575824103400183e-07,
+      "measured_residual": 6.575824103400183e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 6.854812360793989e-07,
+      "measured_residual": 6.854812360793989e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.728278883235124e-07,
+      "measured_residual": 7.728278883235124e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.429029945202151e-07,
+      "measured_residual": 8.429029945202151e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.759087781273012e-07,
+      "measured_residual": 8.759087781273012e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.443171079000996e-07,
+      "measured_residual": 8.443171079000996e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.397623327817141e-07,
+      "measured_residual": 8.397623327817141e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.145970169224604e-07,
+      "measured_residual": 8.145970169224604e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.79200027233252e-07,
+      "measured_residual": 7.79200027233252e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.388734091499615e-07,
+      "measured_residual": 7.388734091499615e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 6.947394720060219e-07,
+      "measured_residual": 6.947394720060219e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 6.456294498516042e-07,
+      "measured_residual": 6.456294498516042e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 5.894883118630102e-07,
+      "measured_residual": 5.894883118630102e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 5.434759301644901e-07,
+      "measured_residual": 5.434759301644901e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 5.485897296153801e-07,
+      "measured_residual": 5.485897296153801e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 5.474516797639636e-07,
+      "measured_residual": 5.474516797639636e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 5.381868029565267e-07,
+      "measured_residual": 5.381868029565267e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 5.194717401252493e-07,
+      "measured_residual": 5.194717401252493e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 5.009130231296884e-07,
+      "measured_residual": 5.009130231296884e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 4.691599643925673e-07,
+      "measured_residual": 4.691599643925673e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 4.450576878114149e-07,
+      "measured_residual": 4.450576878114149e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 4.1713613818363225e-07,
+      "measured_residual": 4.1713613818363225e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.9476458368627935e-07,
+      "measured_residual": 3.9476458368627935e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.7232526421721607e-07,
+      "measured_residual": 3.7232526421721607e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.624900755752918e-07,
+      "measured_residual": 3.624900755752918e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.4713644513622957e-07,
+      "measured_residual": 3.4713644513622957e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.4948770374608247e-07,
+      "measured_residual": 3.4948770374608247e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.454356288955012e-07,
+      "measured_residual": 3.454356288955012e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.301366375719406e-07,
+      "measured_residual": 3.301366375719406e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.050976666044923e-07,
+      "measured_residual": 3.050976666044923e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.0431643890702354e-07,
+      "measured_residual": 3.0431643890702354e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.796398164079381e-07,
+      "measured_residual": 2.796398164079381e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.5092639649937763e-07,
+      "measured_residual": 2.5092639649937763e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.2271743461843308e-07,
+      "measured_residual": 2.2271743461843308e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.2059506594184076e-07,
+      "measured_residual": 2.2059506594184076e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.1862350642972972e-07,
+      "measured_residual": 2.1862350642972972e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.1194364803682516e-07,
+      "measured_residual": 2.1194364803682516e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.938849045464246e-07,
+      "measured_residual": 1.938849045464246e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.8727216785144285e-07,
+      "measured_residual": 1.8727216785144285e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.7900704520307227e-07,
+      "measured_residual": 1.7900704520307227e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.6832050210365797e-07,
+      "measured_residual": 1.6832050210365797e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.558704760509877e-07,
+      "measured_residual": 1.558704760509877e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.4397212324729456e-07,
+      "measured_residual": 1.4397212324729456e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.4863289008431475e-07,
+      "measured_residual": 1.4863289008431475e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 5.017988108638978e-06,
+      "measured_residual": 5.017988108638978e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 0.0022703866763428312,
+      "measured_residual": 0.0022703866763428312,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 0.001593441314813722,
+      "measured_residual": 0.001593441314813722,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 0.001277087874097036,
+      "measured_residual": 0.001277087874097036,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 0.000270078015466006,
+      "measured_residual": 0.000270078015466006,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 7.1857229244473e-05,
+      "measured_residual": 7.1857229244473e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 4.0025281368859246e-05,
+      "measured_residual": 4.0025281368859246e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 2.0413378601712273e-05,
+      "measured_residual": 2.0413378601712273e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 1.2984745440150957e-05,
+      "measured_residual": 1.2984745440150957e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.0035837086784542e-05,
+      "measured_residual": 1.0035837086784542e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 0.0005207398634859447,
+      "measured_residual": 0.0005207398634859447,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 9.646694386350028e-05,
+      "measured_residual": 9.646694386350028e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.2983992685300307e-05,
+      "measured_residual": 2.2983992685300307e-05,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 5.402561558641255e-06,
+      "measured_residual": 5.402561558641255e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/hang/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 9.752928329453693e-07,
+      "measured_residual": 9.752928329453693e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 5.0176000000024013e-08,
+      "measured_residual": 5.0176000000024013e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 4.430209412321578e-08,
+      "measured_residual": 4.430209412321578e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 1.3660810205915653e-08,
+      "measured_residual": 1.3660810205915653e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.0036420284404288e-07,
+      "measured_residual": 1.0036420284404288e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 9.320794259206969e-08,
+      "measured_residual": 9.320794259206969e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 5.16551763138325e-08,
+      "measured_residual": 5.16551763138325e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.297984885778971e-08,
+      "measured_residual": 3.297984885778971e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 5.0176000000024013e-08,
+      "measured_residual": 5.0176000000024013e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 4.4302092054463284e-08,
+      "measured_residual": 4.4302092054463284e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 1.3660535528507342e-08,
+      "measured_residual": 1.3660535528507342e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.0036420304439446e-07,
+      "measured_residual": 1.0036420304439446e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 9.320796056484135e-08,
+      "measured_residual": 9.320796056484135e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 5.1655182805391266e-08,
+      "measured_residual": 5.1655182805391266e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.2980469944508045e-08,
+      "measured_residual": 3.2980469944508045e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 5.0176000000024013e-08,
+      "measured_residual": 5.0176000000024013e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/graph/r01",
+      "frame": 1,
+      "actual_iterations": 5,
+      "eager_iterations": 5,
+      "actual_true_relative_residual": 0.10023169684775932,
+      "eager_true_relative_residual": 0.10023171424782176,
+      "max_abs_direction_diff": 1.254813184782544e-10,
+      "relative_l2_direction_diff": 1.8667917880471974e-08
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 4.4302090743751e-08,
+      "measured_residual": 4.4302090743751e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 1.3660708709310218e-08,
+      "measured_residual": 1.3660708709310218e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.003642026464853e-07,
+      "measured_residual": 1.003642026464853e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 9.320798102271627e-08,
+      "measured_residual": 9.320798102271627e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 5.1655205452329084e-08,
+      "measured_residual": 5.1655205452329084e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.2979673535820674e-08,
+      "measured_residual": 3.2979673535820674e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 5.0176000000024013e-08,
+      "measured_residual": 5.0176000000024013e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 4.4302079688752226e-08,
+      "measured_residual": 4.4302079688752226e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 1.3660705065872494e-08,
+      "measured_residual": 1.3660705065872494e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.0036420307999965e-07,
+      "measured_residual": 1.0036420307999965e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 9.320794615593747e-08,
+      "measured_residual": 9.320794615593747e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 5.165519832073898e-08,
+      "measured_residual": 5.165519832073898e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/sphere7/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.2980048582108726e-08,
+      "measured_residual": 3.2980048582108726e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 1.0897399286593178e-07,
+      "measured_residual": 1.0897399286593178e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 8.821261655340175e-07,
+      "measured_residual": 8.821261655340175e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 1.3593704786495655e-07,
+      "measured_residual": 1.3593704786495655e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 1.8375880934438678e-07,
+      "measured_residual": 1.8375880934438678e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.1923528009274815e-07,
+      "measured_residual": 2.1923528009274815e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.253091799608838e-06,
+      "measured_residual": 3.253091799608838e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.7470261484926164e-07,
+      "measured_residual": 3.7470261484926164e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.0503445370072326e-06,
+      "measured_residual": 1.0503445370072326e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.2954583388396823e-07,
+      "measured_residual": 1.2954583388396823e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.1762803880692192e-07,
+      "measured_residual": 1.1762803880692192e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 1.0897399286593178e-07,
+      "measured_residual": 1.0897399286593178e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 8.821286621992245e-07,
+      "measured_residual": 8.821286621992245e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 1.3593735299922485e-07,
+      "measured_residual": 1.3593735299922485e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 1.8375921860472882e-07,
+      "measured_residual": 1.8375921860472882e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.192352827952276e-07,
+      "measured_residual": 2.192352827952276e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.2530982188468266e-06,
+      "measured_residual": 3.2530982188468266e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.747013230715763e-07,
+      "measured_residual": 3.747013230715763e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.0503447234186217e-06,
+      "measured_residual": 1.0503447234186217e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.295306292975239e-07,
+      "measured_residual": 1.295306292975239e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.1755493018552514e-07,
+      "measured_residual": 1.1755493018552514e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 1.0897399286593178e-07,
+      "measured_residual": 1.0897399286593178e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/graph/r01",
+      "frame": 1,
+      "actual_iterations": 2,
+      "eager_iterations": 2,
+      "actual_true_relative_residual": 0.050871323485703016,
+      "eager_true_relative_residual": 0.05087126633390836,
+      "max_abs_direction_diff": 1.0044244264442725e-09,
+      "relative_l2_direction_diff": 9.03540877439646e-08
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 8.821283615397121e-07,
+      "measured_residual": 8.821283615397121e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 1.3593661557193469e-07,
+      "measured_residual": 1.3593661557193469e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 1.8375809213405923e-07,
+      "measured_residual": 1.8375809213405923e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.1923528550947263e-07,
+      "measured_residual": 2.1923528550947263e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.253100164376836e-06,
+      "measured_residual": 3.253100164376836e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.746774824281795e-07,
+      "measured_residual": 3.746774824281795e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.050349974756713e-06,
+      "measured_residual": 1.050349974756713e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.2954025690943782e-07,
+      "measured_residual": 1.2954025690943782e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.176020828950153e-07,
+      "measured_residual": 1.176020828950153e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 1.0897399286593178e-07,
+      "measured_residual": 1.0897399286593178e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 8.821266025875942e-07,
+      "measured_residual": 8.821266025875942e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 1.359365990654758e-07,
+      "measured_residual": 1.359365990654758e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 1.8375806157467417e-07,
+      "measured_residual": 1.8375806157467417e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 2.192352810669634e-07,
+      "measured_residual": 2.192352810669634e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.25310256444297e-06,
+      "measured_residual": 3.25310256444297e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.747260467199232e-07,
+      "measured_residual": 3.747260467199232e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.0503447303664597e-06,
+      "measured_residual": 1.0503447303664597e-06,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.2953422999966983e-07,
+      "measured_residual": 1.2953422999966983e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/stack10/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 1.1757311435822182e-07,
+      "measured_residual": 1.1757311435822182e-07,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 2.2300444444629717e-08,
+      "measured_residual": 2.2300444444629717e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 4.755930767083495e-08,
+      "measured_residual": 4.755930767083495e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 6.661458497415151e-09,
+      "measured_residual": 6.661458497415151e-09,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 4.463126632232501e-08,
+      "measured_residual": 4.463126632232501e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.556270508099902e-08,
+      "measured_residual": 7.556270508099902e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.836965882272313e-08,
+      "measured_residual": 3.836965882272313e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/base/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.456070408160918e-09,
+      "measured_residual": 8.456070408160918e-09,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 2.2300444444629717e-08,
+      "measured_residual": 2.2300444444629717e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 4.755936474666765e-08,
+      "measured_residual": 4.755936474666765e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 6.663332658227998e-09,
+      "measured_residual": 6.663332658227998e-09,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 4.463271295458818e-08,
+      "measured_residual": 4.463271295458818e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.556306237797841e-08,
+      "measured_residual": 7.556306237797841e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.835867945046063e-08,
+      "measured_residual": 3.835867945046063e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/compensated/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.432362655981655e-09,
+      "measured_residual": 8.432362655981655e-09,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 2.2300444444629717e-08,
+      "measured_residual": 2.2300444444629717e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/graph/r01",
+      "frame": 1,
+      "actual_iterations": 5,
+      "eager_iterations": 5,
+      "actual_true_relative_residual": 0.2513896141646649,
+      "eager_true_relative_residual": 0.2513896902048752,
+      "max_abs_direction_diff": 1.8023110304535295e-10,
+      "relative_l2_direction_diff": 2.988814109179209e-08
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 4.755932596328261e-08,
+      "measured_residual": 4.755932596328261e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 6.66229409386744e-09,
+      "measured_residual": 6.66229409386744e-09,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 4.463308673996994e-08,
+      "measured_residual": 4.463308673996994e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.556304665310828e-08,
+      "measured_residual": 7.556304665310828e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.8351629608887896e-08,
+      "measured_residual": 3.8351629608887896e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/graph/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.471053489578774e-09,
+      "measured_residual": 8.471053489578774e-09,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 2.2300444444629717e-08,
+      "measured_residual": 2.2300444444629717e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 4.755931846782289e-08,
+      "measured_residual": 4.755931846782289e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 1,
+      "rhs_infinity_norm": 6.6633512227243795e-09,
+      "measured_residual": 6.6633512227243795e-09,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 4.463199484890973e-08,
+      "measured_residual": 4.463199484890973e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 7.556288759743067e-08,
+      "measured_residual": 7.556288759743067e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 3.836553994183934e-08,
+      "measured_residual": 3.836553994183934e-08,
+      "agrees": true
+    },
+    {
+      "run": "experiments/cloth-four-smoke-v2/table/toi/r01",
+      "kind": "nonlinear_native_rhs",
+      "frame": 2,
+      "rhs_infinity_norm": 8.440969815674687e-09,
+      "measured_residual": 8.440969815674687e-09,
+      "agrees": true
+    }
+  ]
+}

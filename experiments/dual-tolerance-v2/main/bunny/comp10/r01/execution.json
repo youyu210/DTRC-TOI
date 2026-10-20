@@ -1,0 +1,32 @@
+{
+  "command": [
+    "D:\\code_2\\stiffGIPC\\residual-toi-graph-c49982fa\\build\\gipc.exe",
+    "--scene",
+    "1",
+    "--pcg-dual-graph",
+    "--benchmark-frames",
+    "50",
+    "--benchmark-output-dir",
+    "D:\\code_2\\stiffGIPC\\residual-toi-graph-c49982fa\\experiments\\dual-tolerance-v2\\main\\bunny\\comp10\\r01",
+    "--export-states",
+    "--termination",
+    "compensated",
+    "--toi-min-updates",
+    "6",
+    "--toi-threshold",
+    ".001",
+    "--residual-threshold",
+    "0.1",
+    "--newton-tolerance-scale",
+    "1",
+    "--pcg-tolerance-scale",
+    "1",
+    "--cloth-offset-y",
+    "0"
+  ],
+  "returncode": 0,
+  "wall_seconds": 12.828000000037719,
+  "exe_sha256": "c9aa98b158887d96cea133d2632ca9cf5f4c4ac6665f4998c82d72f6a932f54b",
+  "source_commit": "cc1afb9f5a677ed046beab9121f004f566fc74bb",
+  "gpu_after": "0, NVIDIA GeForce RTX 3090 Ti, 57, 2040 MHz\n1, NVIDIA GeForce RTX 3090 Ti, 33, 210 MHz\n"
+}

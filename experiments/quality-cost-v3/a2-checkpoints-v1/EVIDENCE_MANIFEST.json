@@ -1,0 +1,1004 @@
+{
+  "files": [
+    {
+      "path": "build/gipc.exe",
+      "bytes": 11035648,
+      "sha256": "d55d7ecc59e464463254c4b575ad3fde4f631e493636a93e380ad891c8b8f77e"
+    },
+    {
+      "path": "experiments/generate_a2_checkpoints.py",
+      "bytes": 7475,
+      "sha256": "75f8ffe4970569521629ef30a0dd4b79727026422b7022d9dd158bbb3e57fd2f"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/analysis.json",
+      "bytes": 2405,
+      "sha256": "daf29291fff56ac26b0f76b4a60cc344eccd27e4cbac17768a5510d255659512"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/CHECKPOINT_REPORT.md",
+      "bytes": 1259,
+      "sha256": "db71738767682a747d8aed4922962a5fbd591ec16f9f5f5b307e50db1a00115f"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S2/abd_dq.bin",
+      "bytes": 96,
+      "sha256": "2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S2/abd_q.bin",
+      "bytes": 96,
+      "sha256": "a33ba6deff4fde82cec33c2ea66e2eeb7630dc7632db71e990d090bad53926e2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S2/abd_q_prev.bin",
+      "bytes": 96,
+      "sha256": "a33ba6deff4fde82cec33c2ea66e2eeb7630dc7632db71e990d090bad53926e2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S2/abd_q_temp.bin",
+      "bytes": 96,
+      "sha256": "a33ba6deff4fde82cec33c2ea66e2eeb7630dc7632db71e990d090bad53926e2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S2/abd_q_tilde.bin",
+      "bytes": 96,
+      "sha256": "a33ba6deff4fde82cec33c2ea66e2eeb7630dc7632db71e990d090bad53926e2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S2/abd_q_v.bin",
+      "bytes": 96,
+      "sha256": "2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S2/contact_counts.bin",
+      "bytes": 20,
+      "sha256": "de47c9b27eb8d300dbb5f2c353e632c393262cf06340c4fa7f1b40c4cbd36f90"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S2/contact_matrix_indices.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S2/contact_pairs.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S2/fem_apply_gravity.bin",
+      "bytes": 167976,
+      "sha256": "fe167f48a800f142e7d7ed55c9471cfacf1a9e159f81669d1d03efa90c9d56bc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S2/fem_boundary.bin",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S2/fem_o_vertexes.bin",
+      "bytes": 1007856,
+      "sha256": "31aa5b86c12ad2038221b11ba6d611e1dee58470cdfb7684964f6be21a3a35a1"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S2/fem_targets.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S2/fem_velocities.bin",
+      "bytes": 1007856,
+      "sha256": "770340bf820b1ee8778cce60778da4bbbf5f6b3c0b716d9eaabab7202938d5fe"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S2/fem_vertexes.bin",
+      "bytes": 1007856,
+      "sha256": "31aa5b86c12ad2038221b11ba6d611e1dee58470cdfb7684964f6be21a3a35a1"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S2/fem_x_tilde.bin",
+      "bytes": 1007856,
+      "sha256": "3b67f3e4885c7d728303a116e40a99078ae497834e563d09faa0c0c5db22b7a5"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S2/ground_count.bin",
+      "bytes": 4,
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S2/ground_pairs.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S2/manifest.json",
+      "bytes": 2657,
+      "sha256": "04bf5306151cf1112fffd01956abfebf864a8a529de6d4f0e6846b79d4aed43a"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S47/abd_dq.bin",
+      "bytes": 96,
+      "sha256": "2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S47/abd_q.bin",
+      "bytes": 96,
+      "sha256": "a33ba6deff4fde82cec33c2ea66e2eeb7630dc7632db71e990d090bad53926e2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S47/abd_q_prev.bin",
+      "bytes": 96,
+      "sha256": "a33ba6deff4fde82cec33c2ea66e2eeb7630dc7632db71e990d090bad53926e2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S47/abd_q_temp.bin",
+      "bytes": 96,
+      "sha256": "a33ba6deff4fde82cec33c2ea66e2eeb7630dc7632db71e990d090bad53926e2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S47/abd_q_tilde.bin",
+      "bytes": 96,
+      "sha256": "a33ba6deff4fde82cec33c2ea66e2eeb7630dc7632db71e990d090bad53926e2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S47/abd_q_v.bin",
+      "bytes": 96,
+      "sha256": "2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S47/contact_counts.bin",
+      "bytes": 20,
+      "sha256": "f1275f7aa6882f45445df2bb8a17b4fd9a9ef33a8b8cb7a1e53b3a155f7be20e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S47/contact_matrix_indices.bin",
+      "bytes": 18484,
+      "sha256": "6980806f8e488af6ef33ef3531e75ae9473bc4b18bb0c67cb5367751adc2a908"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S47/contact_pairs.bin",
+      "bytes": 73936,
+      "sha256": "d49c96bb4b9138eb397caf6aa5e9dcbfaa30c3b33693966f2f6106384be3e6f9"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S47/fem_apply_gravity.bin",
+      "bytes": 167976,
+      "sha256": "fe167f48a800f142e7d7ed55c9471cfacf1a9e159f81669d1d03efa90c9d56bc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S47/fem_boundary.bin",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S47/fem_o_vertexes.bin",
+      "bytes": 1007856,
+      "sha256": "55fa5c0df7de0d3fe7d27cb640ced992ac914e069b133680c0b1dabbd1f2eaf1"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S47/fem_targets.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S47/fem_velocities.bin",
+      "bytes": 1007856,
+      "sha256": "6cd50d735d7aa0df9459f1e29558358426ad9a3c701dacd3da0b4923401960b0"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S47/fem_vertexes.bin",
+      "bytes": 1007856,
+      "sha256": "55fa5c0df7de0d3fe7d27cb640ced992ac914e069b133680c0b1dabbd1f2eaf1"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S47/fem_x_tilde.bin",
+      "bytes": 1007856,
+      "sha256": "1a20a2b5008e8781602d4e7b63cac02f0352ddef3450e065dc87573f4ffb7910"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S47/ground_count.bin",
+      "bytes": 4,
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S47/ground_pairs.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S47/manifest.json",
+      "bytes": 2684,
+      "sha256": "b716d6c3adf951bac10f5e0d906537c8a9632f8458990078b6af19c854c188ab"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S48/abd_dq.bin",
+      "bytes": 96,
+      "sha256": "2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S48/abd_q.bin",
+      "bytes": 96,
+      "sha256": "a33ba6deff4fde82cec33c2ea66e2eeb7630dc7632db71e990d090bad53926e2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S48/abd_q_prev.bin",
+      "bytes": 96,
+      "sha256": "a33ba6deff4fde82cec33c2ea66e2eeb7630dc7632db71e990d090bad53926e2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S48/abd_q_temp.bin",
+      "bytes": 96,
+      "sha256": "a33ba6deff4fde82cec33c2ea66e2eeb7630dc7632db71e990d090bad53926e2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S48/abd_q_tilde.bin",
+      "bytes": 96,
+      "sha256": "a33ba6deff4fde82cec33c2ea66e2eeb7630dc7632db71e990d090bad53926e2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S48/abd_q_v.bin",
+      "bytes": 96,
+      "sha256": "2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S48/contact_counts.bin",
+      "bytes": 20,
+      "sha256": "246fee3569987bb59a2d4b48fe8795d02a21a98ba9f066fdd2b2c4863718ede9"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S48/contact_matrix_indices.bin",
+      "bytes": 23404,
+      "sha256": "9952db6a42d76c1592f5ba314ec9b3d49559280fef5c648d3378deea0a441ee7"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S48/contact_pairs.bin",
+      "bytes": 93616,
+      "sha256": "4a9bd2c1703fbf6732a70bb4e5c65ead4796ceec9d869eabded64dc8866f7675"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S48/fem_apply_gravity.bin",
+      "bytes": 167976,
+      "sha256": "fe167f48a800f142e7d7ed55c9471cfacf1a9e159f81669d1d03efa90c9d56bc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S48/fem_boundary.bin",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S48/fem_o_vertexes.bin",
+      "bytes": 1007856,
+      "sha256": "5dae6061b7b4d2231809dd7c96d65bd898c978f47050d567beee6f15118ff5b0"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S48/fem_targets.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S48/fem_velocities.bin",
+      "bytes": 1007856,
+      "sha256": "4f2b4fd9f4ec7bfe20c4023b54bb9994dd63ad7f421785babc15926d02c9df73"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S48/fem_vertexes.bin",
+      "bytes": 1007856,
+      "sha256": "5dae6061b7b4d2231809dd7c96d65bd898c978f47050d567beee6f15118ff5b0"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S48/fem_x_tilde.bin",
+      "bytes": 1007856,
+      "sha256": "fef12069b3697460880cb94ed395b52dfc3664be9942c17ebfa448c1c911e9fa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S48/ground_count.bin",
+      "bytes": 4,
+      "sha256": "fb5e512425fc9449316ec95969ebe71e2d576dbab833d61e2a5b9330fd70ee02"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S48/ground_pairs.bin",
+      "bytes": 16,
+      "sha256": "021fcfb3da0c6bb4d2e5f3c1c91c8bf904ec1b2528e4fb1727deb423ed0916d0"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S48/manifest.json",
+      "bytes": 2686,
+      "sha256": "2e15c6503b7f6f147b1b2b063450e76f286755ca3361a75ee6c723e078792aa7"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S49/abd_dq.bin",
+      "bytes": 96,
+      "sha256": "2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S49/abd_q.bin",
+      "bytes": 96,
+      "sha256": "a33ba6deff4fde82cec33c2ea66e2eeb7630dc7632db71e990d090bad53926e2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S49/abd_q_prev.bin",
+      "bytes": 96,
+      "sha256": "a33ba6deff4fde82cec33c2ea66e2eeb7630dc7632db71e990d090bad53926e2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S49/abd_q_temp.bin",
+      "bytes": 96,
+      "sha256": "a33ba6deff4fde82cec33c2ea66e2eeb7630dc7632db71e990d090bad53926e2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S49/abd_q_tilde.bin",
+      "bytes": 96,
+      "sha256": "a33ba6deff4fde82cec33c2ea66e2eeb7630dc7632db71e990d090bad53926e2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S49/abd_q_v.bin",
+      "bytes": 96,
+      "sha256": "2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S49/contact_counts.bin",
+      "bytes": 20,
+      "sha256": "ac1ac57e406170d0ae90177f25c98dca550f969aca587e664d507d1ed5f90fa6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S49/contact_matrix_indices.bin",
+      "bytes": 23768,
+      "sha256": "54bc704fada6ced56bb9fac8ac237d7e9626bedda96cd8ca25bf8abef19356c1"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S49/contact_pairs.bin",
+      "bytes": 95072,
+      "sha256": "cfb6f716f52517c9d4e0e14cfc88737b007fed13e163812e5a117397548e4993"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S49/fem_apply_gravity.bin",
+      "bytes": 167976,
+      "sha256": "fe167f48a800f142e7d7ed55c9471cfacf1a9e159f81669d1d03efa90c9d56bc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S49/fem_boundary.bin",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S49/fem_o_vertexes.bin",
+      "bytes": 1007856,
+      "sha256": "b2fec09e90b2e747f228bb9826f3703db5fc1dffc6f2f40256266c6407571301"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S49/fem_targets.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S49/fem_velocities.bin",
+      "bytes": 1007856,
+      "sha256": "c3b99a4eacdbadab43090101dd64ee11d7ffcd802456eefe9f68e4b392761923"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S49/fem_vertexes.bin",
+      "bytes": 1007856,
+      "sha256": "b2fec09e90b2e747f228bb9826f3703db5fc1dffc6f2f40256266c6407571301"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S49/fem_x_tilde.bin",
+      "bytes": 1007856,
+      "sha256": "71788f0794be057f29657d3347a428465dd6e1b8031d11eda4eac82df0ab29d2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S49/ground_count.bin",
+      "bytes": 4,
+      "sha256": "1fa12ddcd1115032e8903f915254b2193a8734b17e9210d552108b7716ee529b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S49/ground_pairs.bin",
+      "bytes": 512,
+      "sha256": "96d4cba37572a3ec66dd32d69699b796a58d04ee395be921af9cdc16c5ef393d"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/bunny/S49/manifest.json",
+      "bytes": 2690,
+      "sha256": "6daca7014a5f731f7c57ea95d6624976ab93639b05001de42af27132f4bdad7e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S2/abd_dq.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S2/abd_q.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S2/abd_q_prev.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S2/abd_q_temp.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S2/abd_q_tilde.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S2/abd_q_v.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S2/contact_counts.bin",
+      "bytes": 20,
+      "sha256": "772ba160ad1707403873d8aa0687c25bf84d3f2f9e24c3923d1abca4f6a20ae2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S2/contact_matrix_indices.bin",
+      "bytes": 8,
+      "sha256": "01acecb507abfe1a354aa8064f4af5d3f1acd019e37db3c11c97523b71c76e9d"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S2/contact_pairs.bin",
+      "bytes": 32,
+      "sha256": "c14e39fa087fd9bc003fc00f35b387742e032df200c4d9e6b2d10e88bb6090e6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S2/fem_apply_gravity.bin",
+      "bytes": 118052,
+      "sha256": "b2abbfd2177eb7317cedc53bb40d3ebd9803312191c6c082c7ed2d6e661f3a8a"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S2/fem_boundary.bin",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S2/fem_o_vertexes.bin",
+      "bytes": 708312,
+      "sha256": "d3fe362aa6147e51dc260dc0df9293c9a529978ff0dc5897899207cfc7b2f7a1"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S2/fem_targets.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S2/fem_velocities.bin",
+      "bytes": 708312,
+      "sha256": "5a90b635da53ddfa86103c973dab49e585025d6939e9c23db9140134f5b9f94f"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S2/fem_vertexes.bin",
+      "bytes": 708312,
+      "sha256": "d3fe362aa6147e51dc260dc0df9293c9a529978ff0dc5897899207cfc7b2f7a1"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S2/fem_x_tilde.bin",
+      "bytes": 708312,
+      "sha256": "51493058647493853f7fca8d667dd2faf5022c2b15340fa2c12bd949388c657a"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S2/ground_count.bin",
+      "bytes": 4,
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S2/ground_pairs.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S2/manifest.json",
+      "bytes": 2648,
+      "sha256": "045c88861f3810e143e4fe2d9fbeb59ad948cceccd241d50e814c1beaf950aeb"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S21/abd_dq.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S21/abd_q.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S21/abd_q_prev.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S21/abd_q_temp.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S21/abd_q_tilde.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S21/abd_q_v.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S21/contact_counts.bin",
+      "bytes": 20,
+      "sha256": "772ba160ad1707403873d8aa0687c25bf84d3f2f9e24c3923d1abca4f6a20ae2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S21/contact_matrix_indices.bin",
+      "bytes": 8,
+      "sha256": "01acecb507abfe1a354aa8064f4af5d3f1acd019e37db3c11c97523b71c76e9d"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S21/contact_pairs.bin",
+      "bytes": 32,
+      "sha256": "c14e39fa087fd9bc003fc00f35b387742e032df200c4d9e6b2d10e88bb6090e6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S21/fem_apply_gravity.bin",
+      "bytes": 118052,
+      "sha256": "b2abbfd2177eb7317cedc53bb40d3ebd9803312191c6c082c7ed2d6e661f3a8a"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S21/fem_boundary.bin",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S21/fem_o_vertexes.bin",
+      "bytes": 708312,
+      "sha256": "2e4884eacdf6b398a50dac3d90064ab463a527f18eaf43a1250c302dc6e9bd00"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S21/fem_targets.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S21/fem_velocities.bin",
+      "bytes": 708312,
+      "sha256": "4e4de5fcdc0bc839ea6027cb681c1eb63ebe6b8bcf81a9c60f829557bc1a3dac"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S21/fem_vertexes.bin",
+      "bytes": 708312,
+      "sha256": "2e4884eacdf6b398a50dac3d90064ab463a527f18eaf43a1250c302dc6e9bd00"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S21/fem_x_tilde.bin",
+      "bytes": 708312,
+      "sha256": "229a2980d65b6a129ca629be629d93d5a1d1211329bd97a51e8dc13140b1cddd"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S21/ground_count.bin",
+      "bytes": 4,
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S21/ground_pairs.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S21/manifest.json",
+      "bytes": 2649,
+      "sha256": "347712555c72afd6f8774f8c605a411e07fcca55bb99439a44e29935dbef52fc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S22/abd_dq.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S22/abd_q.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S22/abd_q_prev.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S22/abd_q_temp.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S22/abd_q_tilde.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S22/abd_q_v.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S22/contact_counts.bin",
+      "bytes": 20,
+      "sha256": "772ba160ad1707403873d8aa0687c25bf84d3f2f9e24c3923d1abca4f6a20ae2"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S22/contact_matrix_indices.bin",
+      "bytes": 207000,
+      "sha256": "3e65be8f30ee7e3d3768edfc5053ba9ed41cd113e6b17ff69fed09bee99398ff"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S22/contact_pairs.bin",
+      "bytes": 828000,
+      "sha256": "b386758b2f11630543dcabb3fce5a4e86391f837fabaed9974e3b0eb23b2bfaf"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S22/fem_apply_gravity.bin",
+      "bytes": 118052,
+      "sha256": "b2abbfd2177eb7317cedc53bb40d3ebd9803312191c6c082c7ed2d6e661f3a8a"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S22/fem_boundary.bin",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S22/fem_o_vertexes.bin",
+      "bytes": 708312,
+      "sha256": "150ee029947ea268e2a15658a5e6125de4624c63e318e14c9b646e890ec542c7"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S22/fem_targets.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S22/fem_velocities.bin",
+      "bytes": 708312,
+      "sha256": "5361710f33b8af41c5e18de397ae3c1722596fe6364fc99d9a0c78416b769586"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S22/fem_vertexes.bin",
+      "bytes": 708312,
+      "sha256": "150ee029947ea268e2a15658a5e6125de4624c63e318e14c9b646e890ec542c7"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S22/fem_x_tilde.bin",
+      "bytes": 708312,
+      "sha256": "3e4692b627f9d5274ca8f618aecefd050fd4a4eaaa368f1a00d4ba24ac1cfc95"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S22/ground_count.bin",
+      "bytes": 4,
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S22/ground_pairs.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S22/manifest.json",
+      "bytes": 2684,
+      "sha256": "f7e366f69cd772536afaf20016f861f02288117a4673894e736bb805cf7d5c91"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S39/abd_dq.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S39/abd_q.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S39/abd_q_prev.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S39/abd_q_temp.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S39/abd_q_tilde.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S39/abd_q_v.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S39/contact_counts.bin",
+      "bytes": 20,
+      "sha256": "39d4a2692333f166f79d17b39539a1619bf83d99aa459a5a453314e44dccd4a7"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S39/contact_matrix_indices.bin",
+      "bytes": 161500,
+      "sha256": "ea7837c93be548c449bb6e420c89903302ada41b71d9e495c93ffd5a81a33ecc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S39/contact_pairs.bin",
+      "bytes": 646000,
+      "sha256": "36872f4fec8c4f94800d67e2844b479300fe216db31454495ef60b31d16512a8"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S39/fem_apply_gravity.bin",
+      "bytes": 118052,
+      "sha256": "b2abbfd2177eb7317cedc53bb40d3ebd9803312191c6c082c7ed2d6e661f3a8a"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S39/fem_boundary.bin",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S39/fem_o_vertexes.bin",
+      "bytes": 708312,
+      "sha256": "1d606434678a2d89ab519e91ddc0cabedd5af6c12a43b40443809de0cdad8acc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S39/fem_targets.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S39/fem_velocities.bin",
+      "bytes": 708312,
+      "sha256": "83ae1c93630e8c5866a289923428e08982fd5743c94df13cd53466750823d4e9"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S39/fem_vertexes.bin",
+      "bytes": 708312,
+      "sha256": "1d606434678a2d89ab519e91ddc0cabedd5af6c12a43b40443809de0cdad8acc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S39/fem_x_tilde.bin",
+      "bytes": 708312,
+      "sha256": "38e3703903126921ed3e3230f8f05714d7c62529f7ef27a7712069c874bfe376"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S39/ground_count.bin",
+      "bytes": 4,
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S39/ground_pairs.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/checkpoints/table/S39/manifest.json",
+      "bytes": 2683,
+      "sha256": "436a6eb21938a18bf88d5559fd61e7cdca548b3e6ae5d0d073872180d498f81c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/bunny/audits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/bunny/boundary.i32",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/bunny/cloth_scene.json",
+      "bytes": 556190,
+      "sha256": "b727199410f7942a00b3ddfa61de0929d33a4836015719343f0a140db96ce013"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/bunny/execution.json",
+      "bytes": 1009,
+      "sha256": "118d5bf07ddedc482ea62e99bb3a74fd3e34f84d9eb3d60f5a147abaa136b425"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/bunny/final.f64",
+      "bytes": 1007856,
+      "sha256": "b2fec09e90b2e747f228bb9826f3703db5fc1dffc6f2f40256266c6407571301"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/bunny/final_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "c3b99a4eacdbadab43090101dd64ee11d7ffcd802456eefe9f68e4b392761923"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/bunny/frames.csv",
+      "bytes": 11412,
+      "sha256": "3dd7ac06ba6eb497e15927d6cb5947b9e3f57fe5fc3d9d5aa88a6db05d568428"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/bunny/initial.f64",
+      "bytes": 1007856,
+      "sha256": "1871f310bd89da155476579012419c8dbea7a0dfcc62e92cfdbc98d73e2c8070"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/bunny/initial_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "b4633d0ee585adea63c4d5b2e52a1024e7e49f12b77d60a9a41ee59c2148e2ad"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/bunny/masses.f64",
+      "bytes": 335952,
+      "sha256": "f43d1b542b1aaee8f5daa7a4c86554daa4a5ce6d36bf0d4c1c84badbcb6b4773"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/bunny/metadata.json",
+      "bytes": 1503,
+      "sha256": "26143cf5afbfffbd9a3997a68ea547456f21265d37c3784240cf03b86233715d"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/bunny/newton_trace.jsonl",
+      "bytes": 4104373,
+      "sha256": "b5feba45a4c83a240f54bb6918c119c4758fb419e081f1c333f1cbe4f1fa65f7"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/bunny/pcg_iterations.jsonl",
+      "bytes": 8221,
+      "sha256": "7b93a5bc3ca949585a72598ef30aeebd4442328bd730d2b5835721b140f8c69e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/bunny/scene_initial.f64",
+      "bytes": 1007856,
+      "sha256": "1871f310bd89da155476579012419c8dbea7a0dfcc62e92cfdbc98d73e2c8070"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/bunny/scene_triangles.u32",
+      "bytes": 540000,
+      "sha256": "6a1bd30569021168e2734bc9dbe3c094cd3fbe2c04484c8ad56f974f3b8ee5dc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/bunny/states.f64",
+      "bytes": 49384944,
+      "sha256": "f09fc12ae05be9b5776fc90e00da33ef44844e433cc76e4d7bb878e9cb4a21b6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/bunny/status.json",
+      "bytes": 77,
+      "sha256": "f112ab791a460ef2954efddbed83a7406848b8cff68e483150e19f6bb26989c4"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/bunny/tetrahedra.u32",
+      "bytes": 1278960,
+      "sha256": "14d617981d1b1d2ccc44bda068e36716f3d90529afff94b37b0df766c6c99eb6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/bunny/velocities.f64",
+      "bytes": 49384944,
+      "sha256": "adc70f9a6a84b1dd1fd7bea02fcd5ce22f50c8580abbbe06e490a93705e06871"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/bunny.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/bunny.stdout.log",
+      "bytes": 1676,
+      "sha256": "047468ca38d3c612e193b0f194294e9e0c90d1a0d00d2f1609e1011d1dac72d6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/table/audits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/table/boundary.i32",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/table/cloth_scene.json",
+      "bytes": 309871,
+      "sha256": "3b5f7f39f6f9c1cef68c4805aea14fd4e85414d46f81d04af843adcd205a765e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/table/execution.json",
+      "bytes": 1020,
+      "sha256": "4aee8dda75e9911af71ec398375632c5c54f33a7ef0876a3942903b865db34da"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/table/final.f64",
+      "bytes": 708312,
+      "sha256": "1d606434678a2d89ab519e91ddc0cabedd5af6c12a43b40443809de0cdad8acc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/table/final_velocities.f64",
+      "bytes": 708312,
+      "sha256": "83ae1c93630e8c5866a289923428e08982fd5743c94df13cd53466750823d4e9"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/table/frames.csv",
+      "bytes": 9059,
+      "sha256": "7dcee4e5487a67cf200d9aeb801f9f9e0a1d883bb535d73705217b155eaf2233"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/table/initial.f64",
+      "bytes": 708312,
+      "sha256": "98adb74d76463d0c1b92e72067286bc96936acfe11fd7fb929c6a3e80b86d74c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/table/initial_velocities.f64",
+      "bytes": 708312,
+      "sha256": "6a0e544e35d6a8c94424a441b8a170d7b814cf59caba1ebfbdc85582d04d5da6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/table/masses.f64",
+      "bytes": 236104,
+      "sha256": "a21f2249591c9584761c7cb5d4cfbc104c1c1da9231dbce621524d7c5e246088"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/table/metadata.json",
+      "bytes": 1495,
+      "sha256": "1428684733a5692a1ff5af7fd482409e5d63975a03837c7693b32433a98868a7"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/table/newton_trace.jsonl",
+      "bytes": 1088400,
+      "sha256": "5e1caa2e15022ffca6589c5ee82e3396f4d016a91f9913a6db5848a97bec6f39"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/table/pcg_iterations.jsonl",
+      "bytes": 2871,
+      "sha256": "6eecd378e57fa91be176a58c530b5160ba0407bbd353f14c0713f9ea93f9b419"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/table/scene_initial.f64",
+      "bytes": 708312,
+      "sha256": "98adb74d76463d0c1b92e72067286bc96936acfe11fd7fb929c6a3e80b86d74c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/table/scene_triangles.u32",
+      "bytes": 701040,
+      "sha256": "fe6c35dbf7a0565ba3567733831c75ab8f1416843a3e6185e1ea52f089523531"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/table/states.f64",
+      "bytes": 27624168,
+      "sha256": "6cb55c0b41e278a715f0b20a712aa7c5ff41ad718b602d53f9e2f476c4c517e0"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/table/status.json",
+      "bytes": 77,
+      "sha256": "c0719f578c134147910ec753bc5e0db74001ace450b736a8c1465b978deb3966"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/table/tetrahedra.u32",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/table/velocities.f64",
+      "bytes": 27624168,
+      "sha256": "a9535c80a3e36409d15e2c3ef4cfb269bb3fa5e9aedbc8e920c9fb1cf03fc5cd"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/table.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/prefix/table.stdout.log",
+      "bytes": 1660,
+      "sha256": "6e60c2f7394ab9d48903d1a7b250eb6a240be22d7bf7dce0d3e63535205a5cb5"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-checkpoints-v1/README.md",
+      "bytes": 261,
+      "sha256": "fb2a2630f7784989815eae57774e1aae557cb3765629ac4350b9ed33cf3be5b5"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/SELECTED_STATES.json",
+      "bytes": 57826,
+      "sha256": "d615aa190080de1fbfcdbf620e9d1ac66b669cd10fe84385c6492ebf66cf5c24"
+    }
+  ]
+}

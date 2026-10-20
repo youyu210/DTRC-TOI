@@ -1,0 +1,9 @@
+{
+  "active_samples": 86,
+  "native_rhs_audits": 220,
+  "full_step_large_residual_veto": 49,
+  "pure_toi_would_pass_budget_would_not": 54,
+  "current_gate_would_pass_budget_would_not": 0,
+  "reference_index_and_recurrence_verified": true,
+  "all_native_rhs_audits_agree": true
+}

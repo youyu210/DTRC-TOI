@@ -1,0 +1,25 @@
+{
+  "implementation_commit": "c4ca04c2ecfb8fc30c91bf2903aa096084b1590b",
+  "tag": "quality-cost-v3-b1-profile-instrumentation",
+  "parent_results_tag": "quality-cost-v3-a4-v2-postactivation",
+  "profile_schema": "b1-exclusive-v1",
+  "binary_files": {
+    "cublas64_12.dll": "01d8172b25d8e2d2cb6a276e76e719f5908c6124f484c8c8ca310fbe7b6634f3",
+    "cublasLt64_12.dll": "0d59d264782cec2782b9ac72483e53c9ba485a9d3a1e19b34071a17b8152102e",
+    "freeglut.dll": "ce969fe8554515a4ade246155f7d86507fb933d395d183de5146380a980f0f8d",
+    "gipc.exe": "bd9b1ce75f4d310e4f57dce08c34f3fb3510ff25bcdd4befba88ae63809a89f0",
+    "glew32.dll": "82533396ae0d3aa25a860028ec10c72c56fab9d3de0d941be488eb4d58d1e708"
+  },
+  "validation": {
+    "scene": "stack10",
+    "frames": 1,
+    "profile_on_completed": true,
+    "profile_off_completed": true,
+    "newton_iterations": 4,
+    "pcg_iterations": 40,
+    "profile_on_vs_off_position_rms_m": 5.110954057388377e-12,
+    "profile_on_vs_off_velocity_rms_mps": 2.555477028652983e-10,
+    "profile_off_vs_parent_position_rms_m": 5.388845663261942e-12,
+    "profile_off_vs_parent_velocity_rms_mps": 2.694422831636917e-10
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "status": "design_only_not_executed",
+  "source_answer_message_id": "5c7a52b6-d6aa-4063-a19a-f04cdca7fd49",
+  "base_results_commit": "bbb9c2ce79408ca5251f782b54d337ab87485208",
+  "base_solver_commit": "cc1afb9f5a677ed046beab9121f004f566fc74bb",
+  "baseline_newton_coefficient": 0.001,
+  "baseline_pcg_rtz_coefficient": 0.001,
+  "epsilon_toi": 0.001,
+  "minimum_updates": 6,
+  "gpu_index": 0,
+  "P0": {
+    "requires_full_checkpoint_implementation": true,
+    "same_checkpoint_repeats": 5,
+    "smoke_scenes": [
+      "table",
+      "bunny"
+    ],
+    "smoke_frames": 5
+  },
+  "A1": {
+    "scene": "table",
+    "target_frame": 23,
+    "prefix_frames": 22,
+    "prefix_newton_scale": 0.25,
+    "prefix_pcg_scale": 0.25,
+    "configs": [
+      {
+        "id": "n1_p1",
+        "newton_scale": 1,
+        "pcg_scale": 1
+      },
+      {
+        "id": "n1_p4",
+        "newton_scale": 1,
+        "pcg_scale": 0.25
+      },
+      {
+        "id": "n4_p1",
+        "newton_scale": 0.25,
+        "pcg_scale": 1
+      },
+      {
+        "id": "n4_p4",
+        "newton_scale": 0.25,
+        "pcg_scale": 0.25
+      }
+    ],
+    "repeats": 3,
+    "planned_single_steps": 12,
+    "seconds_per_step": 300,
+    "newton_samples_per_step": 2000,
+    "stage_seconds": 1200,
+    "max_independent_prefixes": 3
+  },
+  "A2_A3": {
+    "scenes": [
+      "table",
+      "bunny"
+    ],
+    "selection_prefix_frames": 50,
+    "state_categories": [
+      "contact_onset",
+      "dense_contact",
+      "contact_rearrangement",
+      "quiet_motion"
+    ],
+    "maximum_states": 8,
+    "selected_states": null,
+    "selection_must_be_frozen_before_candidates": true,
+    "configs": [
+      {
+        "id": "graph_n1",
+        "termination": "original",
+        "newton_scale": 1,
+        "pcg_scale": 1,
+        "epsilon_r": 0.001
+      },
+      {
+        "id": "graph_n2",
+        "termination": "original",
+        "newton_scale": 2,
+        "pcg_scale": 1,
+        "epsilon_r": 0.001
+      },
+      {
+        "id": "graph_n4",
+        "termination": "original",
+        "newton_scale": 4,
+        "pcg_scale": 1,
+        "epsilon_r": 0.001
+      },
+      {
+        "id": "graph_n8",
+        "termination": "original",
+        "newton_scale": 8,
+        "pcg_scale": 1,
+        "epsilon_r": 0.001
+      },
+      {
+        "id": "toi",
+        "termination": "toi",
+        "newton_scale": 1,
+        "pcg_scale": 1,
+        "epsilon_r": 0.03
+      },
+      {
+        "id": "comp001",
+        "termination": "compensated",
+        "newton_scale": 1,
+        "pcg_scale": 1,
+        "epsilon_r": 0.001
+      },
+      {
+        "id": "comp01",
+        "termination": "compensated",
+        "newton_scale": 1,
+        "pcg_scale": 1,
+        "epsilon_r": 0.01
+      },
+      {
+        "id": "comp03",
+        "termination": "compensated",
+        "newton_scale": 1,
+        "pcg_scale": 1,
+        "epsilon_r": 0.03
+      },
+      {
+        "id": "comp10",
+        "termination": "compensated",
+        "newton_scale": 1,
+        "pcg_scale": 1,
+        "epsilon_r": 0.1
+      },
+      {
+        "id": "gate01",
+        "termination": "gated",
+        "newton_scale": 1,
+        "pcg_scale": 1,
+        "epsilon_r": 0.01
+      },
+      {
+        "id": "gate03",
+        "termination": "gated",
+        "newton_scale": 1,
+        "pcg_scale": 1,
+        "epsilon_r": 0.03
+      },
+      {
+        "id": "gate10",
+        "termination": "gated",
+        "newton_scale": 1,
+        "pcg_scale": 1,
+        "epsilon_r": 0.1
+      }
+    ],
+    "references": [
+      {
+        "id": "strict2",
+        "termination": "original",
+        "newton_scale": 0.5,
+        "pcg_scale": 0.5
+      },
+      {
+        "id": "strict4",
+        "termination": "original",
+        "newton_scale": 0.25,
+        "pcg_scale": 0.25
+      }
+    ],
+    "repeats": 3,
+    "maximum_single_steps": 336,
+    "seconds_per_step": 120,
+    "newton_samples_per_step": 2000,
+    "stage_seconds": 3600
+  },
+  "quality_bands": {
+    "position_rms_m": [
+      1e-06,
+      1e-05,
+      0.0001
+    ],
+    "velocity_rms_rule": "position_rms_m / actual_dt",
+    "max_error_multiplier": 10,
+    "reference_resolution_fraction": 0.1,
+    "production_tolerances_approved": false
+  },
+  "A4": {
+    "shadow_epsilon_r": 0.03,
+    "maximum_additional_states": 2,
+    "configs": [
+      "graph_n1",
+      "toi",
+      "comp03",
+      "gate03"
+    ],
+    "reference_ids": [
+      "strict2",
+      "strict4"
+    ],
+    "repeats": 3,
+    "maximum_single_steps": 36,
+    "artificial_ccd_alpha_changes": false
+  },
+  "B1": {
+    "scene": "stack10",
+    "frames": 35,
+    "profile_repeats": 1,
+    "instrumentation_off_repeats": 3,
+    "frozen_baseline_repeats": 3,
+    "total_frames": 245
+  },
+  "B2": {
+    "conditional_on_profile": true,
+    "maximum_optimizations": 1,
+    "scene_frames": {
+      "stack10": 35,
+      "table": 50,
+      "bunny": 50
+    },
+    "versions": [
+      "pre_optimization",
+      "post_optimization"
+    ],
+    "repeats": 3,
+    "total_frames": 810,
+    "target_median_time_reduction": 0.05,
+    "other_scene_maximum_median_regression": 0.03
+  }
+}

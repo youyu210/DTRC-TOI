@@ -1,0 +1,3 @@
+frame,newton_iterations,newton_cap_hits,pcg_solves,pcg_iterations,newton_ms,pcg_ms,step_ms,direction_launches,tail_launches,captures,updates,rebuilds,fallbacks,nonfinite_vertices
+1,2,0,2,169,75.558999999999997,21.534800000000001,75.754499999999993,0,0,0,0,0,0,0
+2,2,0,2,167,33.7425,23.040599999999998,33.8626,0,0,0,0,0,0,0

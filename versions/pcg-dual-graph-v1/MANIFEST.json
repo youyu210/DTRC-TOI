@@ -1,0 +1,38 @@
+{
+  "sourceCommit": "8f248d0d976250bb069e464c5b123f48d041fc4e",
+  "baseCommit": "c49982fac7767225c7775683734c89eb74081142",
+  "compiledAssets": "D:/code_2/stiffGIPC/pcg-dual-graph-c49982fa/Assets/",
+  "created": "2026-09-28T18:36:46.4440122+08:00",
+  "files": [
+    {
+      "name": "cublas64_12.dll",
+      "bytes": 104883712,
+      "sha256": "01D8172B25D8E2D2CB6A276E76E719F5908C6124F484C8C8CA310FBE7B6634F3",
+      "fileVersion": "6,14,11,1264"
+    },
+    {
+      "name": "cublasLt64_12.dll",
+      "bytes": 531812352,
+      "sha256": "0D59D264782CEC2782B9AC72483E53C9BA485A9D3A1E19B34071A17B8152102E",
+      "fileVersion": "6,14,11,1264"
+    },
+    {
+      "name": "freeglut.dll",
+      "bytes": 251392,
+      "sha256": "CE969FE8554515A4ADE246155F7D86507FB933D395D183DE5146380A980F0F8D",
+      "fileVersion": "3, 8, 0, 0"
+    },
+    {
+      "name": "gipc.exe",
+      "bytes": 10871808,
+      "sha256": "E3C7C28E0760750CCEE57C45FE6DC70F5B0EEBF902EF83F67075B904F16A4F9A",
+      "fileVersion": null
+    },
+    {
+      "name": "glew32.dll",
+      "bytes": 504832,
+      "sha256": "82533396AE0D3AA25A860028EC10C72C56FAB9D3DE0D941BE488EB4D58D1E708",
+      "fileVersion": "2,3,1,0"
+    }
+  ]
+}

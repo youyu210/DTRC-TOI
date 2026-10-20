@@ -1,0 +1,59 @@
+{
+  "status": "PASS_design_and_retention_preflight_only",
+  "new_gpu_experiments_executed": false,
+  "new_checkpoint_or_diagnostics_implemented": false,
+  "baseline_results_commit": "bbb9c2ce79408ca5251f782b54d337ab87485208",
+  "baseline_solver_commit": "cc1afb9f5a677ed046beab9121f004f566fc74bb",
+  "retained_binary_files_verified": 5,
+  "retained_experiment_file_hashes_verified": 1458,
+  "old_results_unmodified": true,
+  "simulation_source_unmodified": true,
+  "matrix_arithmetic_and_controls_verified": true,
+  "v2_completed_runs": 67,
+  "v2_completed_frames": 2257,
+  "v2_interrupted_reference_runs": 1,
+  "new_plan_file_hashes": {
+    "EXPERIMENT_PLAN_V3.md": "b9a11dbb832371ccad10bdb880d06cd02e88db4ee63245517b567a0b86845c83",
+    "docs/TOI_RESEARCH_V3_SOURCE.md": "7e1d54750326f98f205d849482e4a41307154c753173649d9646101ff15cc378",
+    "experiments/quality-cost-v3-plan/matrix.json": "f5128989fa83d97fa365e4dc2116ffb18b6459213040b9da3e8d702a56b12ece",
+    "experiments/quality-cost-v3-plan/preflight.py": "32cc0b80bbb471260b069cd7c91eb81d21b090b81caaf336a9402e32bcc3b444"
+  },
+  "source_checks": {
+    "StiffGIPC/GIPC.cu": {
+      "sha256": "3119c4d38acd2c81c7a533e51402abadc2fcc39bf52fd1ca6eac55359409eb5f",
+      "verified_symbols": [
+        "GIPC::computeGradientAndHessian",
+        "GIPC::lineSearch",
+        "numOfLineSearch <= report_line_search_threshold",
+        "GIPC::postLineSearch"
+      ]
+    },
+    "StiffGIPC/linear_system/linear_system/global_linear_system.cu": {
+      "sha256": "ef4b3998cffb78c040e59f1a894b10d8af3ad898622b6e957a6dfffe21e2fd93",
+      "verified_symbols": [
+        "GlobalLinearSystem::build_linear_system",
+        "convert_new();",
+        "distribute_solution();"
+      ]
+    },
+    "StiffGIPC/linear_system/utils/converter.cu": {
+      "sha256": "f1be096783553ff5caef81fc7f050e85255e29034bc3ff39b37b6c8b83a320c4",
+      "verified_symbols": [
+        "Converter::_radix_sort_indices_and_blocks",
+        "Converter::_make_unique_block_warp_reduction"
+      ]
+    },
+    "StiffGIPC/abd_system/abd_sim_data.h": {
+      "sha256": "e4d9fbeb0e9801663da3013e8d2e8ff62f5b2b5d04932a9827e3eb128d3ac988",
+      "verified_symbols": [
+        "body_id_to_q_prev",
+        "body_id_to_q_v",
+        "body_id_to_q_tilde"
+      ]
+    }
+  },
+  "preexisting_timeCost_txt": {
+    "present": true,
+    "sha256": "a3f984060eca0f93c91b736500f1bf07bf1127f2a841f83da1e73393f7a0cd48"
+  }
+}

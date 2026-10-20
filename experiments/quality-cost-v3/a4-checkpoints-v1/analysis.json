@@ -1,0 +1,28 @@
+{
+  "selection_sha256": "21c909c70bf0cdbae3214e881ddbcb4c39f0a37ccb53a64642247cf767e1d87a",
+  "binary_sha256": "84c429f7e30dcd15f420cb22b50b90972045905d3981481eb97f8201d0178ae9",
+  "states": {
+    "table-f39": {
+      "checkpoint": "table/S38",
+      "manifest_sha256": "0a829c9259e364c51fc74b00b9d146dddbac1c297139e1b8cdf24b634bbc9faa",
+      "replay_error": {
+        "free_cloth_vertices": 22801,
+        "position_max_frame_rms": 2.319054630134815e-05,
+        "position_final_rms": 5.249138700370246e-06,
+        "velocity_max_frame_rms": 0.001084509372796605,
+        "velocity_final_rms": 0.0001764271121278042
+      }
+    },
+    "bunny-f46": {
+      "checkpoint": "bunny/S45",
+      "manifest_sha256": "b86462bb88376b86cbb30c12624d126aab5292d79063b534d9c5be858c7e1cd8",
+      "replay_error": {
+        "free_cloth_vertices": 22801,
+        "position_max_frame_rms": 0.006069220435872553,
+        "position_final_rms": 0.006069220435872553,
+        "velocity_max_frame_rms": 0.19222615508514118,
+        "velocity_final_rms": 0.19222615508514118
+      }
+    }
+  }
+}

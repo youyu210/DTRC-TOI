@@ -1,0 +1,76 @@
+{
+  "selection_sha256": "d615aa190080de1fbfcdbf620e9d1ac66b669cd10fe84385c6492ebf66cf5c24",
+  "binary_sha256": "d55d7ecc59e464463254c4b575ad3fde4f631e493636a93e380ad891c8b8f77e",
+  "checkpoint_frames": {
+    "table": [
+      2,
+      21,
+      22,
+      39
+    ],
+    "bunny": [
+      2,
+      47,
+      48,
+      49
+    ]
+  },
+  "prefix_replay_error": {
+    "table": {
+      "free_cloth_vertices": 22801,
+      "position_max_frame_rms": 1.8105358123225072e-05,
+      "position_final_rms": 6.322943548715357e-06,
+      "position_maximum": 0.00020279340448480746,
+      "velocity_max_frame_rms": 0.0009117038431603123,
+      "velocity_final_rms": 0.0002452302257266751,
+      "velocity_maximum": 0.012625591440583195
+    },
+    "bunny": {
+      "free_cloth_vertices": 22801,
+      "position_max_frame_rms": 0.008570457273908247,
+      "position_final_rms": 0.008570457273908247,
+      "position_maximum": 0.11783341391315183,
+      "velocity_max_frame_rms": 0.2033798389921535,
+      "velocity_final_rms": 0.2033798389921535,
+      "velocity_maximum": 2.685311802880675
+    }
+  },
+  "checkpoints": {
+    "table": {
+      "S2": {
+        "manifest_sha256": "045c88861f3810e143e4fe2d9fbeb59ad948cceccd241d50e814c1beaf950aeb",
+        "contact_count": 2
+      },
+      "S21": {
+        "manifest_sha256": "347712555c72afd6f8774f8c605a411e07fcca55bb99439a44e29935dbef52fc",
+        "contact_count": 2
+      },
+      "S22": {
+        "manifest_sha256": "f7e366f69cd772536afaf20016f861f02288117a4673894e736bb805cf7d5c91",
+        "contact_count": 51750
+      },
+      "S39": {
+        "manifest_sha256": "436a6eb21938a18bf88d5559fd61e7cdca548b3e6ae5d0d073872180d498f81c",
+        "contact_count": 40375
+      }
+    },
+    "bunny": {
+      "S2": {
+        "manifest_sha256": "04bf5306151cf1112fffd01956abfebf864a8a529de6d4f0e6846b79d4aed43a",
+        "contact_count": 0
+      },
+      "S47": {
+        "manifest_sha256": "b716d6c3adf951bac10f5e0d906537c8a9632f8458990078b6af19c854c188ab",
+        "contact_count": 4621
+      },
+      "S48": {
+        "manifest_sha256": "2e15c6503b7f6f147b1b2b063450e76f286755ca3361a75ee6c723e078792aa7",
+        "contact_count": 5851
+      },
+      "S49": {
+        "manifest_sha256": "6daca7014a5f731f7c57ea95d6624976ab93639b05001de42af27132f4bdad7e",
+        "contact_count": 5942
+      }
+    }
+  }
+}

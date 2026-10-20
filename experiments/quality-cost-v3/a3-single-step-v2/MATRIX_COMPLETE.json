@@ -1,0 +1,9 @@
+{
+  "jobs": 336,
+  "states": 8,
+  "configurations": 14,
+  "repeats": 3,
+  "stage_wall_seconds": 1215.5630000000237,
+  "exe_sha256": "84c429f7e30dcd15f420cb22b50b90972045905d3981481eb97f8201d0178ae9",
+  "selection_sha256": "d615aa190080de1fbfcdbf620e9d1ac66b669cd10fe84385c6492ebf66cf5c24"
+}

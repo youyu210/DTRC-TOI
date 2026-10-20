@@ -1,0 +1,35 @@
+{
+  "status": "frozen_before_a4_candidate_runs",
+  "trigger": "All A3 compensated configurations recorded zero history-only rejections.",
+  "method": "For each scene, exclude the eight A2 states and select the remaining frame with the smallest naturally accepted alpha; no artificial CCD alpha changes.",
+  "shadow_epsilon_r": 0.03,
+  "artificial_ccd_alpha_changes": false,
+  "selection_input": "../a2-selection-v1/SELECTED_STATES.json",
+  "selection_input_sha256": "d615aa190080de1fbfcdbf620e9d1ac66b669cd10fe84385c6492ebf66cf5c24",
+  "states": [
+    {
+      "id": "table-f39",
+      "scene": "table",
+      "frame": 39,
+      "checkpoint_frame": 38,
+      "newton": 96,
+      "pcg": 4999,
+      "start_contacts": 38718,
+      "end_contacts": 40372,
+      "unique_contact_states": 84,
+      "accepted_alpha_min": 0.05107258089968752
+    },
+    {
+      "id": "bunny-f46",
+      "scene": "bunny",
+      "frame": 46,
+      "checkpoint_frame": 45,
+      "newton": 68,
+      "pcg": 4285,
+      "start_contacts": 5105,
+      "end_contacts": 4968,
+      "unique_contact_states": 58,
+      "accepted_alpha_min": 0.09071363263277402
+    }
+  ]
+}

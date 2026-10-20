@@ -1,0 +1,434 @@
+{
+  "files": [
+    {
+      "path": "build/gipc.exe",
+      "bytes": 11035648,
+      "sha256": "84c429f7e30dcd15f420cb22b50b90972045905d3981481eb97f8201d0178ae9"
+    },
+    {
+      "path": "experiments/generate_a4_checkpoints.py",
+      "bytes": 5712,
+      "sha256": "7871bd1838177b898c223e21b5c7b95e69d062bc3f2711dcec1c2e4ed5d15e67"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/analysis.json",
+      "bytes": 1101,
+      "sha256": "647cdecb30bb70bd7b3e4bcdf253e099302c4d9c3da20f2a8aa8fdebb5d48997"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/CHECKPOINT_REPORT.md",
+      "bytes": 659,
+      "sha256": "d539edbea6dc94845dcc820c831157295b7450c8ef4b38dccbf3457f4cb63c5d"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/bunny/S45/abd_dq.bin",
+      "bytes": 96,
+      "sha256": "2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/bunny/S45/abd_q.bin",
+      "bytes": 96,
+      "sha256": "eb5da957abe003f4380ad90814b431612c12ea6990088c923e30e42aa314b99c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/bunny/S45/abd_q_prev.bin",
+      "bytes": 96,
+      "sha256": "eb5da957abe003f4380ad90814b431612c12ea6990088c923e30e42aa314b99c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/bunny/S45/abd_q_temp.bin",
+      "bytes": 96,
+      "sha256": "eb5da957abe003f4380ad90814b431612c12ea6990088c923e30e42aa314b99c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/bunny/S45/abd_q_tilde.bin",
+      "bytes": 96,
+      "sha256": "eb5da957abe003f4380ad90814b431612c12ea6990088c923e30e42aa314b99c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/bunny/S45/abd_q_v.bin",
+      "bytes": 96,
+      "sha256": "2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/bunny/S45/contact_counts.bin",
+      "bytes": 20,
+      "sha256": "044ee3c51d7c4eb54ca4a3960e2b86236467304d7ec542bd4c9b466052b11fda"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/bunny/S45/contact_matrix_indices.bin",
+      "bytes": 21188,
+      "sha256": "5aede2ce6d76411025c6b3ff725f77968b9f3272c17721cdc8068b93c76b75fa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/bunny/S45/contact_pairs.bin",
+      "bytes": 84752,
+      "sha256": "12e285cdfee9bfba3693538b4aaec5a6cdedccd1f7b1bfb760c5214127a21135"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/bunny/S45/fem_apply_gravity.bin",
+      "bytes": 167976,
+      "sha256": "fe167f48a800f142e7d7ed55c9471cfacf1a9e159f81669d1d03efa90c9d56bc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/bunny/S45/fem_boundary.bin",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/bunny/S45/fem_o_vertexes.bin",
+      "bytes": 1007856,
+      "sha256": "87395fe73237102f0b81bb6d549c628affdc872121593c32fa3bc8d620edf0d6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/bunny/S45/fem_targets.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/bunny/S45/fem_velocities.bin",
+      "bytes": 1007856,
+      "sha256": "894bbd63ff5493d32ed42b38f6285b917c73bb6a63c595fae395715a3435e199"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/bunny/S45/fem_vertexes.bin",
+      "bytes": 1007856,
+      "sha256": "87395fe73237102f0b81bb6d549c628affdc872121593c32fa3bc8d620edf0d6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/bunny/S45/fem_x_tilde.bin",
+      "bytes": 1007856,
+      "sha256": "9acbac7fe1b2532b1c8b44462db230be565e7eb6804e18b932b1ee67f88cc67b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/bunny/S45/ground_count.bin",
+      "bytes": 4,
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/bunny/S45/ground_pairs.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/bunny/S45/manifest.json",
+      "bytes": 2685,
+      "sha256": "b86462bb88376b86cbb30c12624d126aab5292d79063b534d9c5be858c7e1cd8"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/table/S38/abd_dq.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/table/S38/abd_q.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/table/S38/abd_q_prev.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/table/S38/abd_q_temp.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/table/S38/abd_q_tilde.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/table/S38/abd_q_v.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/table/S38/contact_counts.bin",
+      "bytes": 20,
+      "sha256": "40331da6ee1fe5a3f7b8caabfa5cc44aea2c84438950e0714ef879356bb0c203"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/table/S38/contact_matrix_indices.bin",
+      "bytes": 154872,
+      "sha256": "5ea7d9052c55964ce743ad78f0e46369d2c35e1848c957ce41491b8e4176486a"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/table/S38/contact_pairs.bin",
+      "bytes": 619488,
+      "sha256": "db55116fff870ee1011c33e802b0e1b611a13a89625077142f95b86df45c3aed"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/table/S38/fem_apply_gravity.bin",
+      "bytes": 118052,
+      "sha256": "b2abbfd2177eb7317cedc53bb40d3ebd9803312191c6c082c7ed2d6e661f3a8a"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/table/S38/fem_boundary.bin",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/table/S38/fem_o_vertexes.bin",
+      "bytes": 708312,
+      "sha256": "0d9be683672cefc448e86dfea5ecc55502427cf0a225845d813e10e02395cd46"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/table/S38/fem_targets.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/table/S38/fem_velocities.bin",
+      "bytes": 708312,
+      "sha256": "f85055c3d9326bcbe9cecec8b72253a6ccd742a86583c50f2f265be5c7f5f99c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/table/S38/fem_vertexes.bin",
+      "bytes": 708312,
+      "sha256": "0d9be683672cefc448e86dfea5ecc55502427cf0a225845d813e10e02395cd46"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/table/S38/fem_x_tilde.bin",
+      "bytes": 708312,
+      "sha256": "47147f03f83286f29347bfee0400bd5c505530dfadf239f5d419da65c096934a"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/table/S38/ground_count.bin",
+      "bytes": 4,
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/table/S38/ground_pairs.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/checkpoints/table/S38/manifest.json",
+      "bytes": 2683,
+      "sha256": "0a829c9259e364c51fc74b00b9d146dddbac1c297139e1b8cdf24b634bbc9faa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/bunny/audits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/bunny/boundary.i32",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/bunny/cloth_scene.json",
+      "bytes": 556190,
+      "sha256": "b727199410f7942a00b3ddfa61de0929d33a4836015719343f0a140db96ce013"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/bunny/execution.json",
+      "bytes": 865,
+      "sha256": "3f0da664175966f59388fc674c4feb42f6adfb509fc609dd8cb0a99efc5333bd"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/bunny/final.f64",
+      "bytes": 1007856,
+      "sha256": "87395fe73237102f0b81bb6d549c628affdc872121593c32fa3bc8d620edf0d6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/bunny/final_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "894bbd63ff5493d32ed42b38f6285b917c73bb6a63c595fae395715a3435e199"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/bunny/frames.csv",
+      "bytes": 10426,
+      "sha256": "321ac139df4a6c1872a1d2ff483abef713f0deaee396cb461fccdc5c24fe46a5"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/bunny/initial.f64",
+      "bytes": 1007856,
+      "sha256": "1871f310bd89da155476579012419c8dbea7a0dfcc62e92cfdbc98d73e2c8070"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/bunny/initial_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "b4633d0ee585adea63c4d5b2e52a1024e7e49f12b77d60a9a41ee59c2148e2ad"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/bunny/masses.f64",
+      "bytes": 335952,
+      "sha256": "f43d1b542b1aaee8f5daa7a4c86554daa4a5ce6d36bf0d4c1c84badbcb6b4773"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/bunny/metadata.json",
+      "bytes": 1477,
+      "sha256": "23122215e45f418ed7a15f65fdeb1e7ec89e337e60ddaed7cb9be8b0b5120a20"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/bunny/newton_trace.jsonl",
+      "bytes": 3277693,
+      "sha256": "465e285869ae8eaaf5e78b87128758289e053a6ba7edcc695e52efda0cc786fa"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/bunny/pcg_iterations.jsonl",
+      "bytes": 6754,
+      "sha256": "bd4e2f8c4be3a9a0bba8079483fcdf3507b7dcff46c47df5bbaec4896afc6e5f"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/bunny/scene_initial.f64",
+      "bytes": 1007856,
+      "sha256": "1871f310bd89da155476579012419c8dbea7a0dfcc62e92cfdbc98d73e2c8070"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/bunny/scene_triangles.u32",
+      "bytes": 540000,
+      "sha256": "6a1bd30569021168e2734bc9dbe3c094cd3fbe2c04484c8ad56f974f3b8ee5dc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/bunny/states.f64",
+      "bytes": 45353520,
+      "sha256": "c372e67ebce50d9f04e8f71d590bc4ede65031562195bce7d0f7680be390ea69"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/bunny/status.json",
+      "bytes": 77,
+      "sha256": "72c8c476dd4a8c40f5ee7466c95a3799347f2b0c70f687707d40c16935912b0a"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/bunny/tetrahedra.u32",
+      "bytes": 1278960,
+      "sha256": "14d617981d1b1d2ccc44bda068e36716f3d90529afff94b37b0df766c6c99eb6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/bunny/velocities.f64",
+      "bytes": 45353520,
+      "sha256": "72f07201b58274b26415517d29e5e77d6e4169a7c03bafb6281fd6ad3f412e49"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/bunny.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/bunny.stdout.log",
+      "bytes": 1676,
+      "sha256": "6624c73d6c4160eac4fa5f3b7b2bd0afd50a131fe14f627d8ce431816e395015"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/table/audits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/table/boundary.i32",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/table/cloth_scene.json",
+      "bytes": 309871,
+      "sha256": "3b5f7f39f6f9c1cef68c4805aea14fd4e85414d46f81d04af843adcd205a765e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/table/execution.json",
+      "bytes": 865,
+      "sha256": "8f03a58d1af5a400b6b30c9b9e0f3909b32d0b422b0cf24f52abd27ff65010e9"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/table/final.f64",
+      "bytes": 708312,
+      "sha256": "0d9be683672cefc448e86dfea5ecc55502427cf0a225845d813e10e02395cd46"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/table/final_velocities.f64",
+      "bytes": 708312,
+      "sha256": "f85055c3d9326bcbe9cecec8b72253a6ccd742a86583c50f2f265be5c7f5f99c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/table/frames.csv",
+      "bytes": 8933,
+      "sha256": "be26849e68282c5d5b2ba010870c3b6d957c072d9d5f946ba382cde13c02bfd6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/table/initial.f64",
+      "bytes": 708312,
+      "sha256": "98adb74d76463d0c1b92e72067286bc96936acfe11fd7fb929c6a3e80b86d74c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/table/initial_velocities.f64",
+      "bytes": 708312,
+      "sha256": "6a0e544e35d6a8c94424a441b8a170d7b814cf59caba1ebfbdc85582d04d5da6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/table/masses.f64",
+      "bytes": 236104,
+      "sha256": "a21f2249591c9584761c7cb5d4cfbc104c1c1da9231dbce621524d7c5e246088"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/table/metadata.json",
+      "bytes": 1469,
+      "sha256": "2291319dd5d3cb5a294c8e03e7038b01bd68f1a37705cf2bce03244bf34bcdca"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/table/newton_trace.jsonl",
+      "bytes": 922449,
+      "sha256": "12a3a3775f0f66e2ecf064b3b3c6b3a2054b1edfbc14d6c6863e25d190fc5c6d"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/table/pcg_iterations.jsonl",
+      "bytes": 2567,
+      "sha256": "70add632d6c7e23eb0e5a6dd1fd11deef401cdc5e06539381524b978515e10d4"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/table/scene_initial.f64",
+      "bytes": 708312,
+      "sha256": "98adb74d76463d0c1b92e72067286bc96936acfe11fd7fb929c6a3e80b86d74c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/table/scene_triangles.u32",
+      "bytes": 701040,
+      "sha256": "fe6c35dbf7a0565ba3567733831c75ab8f1416843a3e6185e1ea52f089523531"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/table/states.f64",
+      "bytes": 26915856,
+      "sha256": "b93d1b7662f9680528f409395190e894d5d374685fd8d901c5fe994b3dde40c6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/table/status.json",
+      "bytes": 77,
+      "sha256": "a47787ef2c7765b9faaf23a24ced14436d2129de8fddd872665010fb750bd46e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/table/tetrahedra.u32",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/table/velocities.f64",
+      "bytes": 26915856,
+      "sha256": "40866b303e6d425c1da233cd26b51ff8a47d54dd800d10564cf8f625af72fb47"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/table.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/prefix/table.stdout.log",
+      "bytes": 1660,
+      "sha256": "9bf85a0999f1787fe967f8482aba2ac6418b3cbcf4f90a52d901edc7a2dbc2f4"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-checkpoints-v1/README.md",
+      "bytes": 204,
+      "sha256": "c3186e29ae325aa54e521ff76cc84ae3adccf061caf4135cc45a3872033c7f38"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a4-selection-v1/A4_SELECTED_STATES.json",
+      "bytes": 1137,
+      "sha256": "21c909c70bf0cdbae3214e881ddbcb4c39f0a37ccb53a64642247cf767e1d87a"
+    }
+  ]
+}

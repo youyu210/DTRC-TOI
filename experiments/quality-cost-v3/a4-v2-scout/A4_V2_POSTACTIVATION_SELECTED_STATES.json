@@ -1,0 +1,644 @@
+{
+  "status": "frozen_before_a4_v2_postactivation_candidate_runs",
+  "method": "Use the same-run Graph N1 scout and checkpoints; exclude A2 states; select the minimum naturally accepted alpha among Newton k>=5, where the termination state is active for the following accepted-update sample.",
+  "correction_reason": "The preactivation selection minimized all Newton updates and selected k=0, before the Kmin=6 residual/history gate.",
+  "shadow_epsilon_r": 0.03,
+  "minimum_updates": 6,
+  "artificial_ccd_alpha_changes": false,
+  "preactivation_selection_sha256": "e9d81f89154fcc2f6a24349cdc54832e10c8955022c01403fec648d6a91155c8",
+  "a2_selection_sha256": "d615aa190080de1fbfcdbf620e9d1ac66b669cd10fe84385c6492ebf66cf5c24",
+  "selection_inputs": {
+    "table": {
+      "newton_trace_sha256": "4f1155a84fdf8bf8d5f5552356cbd860dfe26764f983a0c995ca92b34e86f743",
+      "frames_sha256": "4f4848f37b2d7fa8969770e5994beae755b8c400636ae159d5b676216583a281"
+    },
+    "bunny": {
+      "newton_trace_sha256": "347aacfa8c44d17353a63769c8f4274e3a381d16d4a97322c47fece04e890f60",
+      "frames_sha256": "5df1003d965ebd7766451b875ff8f96e90140403fdcae8bec813aaaea05e7287"
+    }
+  },
+  "states": [
+    {
+      "id": "table-f28",
+      "scene": "table",
+      "frame": 28,
+      "checkpoint_frame": 27,
+      "newton": 14,
+      "post_activation_updates": 9,
+      "accepted_alpha_post_activation_min": 0.507492565083021,
+      "minimum_at_newton_k": 5,
+      "post_activation_alpha_below_0_75": 2
+    },
+    {
+      "id": "bunny-f46",
+      "scene": "bunny",
+      "frame": 46,
+      "checkpoint_frame": 45,
+      "newton": 105,
+      "post_activation_updates": 100,
+      "accepted_alpha_post_activation_min": 0.5,
+      "minimum_at_newton_k": 17,
+      "post_activation_alpha_below_0_75": 4
+    }
+  ],
+  "ranked_candidates": {
+    "table": [
+      {
+        "frame": 28,
+        "checkpoint_frame": 27,
+        "newton": 14,
+        "post_activation_updates": 9,
+        "accepted_alpha_post_activation_min": 0.507492565083021,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 2
+      },
+      {
+        "frame": 45,
+        "checkpoint_frame": 44,
+        "newton": 40,
+        "post_activation_updates": 35,
+        "accepted_alpha_post_activation_min": 0.5181395656341521,
+        "minimum_at_newton_k": 11,
+        "post_activation_alpha_below_0_75": 8
+      },
+      {
+        "frame": 49,
+        "checkpoint_frame": 48,
+        "newton": 21,
+        "post_activation_updates": 16,
+        "accepted_alpha_post_activation_min": 0.551676334835231,
+        "minimum_at_newton_k": 6,
+        "post_activation_alpha_below_0_75": 3
+      },
+      {
+        "frame": 47,
+        "checkpoint_frame": 46,
+        "newton": 34,
+        "post_activation_updates": 29,
+        "accepted_alpha_post_activation_min": 0.555501754807668,
+        "minimum_at_newton_k": 6,
+        "post_activation_alpha_below_0_75": 5
+      },
+      {
+        "frame": 42,
+        "checkpoint_frame": 41,
+        "newton": 67,
+        "post_activation_updates": 62,
+        "accepted_alpha_post_activation_min": 0.5682370380523385,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 5
+      },
+      {
+        "frame": 44,
+        "checkpoint_frame": 43,
+        "newton": 48,
+        "post_activation_updates": 43,
+        "accepted_alpha_post_activation_min": 0.5738535337049809,
+        "minimum_at_newton_k": 6,
+        "post_activation_alpha_below_0_75": 3
+      },
+      {
+        "frame": 48,
+        "checkpoint_frame": 47,
+        "newton": 45,
+        "post_activation_updates": 40,
+        "accepted_alpha_post_activation_min": 0.5940813270800503,
+        "minimum_at_newton_k": 6,
+        "post_activation_alpha_below_0_75": 2
+      },
+      {
+        "frame": 46,
+        "checkpoint_frame": 45,
+        "newton": 42,
+        "post_activation_updates": 37,
+        "accepted_alpha_post_activation_min": 0.6054836225651345,
+        "minimum_at_newton_k": 7,
+        "post_activation_alpha_below_0_75": 3
+      },
+      {
+        "frame": 24,
+        "checkpoint_frame": 23,
+        "newton": 18,
+        "post_activation_updates": 13,
+        "accepted_alpha_post_activation_min": 0.6065736180799913,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 2
+      },
+      {
+        "frame": 50,
+        "checkpoint_frame": 49,
+        "newton": 40,
+        "post_activation_updates": 35,
+        "accepted_alpha_post_activation_min": 0.6122838033673664,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 1
+      },
+      {
+        "frame": 26,
+        "checkpoint_frame": 25,
+        "newton": 15,
+        "post_activation_updates": 10,
+        "accepted_alpha_post_activation_min": 0.6261440828638161,
+        "minimum_at_newton_k": 6,
+        "post_activation_alpha_below_0_75": 3
+      },
+      {
+        "frame": 39,
+        "checkpoint_frame": 38,
+        "newton": 97,
+        "post_activation_updates": 92,
+        "accepted_alpha_post_activation_min": 0.6514081739975583,
+        "minimum_at_newton_k": 6,
+        "post_activation_alpha_below_0_75": 1
+      },
+      {
+        "frame": 37,
+        "checkpoint_frame": 36,
+        "newton": 14,
+        "post_activation_updates": 9,
+        "accepted_alpha_post_activation_min": 0.6634191617296119,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 1
+      },
+      {
+        "frame": 25,
+        "checkpoint_frame": 24,
+        "newton": 26,
+        "post_activation_updates": 21,
+        "accepted_alpha_post_activation_min": 0.6780727375491069,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 1
+      },
+      {
+        "frame": 35,
+        "checkpoint_frame": 34,
+        "newton": 14,
+        "post_activation_updates": 9,
+        "accepted_alpha_post_activation_min": 0.6781984571544704,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 1
+      },
+      {
+        "frame": 36,
+        "checkpoint_frame": 35,
+        "newton": 12,
+        "post_activation_updates": 7,
+        "accepted_alpha_post_activation_min": 0.6911304894465183,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 1
+      },
+      {
+        "frame": 43,
+        "checkpoint_frame": 42,
+        "newton": 53,
+        "post_activation_updates": 48,
+        "accepted_alpha_post_activation_min": 0.6927495154845482,
+        "minimum_at_newton_k": 6,
+        "post_activation_alpha_below_0_75": 1
+      },
+      {
+        "frame": 29,
+        "checkpoint_frame": 28,
+        "newton": 38,
+        "post_activation_updates": 33,
+        "accepted_alpha_post_activation_min": 0.7021521491893137,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 1
+      },
+      {
+        "frame": 34,
+        "checkpoint_frame": 33,
+        "newton": 16,
+        "post_activation_updates": 11,
+        "accepted_alpha_post_activation_min": 0.702854038922275,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 1
+      },
+      {
+        "frame": 41,
+        "checkpoint_frame": 40,
+        "newton": 60,
+        "post_activation_updates": 55,
+        "accepted_alpha_post_activation_min": 0.7190425346152378,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 1
+      },
+      {
+        "frame": 27,
+        "checkpoint_frame": 26,
+        "newton": 13,
+        "post_activation_updates": 8,
+        "accepted_alpha_post_activation_min": 0.9303474905292874,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 30,
+        "checkpoint_frame": 29,
+        "newton": 16,
+        "post_activation_updates": 11,
+        "accepted_alpha_post_activation_min": 0.9475394718047065,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 31,
+        "checkpoint_frame": 30,
+        "newton": 13,
+        "post_activation_updates": 8,
+        "accepted_alpha_post_activation_min": 0.9569904710673176,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 32,
+        "checkpoint_frame": 31,
+        "newton": 22,
+        "post_activation_updates": 17,
+        "accepted_alpha_post_activation_min": 1.0,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 38,
+        "checkpoint_frame": 37,
+        "newton": 15,
+        "post_activation_updates": 10,
+        "accepted_alpha_post_activation_min": 1.0,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 33,
+        "checkpoint_frame": 32,
+        "newton": 14,
+        "post_activation_updates": 9,
+        "accepted_alpha_post_activation_min": 1.0,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 14,
+        "checkpoint_frame": 13,
+        "newton": 6,
+        "post_activation_updates": 1,
+        "accepted_alpha_post_activation_min": 1.0,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 15,
+        "checkpoint_frame": 14,
+        "newton": 6,
+        "post_activation_updates": 1,
+        "accepted_alpha_post_activation_min": 1.0,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 16,
+        "checkpoint_frame": 15,
+        "newton": 6,
+        "post_activation_updates": 1,
+        "accepted_alpha_post_activation_min": 1.0,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 17,
+        "checkpoint_frame": 16,
+        "newton": 6,
+        "post_activation_updates": 1,
+        "accepted_alpha_post_activation_min": 1.0,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 18,
+        "checkpoint_frame": 17,
+        "newton": 6,
+        "post_activation_updates": 1,
+        "accepted_alpha_post_activation_min": 1.0,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 19,
+        "checkpoint_frame": 18,
+        "newton": 6,
+        "post_activation_updates": 1,
+        "accepted_alpha_post_activation_min": 1.0,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 20,
+        "checkpoint_frame": 19,
+        "newton": 6,
+        "post_activation_updates": 1,
+        "accepted_alpha_post_activation_min": 1.0,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 21,
+        "checkpoint_frame": 20,
+        "newton": 6,
+        "post_activation_updates": 1,
+        "accepted_alpha_post_activation_min": 1.0,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      }
+    ],
+    "bunny": [
+      {
+        "frame": 46,
+        "checkpoint_frame": 45,
+        "newton": 105,
+        "post_activation_updates": 100,
+        "accepted_alpha_post_activation_min": 0.5,
+        "minimum_at_newton_k": 17,
+        "post_activation_alpha_below_0_75": 4
+      },
+      {
+        "frame": 40,
+        "checkpoint_frame": 39,
+        "newton": 67,
+        "post_activation_updates": 62,
+        "accepted_alpha_post_activation_min": 0.5005559542680672,
+        "minimum_at_newton_k": 7,
+        "post_activation_alpha_below_0_75": 4
+      },
+      {
+        "frame": 44,
+        "checkpoint_frame": 43,
+        "newton": 93,
+        "post_activation_updates": 88,
+        "accepted_alpha_post_activation_min": 0.5176939356933166,
+        "minimum_at_newton_k": 8,
+        "post_activation_alpha_below_0_75": 6
+      },
+      {
+        "frame": 39,
+        "checkpoint_frame": 38,
+        "newton": 67,
+        "post_activation_updates": 62,
+        "accepted_alpha_post_activation_min": 0.5664419308441714,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 5
+      },
+      {
+        "frame": 43,
+        "checkpoint_frame": 42,
+        "newton": 82,
+        "post_activation_updates": 77,
+        "accepted_alpha_post_activation_min": 0.574157194308119,
+        "minimum_at_newton_k": 21,
+        "post_activation_alpha_below_0_75": 3
+      },
+      {
+        "frame": 47,
+        "checkpoint_frame": 46,
+        "newton": 116,
+        "post_activation_updates": 111,
+        "accepted_alpha_post_activation_min": 0.5878273636668453,
+        "minimum_at_newton_k": 9,
+        "post_activation_alpha_below_0_75": 2
+      },
+      {
+        "frame": 42,
+        "checkpoint_frame": 41,
+        "newton": 102,
+        "post_activation_updates": 97,
+        "accepted_alpha_post_activation_min": 0.6077955749421861,
+        "minimum_at_newton_k": 7,
+        "post_activation_alpha_below_0_75": 1
+      },
+      {
+        "frame": 38,
+        "checkpoint_frame": 37,
+        "newton": 50,
+        "post_activation_updates": 45,
+        "accepted_alpha_post_activation_min": 0.6120820221851517,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 4
+      },
+      {
+        "frame": 41,
+        "checkpoint_frame": 40,
+        "newton": 155,
+        "post_activation_updates": 150,
+        "accepted_alpha_post_activation_min": 0.622510923672001,
+        "minimum_at_newton_k": 8,
+        "post_activation_alpha_below_0_75": 4
+      },
+      {
+        "frame": 45,
+        "checkpoint_frame": 44,
+        "newton": 152,
+        "post_activation_updates": 147,
+        "accepted_alpha_post_activation_min": 0.6297508314177266,
+        "minimum_at_newton_k": 8,
+        "post_activation_alpha_below_0_75": 2
+      },
+      {
+        "frame": 37,
+        "checkpoint_frame": 36,
+        "newton": 93,
+        "post_activation_updates": 88,
+        "accepted_alpha_post_activation_min": 0.6357979281518927,
+        "minimum_at_newton_k": 6,
+        "post_activation_alpha_below_0_75": 2
+      },
+      {
+        "frame": 36,
+        "checkpoint_frame": 35,
+        "newton": 48,
+        "post_activation_updates": 43,
+        "accepted_alpha_post_activation_min": 0.6465825994533534,
+        "minimum_at_newton_k": 14,
+        "post_activation_alpha_below_0_75": 4
+      },
+      {
+        "frame": 32,
+        "checkpoint_frame": 31,
+        "newton": 63,
+        "post_activation_updates": 58,
+        "accepted_alpha_post_activation_min": 0.6498690246058475,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 1
+      },
+      {
+        "frame": 34,
+        "checkpoint_frame": 33,
+        "newton": 51,
+        "post_activation_updates": 46,
+        "accepted_alpha_post_activation_min": 0.6500075674540405,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 2
+      },
+      {
+        "frame": 35,
+        "checkpoint_frame": 34,
+        "newton": 44,
+        "post_activation_updates": 39,
+        "accepted_alpha_post_activation_min": 0.6918588768308803,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 2
+      },
+      {
+        "frame": 33,
+        "checkpoint_frame": 32,
+        "newton": 85,
+        "post_activation_updates": 80,
+        "accepted_alpha_post_activation_min": 0.7072432393263397,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 1
+      },
+      {
+        "frame": 31,
+        "checkpoint_frame": 30,
+        "newton": 111,
+        "post_activation_updates": 106,
+        "accepted_alpha_post_activation_min": 0.7548054769593647,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 30,
+        "checkpoint_frame": 29,
+        "newton": 35,
+        "post_activation_updates": 30,
+        "accepted_alpha_post_activation_min": 0.8685173962830058,
+        "minimum_at_newton_k": 6,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 24,
+        "checkpoint_frame": 23,
+        "newton": 50,
+        "post_activation_updates": 45,
+        "accepted_alpha_post_activation_min": 0.9697573004238823,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 25,
+        "checkpoint_frame": 24,
+        "newton": 184,
+        "post_activation_updates": 179,
+        "accepted_alpha_post_activation_min": 1.0,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 23,
+        "checkpoint_frame": 22,
+        "newton": 137,
+        "post_activation_updates": 132,
+        "accepted_alpha_post_activation_min": 1.0,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 29,
+        "checkpoint_frame": 28,
+        "newton": 46,
+        "post_activation_updates": 41,
+        "accepted_alpha_post_activation_min": 1.0,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 28,
+        "checkpoint_frame": 27,
+        "newton": 41,
+        "post_activation_updates": 36,
+        "accepted_alpha_post_activation_min": 1.0,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 27,
+        "checkpoint_frame": 26,
+        "newton": 23,
+        "post_activation_updates": 18,
+        "accepted_alpha_post_activation_min": 1.0,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 26,
+        "checkpoint_frame": 25,
+        "newton": 18,
+        "post_activation_updates": 13,
+        "accepted_alpha_post_activation_min": 1.0,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 22,
+        "checkpoint_frame": 21,
+        "newton": 8,
+        "post_activation_updates": 3,
+        "accepted_alpha_post_activation_min": 1.0,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 16,
+        "checkpoint_frame": 15,
+        "newton": 6,
+        "post_activation_updates": 1,
+        "accepted_alpha_post_activation_min": 1.0,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 17,
+        "checkpoint_frame": 16,
+        "newton": 6,
+        "post_activation_updates": 1,
+        "accepted_alpha_post_activation_min": 1.0,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 18,
+        "checkpoint_frame": 17,
+        "newton": 6,
+        "post_activation_updates": 1,
+        "accepted_alpha_post_activation_min": 1.0,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 19,
+        "checkpoint_frame": 18,
+        "newton": 6,
+        "post_activation_updates": 1,
+        "accepted_alpha_post_activation_min": 1.0,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 20,
+        "checkpoint_frame": 19,
+        "newton": 6,
+        "post_activation_updates": 1,
+        "accepted_alpha_post_activation_min": 1.0,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      },
+      {
+        "frame": 21,
+        "checkpoint_frame": 20,
+        "newton": 6,
+        "post_activation_updates": 1,
+        "accepted_alpha_post_activation_min": 1.0,
+        "minimum_at_newton_k": 5,
+        "post_activation_alpha_below_0_75": 0
+      }
+    ]
+  }
+}

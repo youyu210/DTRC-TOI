@@ -1,0 +1,15 @@
+{
+  "jobs": 36,
+  "states": 2,
+  "configurations": 6,
+  "repeats": 3,
+  "stage_wall_seconds": 109.68800000002375,
+  "exe_sha256": "84c429f7e30dcd15f420cb22b50b90972045905d3981481eb97f8201d0178ae9",
+  "selection_sha256": "21c909c70bf0cdbae3214e881ddbcb4c39f0a37ccb53a64642247cf767e1d87a",
+  "checkpoint_manifest_sha256": {
+    "table-f39": "0a829c9259e364c51fc74b00b9d146dddbac1c297139e1b8cdf24b634bbc9faa",
+    "bunny-f46": "b86462bb88376b86cbb30c12624d126aab5292d79063b534d9c5be858c7e1cd8"
+  },
+  "shadow_epsilon_r": 0.03,
+  "artificial_ccd_alpha_changes": false
+}

@@ -1,0 +1,7 @@
+{
+  "completed": false,
+  "accepted_frames": 50,
+  "reason": "10x-strict exploration interrupted after frame 50 required 3792 Newton iterations and 226.519 seconds; next frame again stalled",
+  "primary_reference": "Separate 2x-strict 100-frame runs for all three scenes",
+  "stopped_at": "2026-09-28T19:45:47.4709433+08:00"
+}

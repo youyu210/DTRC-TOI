@@ -1,0 +1,9 @@
+# Keep retained experiment evidence byte-for-byte consistent with SHA-256 manifests.
+experiments/dual-tolerance-v2/** -text
+experiments/dual-tolerance-smoke-v2/** -text
+experiments/dual-tolerance-smoke-v3/** -text
+versions/dual-tolerance-toi-v2/** -text
+EXPERIMENT_PLAN_V2.md -text
+EXPERIMENT_PLAN_V3.md -text
+docs/TOI_RESEARCH_V3_SOURCE.md -text
+experiments/quality-cost-v3-plan/** -text

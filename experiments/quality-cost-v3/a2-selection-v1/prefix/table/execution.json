@@ -1,0 +1,24 @@
+{
+  "command": [
+    "D:\\code_2\\stiffGIPC\\residual-toi-graph-c49982fa\\build\\gipc.exe",
+    "--scene",
+    "1",
+    "--pcg-dual-graph",
+    "--benchmark-frames",
+    "50",
+    "--benchmark-output-dir",
+    "D:\\code_2\\stiffGIPC\\residual-toi-graph-c49982fa\\experiments\\quality-cost-v3\\a2-selection-v1\\prefix\\table",
+    "--export-states",
+    "--termination",
+    "original",
+    "--newton-tolerance-scale",
+    "1",
+    "--pcg-tolerance-scale",
+    "1",
+    "--trace-newton"
+  ],
+  "returncode": 0,
+  "wall_seconds": 52.36000000004424,
+  "exe_sha256": "c971f20d797239e3d2e448080b1d5c4d9986d3c335a53f78d750edebbd3d5d07",
+  "source_commit": "35c7c21d04d923b9711c080adfb2b357647a6b78"
+}

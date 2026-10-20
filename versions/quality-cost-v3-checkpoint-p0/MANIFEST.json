@@ -1,0 +1,22 @@
+{
+  "source_commit": "339b9bc7f05ca1f4a21b1cd32cd93c42843d8138",
+  "tag": "quality-cost-v3-checkpoint-p0",
+  "parent_plan_tag": "quality-cost-v3-plan-v1",
+  "checkpoint_schema": "stiffgipc-step-boundary-v3",
+  "binary_files": {
+    "cublas64_12.dll": "01d8172b25d8e2d2cb6a276e76e719f5908c6124f484c8c8ca310fbe7b6634f3",
+    "cublasLt64_12.dll": "0d59d264782cec2782b9ac72483e53c9ba485a9d3a1e19b34071a17b8152102e",
+    "freeglut.dll": "ce969fe8554515a4ade246155f7d86507fb933d395d183de5146380a980f0f8d",
+    "gipc.exe": "7251c12160ba375ba01f6d5c8155d052c4f3cbe5c56cb4949e2c7f9e8baa5e1b",
+    "glew32.dll": "82533396ae0d3aa25a860028ec10c72c56fab9d3de0d941be488eb4d58d1e708"
+  },
+  "p0_validation": {
+    "passed": true,
+    "checkpoint_roundtrip_mismatches": 0,
+    "restored_repeats": 5,
+    "truncated_checkpoint_rejected": true,
+    "default_path_cases": ["table", "bunny"],
+    "native_rhs_audits_passed": true
+  },
+  "evidence": "../../experiments/quality-cost-v3/p0_v4/EVIDENCE_MANIFEST.json"
+}

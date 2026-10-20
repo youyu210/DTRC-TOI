@@ -1,0 +1,26 @@
+{
+  "source_commit": "594718cf1407b8c5f863251d1dfe638326b4a57d",
+  "tag": "quality-cost-v3-a1-diagnostics",
+  "parent_checkpoint_tag": "quality-cost-v3-checkpoint-p0",
+  "checkpoint_schema": "stiffgipc-step-boundary-v3",
+  "binary_files": {
+    "cublas64_12.dll": "01d8172b25d8e2d2cb6a276e76e719f5908c6124f484c8c8ca310fbe7b6634f3",
+    "cublasLt64_12.dll": "0d59d264782cec2782b9ac72483e53c9ba485a9d3a1e19b34071a17b8152102e",
+    "freeglut.dll": "ce969fe8554515a4ade246155f7d86507fb933d395d183de5146380a980f0f8d",
+    "gipc.exe": "c971f20d797239e3d2e448080b1d5c4d9986d3c335a53f78d750edebbd3d5d07",
+    "glew32.dll": "82533396ae0d3aa25a860028ec10c72c56fab9d3de0d941be488eb4d58d1e708"
+  },
+  "a1_validation": {
+    "scene": "table",
+    "physical_frame": 23,
+    "checkpoint": "S22",
+    "repeats_per_configuration": 3,
+    "single_steps": 12,
+    "normal_newton_completed": 6,
+    "strict_newton_diagnostic_caps": 6,
+    "non_descent_directions": 0,
+    "strict_newton_energy_backtracks": 89774,
+    "strict_newton_backtrack_limit_hits": 441
+  },
+  "evidence": "../../experiments/quality-cost-v3/a1-v1/EVIDENCE_MANIFEST.json"
+}

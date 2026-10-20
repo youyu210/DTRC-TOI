@@ -1,0 +1,34 @@
+{
+  "command": [
+    "D:\\code_2\\stiffGIPC\\residual-toi-graph-c49982fa\\build\\gipc.exe",
+    "--scene",
+    "1",
+    "--benchmark-frames",
+    "100",
+    "--benchmark-output-dir",
+    "D:\\code_2\\stiffGIPC\\residual-toi-graph-c49982fa\\experiments\\cloth-four-100-v1\\hang\\compensated\\r01",
+    "--export-states",
+    "--termination",
+    "compensated",
+    "--toi-min-updates",
+    "6",
+    "--toi-threshold",
+    ".001",
+    "--pcg-dual-graph"
+  ],
+  "returncode": 0,
+  "source_commit": "ff8b5b9dcebfca6f50612967e2eee0baab295f0d",
+  "exe_sha256": "3ae3e1924298f2f15693d7dfdac5ae72741db663666794c92938e885a35b2c10",
+  "parameters_sha256": "442cddd8fb5405e8c005c750eec664bc0e882bf5fb2c9d588dff39a4d6473ec6",
+  "environment": {
+    "CUDA_PATH": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6",
+    "CUDA_PATH_V12_6": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6",
+    "CUDA_VISIBLE_DEVICES": "0",
+    "CUDA_DEVICE_ORDER": "PCI_BUS_ID",
+    "CIPC_SCENE": "hang",
+    "CIPC_META_OUT": "D:\\code_2\\stiffGIPC\\residual-toi-graph-c49982fa\\experiments\\cloth-four-100-v1\\hang\\compensated\\r01\\cloth_scene.json",
+    "CIPC_INITIAL_OUT": "D:\\code_2\\stiffGIPC\\residual-toi-graph-c49982fa\\experiments\\cloth-four-100-v1\\hang\\compensated\\r01\\scene_initial.f64",
+    "CIPC_TRIANGLES_OUT": "D:\\code_2\\stiffGIPC\\residual-toi-graph-c49982fa\\experiments\\cloth-four-100-v1\\hang\\compensated\\r01\\scene_triangles.u32"
+  },
+  "wall_seconds": 7.922000000020489
+}

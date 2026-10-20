@@ -1,0 +1,21 @@
+{
+  "jobs": 7,
+  "profiled_runs": 1,
+  "unprofiled_runs_per_version": 3,
+  "frames_per_run": 35,
+  "total_frames": 245,
+  "stage_wall_seconds": 1116.1410000000033,
+  "executables": {
+    "current": "bd9b1ce75f4d310e4f57dce08c34f3fb3510ff25bcdd4befba88ae63809a89f0",
+    "frozen_v2": "c9aa98b158887d96cea133d2632ca9cf5f4c4ac6665f4998c82d72f6a932f54b"
+  },
+  "order": [
+    "current_profile/r01",
+    "current_off/r01",
+    "frozen_v2/r01",
+    "frozen_v2/r02",
+    "current_off/r02",
+    "current_off/r03",
+    "frozen_v2/r03"
+  ]
+}

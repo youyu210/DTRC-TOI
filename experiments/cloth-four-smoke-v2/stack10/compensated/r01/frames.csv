@@ -1,0 +1,3 @@
+frame,newton_iterations,newton_cap_hits,pcg_solves,pcg_iterations,newton_ms,pcg_ms,step_ms,direction_launches,tail_launches,captures,updates,rebuilds,fallbacks,nonfinite_vertices,exit_residual,exit_relative_initial,exit_budget,exit_beta,budget_active,budget_valid,bounds_valid,residual_evaluations,target_changes,exit_reason,intersection
+1,4,0,4,40,349.15679999999998,15.6318,349.38479999999998,40,36,2,0,0,0,0,3.2184322396973024e-08,0.29533948009566524,1,1,0,0,1,5,0,original_direction,0
+2,6,0,6,116,501.33640000000003,37.776899999999998,501.56139999999999,116,110,0,0,0,0,0,1.336231082275069e-08,0.0609496366295725,0.11366865516964959,0,1,1,1,7,0,original_direction,0

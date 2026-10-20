@@ -1,0 +1,25 @@
+{
+  "baseline": "cloth-v1-20260911",
+  "frames": 100,
+  "repeats": 1,
+  "cases": [
+    "sphere7",
+    "bunny",
+    "table",
+    "stack10",
+    "hang"
+  ],
+  "modes": [
+    "base",
+    "graph",
+    "toi",
+    "compensated"
+  ],
+  "gpu": "index, name, uuid, driver_version\n0, NVIDIA GeForce RTX 3090 Ti, GPU-d0c5ce7b-ca89-4a33-b01b-a4c740e777bf, 591.86\n1, NVIDIA GeForce RTX 3090 Ti, GPU-ad0633d2-c65a-655e-69e8-dd0b3eaecf9d, 591.86\n",
+  "exe_sha256": "3ae3e1924298f2f15693d7dfdac5ae72741db663666794c92938e885a35b2c10",
+  "spec_sha256": "af479e182c1bb88b6d386e140c12b32e5d5aec3d4aa1e7de64e459df6ec86830",
+  "epsilon": 0.001,
+  "minimum_accepted_updates": 6,
+  "warmup": 0,
+  "trace": false
+}

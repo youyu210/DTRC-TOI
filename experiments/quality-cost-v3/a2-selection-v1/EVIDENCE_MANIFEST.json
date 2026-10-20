@@ -1,0 +1,239 @@
+{
+  "files": [
+    {
+      "path": "build/gipc.exe",
+      "bytes": 11030016,
+      "sha256": "c971f20d797239e3d2e448080b1d5c4d9986d3c335a53f78d750edebbd3d5d07"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/bunny/audits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/bunny/boundary.i32",
+      "bytes": 167976,
+      "sha256": "a49279f51925adb5f2a5089a60e0d36b476c3cf95ab0ae3184c804d245fc9201"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/bunny/cloth_scene.json",
+      "bytes": 556190,
+      "sha256": "b727199410f7942a00b3ddfa61de0929d33a4836015719343f0a140db96ce013"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/bunny/execution.json",
+      "bytes": 719,
+      "sha256": "aeef0922694afbf12f36daf7819635b8a01a65c8f77252559bc014a0da73809a"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/bunny/final.f64",
+      "bytes": 1007856,
+      "sha256": "76e1ba8c91267324f703b973f8fbaf6a667e3f5fd3850c198e597d043b9dccf6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/bunny/final_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "be5b79630bc83b97a6a7d57619e410c5b2150e7aff48619a75d50bbb025c2fc9"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/bunny/frames.csv",
+      "bytes": 11774,
+      "sha256": "4dc0e77cb542fc21d38070cf1d2aec8741b9d546464f4d368034575279595f0f"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/bunny/initial.f64",
+      "bytes": 1007856,
+      "sha256": "1871f310bd89da155476579012419c8dbea7a0dfcc62e92cfdbc98d73e2c8070"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/bunny/initial_velocities.f64",
+      "bytes": 1007856,
+      "sha256": "b4633d0ee585adea63c4d5b2e52a1024e7e49f12b77d60a9a41ee59c2148e2ad"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/bunny/masses.f64",
+      "bytes": 335952,
+      "sha256": "f43d1b542b1aaee8f5daa7a4c86554daa4a5ce6d36bf0d4c1c84badbcb6b4773"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/bunny/metadata.json",
+      "bytes": 1285,
+      "sha256": "6e83e63d433ddf3a8343939e8ef00cf95936e0c7c9beb456551abf3b57c13d18"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/bunny/newton_trace.jsonl",
+      "bytes": 4633587,
+      "sha256": "aa67ece96299d20ef66967a68ba7a29f30ec2cbb19288ac582f43f1b20bc5113"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/bunny/pcg_iterations.jsonl",
+      "bytes": 9074,
+      "sha256": "c99302594fb0dc4f41f73d0596aaec49bb783b16b80255a3254a17e205271a50"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/bunny/scene_initial.f64",
+      "bytes": 1007856,
+      "sha256": "1871f310bd89da155476579012419c8dbea7a0dfcc62e92cfdbc98d73e2c8070"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/bunny/scene_triangles.u32",
+      "bytes": 540000,
+      "sha256": "6a1bd30569021168e2734bc9dbe3c094cd3fbe2c04484c8ad56f974f3b8ee5dc"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/bunny/states.f64",
+      "bytes": 50392800,
+      "sha256": "8670b05eef5b82fdbba8bdc3f70b97e11981d9bfdf984f50ebad930b5bb5c16b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/bunny/status.json",
+      "bytes": 77,
+      "sha256": "3f1fc4cd278a8c12e75d746410b78ccb3f7b3fb1aaa304038cbfc4e80fddce1e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/bunny/tetrahedra.u32",
+      "bytes": 1278960,
+      "sha256": "14d617981d1b1d2ccc44bda068e36716f3d90529afff94b37b0df766c6c99eb6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/bunny/velocities.f64",
+      "bytes": 50392800,
+      "sha256": "70393cb1a0fe652132421170d9f0fb33bf0a50f842fb5dfb211cb1563aede291"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/bunny.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/bunny.stdout.log",
+      "bytes": 1707,
+      "sha256": "cb338f5d643e31ef09700220d42279f814aa2322c7ef06f72f6cab9461d2aea6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/table/audits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/table/boundary.i32",
+      "bytes": 118052,
+      "sha256": "e8a1bc669e0eab574f8b3853acf28c066e05e0ebfbcbf42c7c4054fadad7536b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/table/cloth_scene.json",
+      "bytes": 309871,
+      "sha256": "3b5f7f39f6f9c1cef68c4805aea14fd4e85414d46f81d04af843adcd205a765e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/table/execution.json",
+      "bytes": 719,
+      "sha256": "36721282b36a6c9162e35c7fb100f799d65b0826bcb9d325d029977177c4748c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/table/final.f64",
+      "bytes": 708312,
+      "sha256": "4f0e268428416c8f71a05e86a1e94d7cac3ff367a1ecc1c8b2eef39d1738c24b"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/table/final_velocities.f64",
+      "bytes": 708312,
+      "sha256": "5be1e15e3567b7946648db4ec67d9ed59a170f2929ac9c2296709b4311cbf537"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/table/frames.csv",
+      "bytes": 11781,
+      "sha256": "3d3ac01f67df7a0c1177c051c486faef909fcb2d4c35227488ecbdd0889d1d73"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/table/initial.f64",
+      "bytes": 708312,
+      "sha256": "98adb74d76463d0c1b92e72067286bc96936acfe11fd7fb929c6a3e80b86d74c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/table/initial_velocities.f64",
+      "bytes": 708312,
+      "sha256": "6a0e544e35d6a8c94424a441b8a170d7b814cf59caba1ebfbdc85582d04d5da6"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/table/masses.f64",
+      "bytes": 236104,
+      "sha256": "a21f2249591c9584761c7cb5d4cfbc104c1c1da9231dbce621524d7c5e246088"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/table/metadata.json",
+      "bytes": 1277,
+      "sha256": "ce282506f2e122af2ba763d5ef816514b5fcfa25d20f2ca51031a48d35839439"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/table/newton_trace.jsonl",
+      "bytes": 2178675,
+      "sha256": "b93927ed4029dd16d9b557820b08c808f4621507ef21a247087e6cd83bec7c4d"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/table/pcg_iterations.jsonl",
+      "bytes": 5024,
+      "sha256": "70d71f2b05f0b87af62d9ac06791dcf4452d0a8fd5528d20a1fee214b0f8577f"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/table/scene_initial.f64",
+      "bytes": 708312,
+      "sha256": "98adb74d76463d0c1b92e72067286bc96936acfe11fd7fb929c6a3e80b86d74c"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/table/scene_triangles.u32",
+      "bytes": 701040,
+      "sha256": "fe6c35dbf7a0565ba3567733831c75ab8f1416843a3e6185e1ea52f089523531"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/table/states.f64",
+      "bytes": 35415600,
+      "sha256": "0f14ce790c5b88b719b4909296fe4571a64c7d51b6cef96b447cf7c977e19a5f"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/table/status.json",
+      "bytes": 77,
+      "sha256": "3f1fc4cd278a8c12e75d746410b78ccb3f7b3fb1aaa304038cbfc4e80fddce1e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/table/tetrahedra.u32",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/table/velocities.f64",
+      "bytes": 35415600,
+      "sha256": "f5ed2b00545004abb1e12dcdc6fb907f31d977dcda326df0148aa7846d5a5369"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/table.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/prefix/table.stdout.log",
+      "bytes": 1722,
+      "sha256": "85d7346a372145dc92615d473f7a841f81b73b357e376bb36abe81b71ce5de4e"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/README.md",
+      "bytes": 303,
+      "sha256": "88e0a438c622e0a2a89c68de0f522791545bc7b16cc665ee04cd12d87227b19a"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/SELECTED_STATES.json",
+      "bytes": 57826,
+      "sha256": "d615aa190080de1fbfcdbf620e9d1ac66b669cd10fe84385c6492ebf66cf5c24"
+    },
+    {
+      "path": "experiments/quality-cost-v3/a2-selection-v1/SELECTION_REPORT.md",
+      "bytes": 1257,
+      "sha256": "d7822232494c21e02b23aa591a54e04b8ed973893cdb62bfb8b7dfff69ba4795"
+    },
+    {
+      "path": "experiments/run_a2_state_selection.py",
+      "bytes": 9037,
+      "sha256": "43686f170b92e5f0d006d52e4ae566e9a8ee062b5c2adaa18036067e0995a27f"
+    }
+  ]
+}

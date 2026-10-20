@@ -1,0 +1,25 @@
+{
+  "status": "passed_before_candidate_runs",
+  "binary_sha256": "84c429f7e30dcd15f420cb22b50b90972045905d3981481eb97f8201d0178ae9",
+  "selection_sha256": "e9d81f89154fcc2f6a24349cdc54832e10c8955022c01403fec648d6a91155c8",
+  "results": {
+    "table-f39": {
+      "source_min_alpha": 0.05113789434074038,
+      "restored_min_alpha": 0.051137881352109615,
+      "source_newton": 97,
+      "restored_newton": 98,
+      "source_pcg": 5040,
+      "restored_pcg": 5079,
+      "reproduced_small_alpha": true
+    },
+    "bunny-f46": {
+      "source_min_alpha": 0.11075475290364471,
+      "restored_min_alpha": 0.11075503198056615,
+      "source_newton": 105,
+      "restored_newton": 104,
+      "source_pcg": 6120,
+      "restored_pcg": 6030,
+      "reproduced_small_alpha": true
+    }
+  }
+}

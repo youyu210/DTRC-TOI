@@ -1,0 +1,16 @@
+[
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 1,
+    "rhs_infinity_norm": 0.0016934400000003585,
+    "measured_residual": 0.0016934400000003585,
+    "agrees": true
+  },
+  {
+    "kind": "nonlinear_native_rhs",
+    "frame": 2,
+    "rhs_infinity_norm": 0.0033868802503819366,
+    "measured_residual": 0.0033868802503819366,
+    "agrees": true
+  }
+]
